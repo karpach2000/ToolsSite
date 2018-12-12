@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Инструменты</title>
+    <link href="web/css/index.css" rel="stylesheet" tipe="text/css">
+    <link href="web/css/units.css" rel="stylesheet" tipe="text/css">
+    <script src="web/javascript/units.js"></script>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="header-panel">
+
+    </div>
+
+
+<div id="divMainMenu"  class="topMenu">
+    <ul id="mainMenuItems" class="topMenuUl">
+        {{#page.mainMenu.items}}<li class="topMenuLi"><a href="{{link}}" class="topMenuA">{{name}}</a></li> {{/page.mainMenu.items}}
+    </ul>
+    <br>
+</div>
+<div id="advertising" class="rightMenu">
+    <ul id="advertisingItems" >
+        {{# page.advertising.items}}<li><a href="{{link}}">{{name}}</a></li> {{/ page.advertising.items}}
+    </ul>
+</div>
+</header>
+
+<!--Боковое меню-->
+<div id="menuCounting" class="leftMenu">
+    <ul id="menuCountingItems" >
+        {{# page.pageBody.counterMenu.items}}<li><a onclick='menuClick("{{link}}")'>{{name}}</a></li> {{/ page.pageBody.counterMenu.items}}
+    </ul>
+</div>
+<!--Что это?-->
+<div id="main" class="bodyDiv">
+{{# page.pageBody}}{{descriptionText}}{{/page.pageBody}}
+</div>
+<!--Перевод из систем счисления-->
+<div id="notation" class="bodyDiv" hidden>
+
+
+        <label for="notationParentBase">Исходное основание</label>
+        <input type="number"   id="notationParentBase"  onchange="notation()" onkeyup="notation()" class="textboxWithLinck" min="0"  value="10" required><br>
+        <label for="notationResultBase">Основание результата</label>
+        <input type="number"  id="notationResultBase" onchange="notation()"  onkeyup="notation()" class="textboxWithLinck" min="0"    value="16" required><br>
+        <label for="notationNumber">Переводимое число</label>
+        <input Tipe="text" class="textboxWithLinck" id="notationNumber" onkeyup="notation()"  value="0" required pattern="#[0-9A-Za-z]"><br>
+        <h2 id="notationResult">0</h2>
+
+
+</div>
+<!--Расет СRC-->
+<div id="crc" class="bodyDiv" hidden>
+
+
+            <label for="crcParentBase">Исходное основание</label>
+            <input type="number"   id="crcParentBase"   onkeyup="crc()" onchange="crc()" class="textboxWithLinck"  min="0"  value="10" required><br>
+            <label for="crcResultBase">Основание результата</label>
+            <input type="number" id="crcResultBase"   onkeyup="crc()" onchange="crc()" class="textboxWithLinck" min="0"  value="10" required><br>
+            <label for="crcNumber">Переводимый массив чисел</label>
+            <input Tipe="text"  id="crcNumber" onkeyup="crc()"class="textboxWithLinck"    required pattern="#[0-9A-Fa-f]">
+            <br><br>
+            <h2 id="crc8Result">result1</h2>
+            <h2 id="crc16Result">result1</h2>
+</div>
+
+</body>
+</html>

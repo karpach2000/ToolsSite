@@ -1,0 +1,19 @@
+.addUnitDiv
+ {
+     margin-left: 10px;/*внешние отступы*/
+     width: 20%;
+    float: left;
+ }
+.tableUnits
+{
+    margin-left: 22%;/*внешние отступы*/
+    width: 60%;
+}
+
+.manipulatorFormule
+{
+
+    width: 60%;
+    font-size: 5px;
+
+}

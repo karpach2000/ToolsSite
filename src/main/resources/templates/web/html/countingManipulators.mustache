@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Расчет манипуляторов</title>
+    <link href="web/css/index.css" rel="stylesheet" tipe="text/css">
+    <link href="web/css/countingManipulators.css" rel="stylesheet" tipe="text/css">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
+    <script src="web/javascript/countingManipulators.js"></script>
+</head>
+<body>
+<header>
+    <div class="header-panel">
+
+    </div>
+
+
+    <div id="mainMenu"  class="topMenu">
+        <ul id="mainMenuItems" class="topMenuUl">
+            {{# page.mainMenu.items}}<li class="topMenuLi"><a href="{{link}}" class="topMenuA">{{name}}</a></li> {{/page.mainMenu.items}}
+        </ul>
+        <br>
+    </div>
+    <div id="advertising" class="rightMenu">
+        <ul id="advertisingItems" >
+            {{# page.advertising.items}}<li><a href="{{link}}">{{name}}</a></li> {{/ page.advertising.items}}
+        </ul>
+    </div>
+</header>
+<div class="addUnitDiv">
+<h5>Добавление сочленения</h5>
+    <label for="lx">lx</label>
+    <input type="number"   id="lx"    min="0"  value="0" step="0.001" required><br>
+    <label for="ly">ly</label>
+    <input type="number"   id="ly"     min="0"  value="0" step="0.001" required><br>
+    <label for="lz">lz</label>
+    <input type="number"   id="lz"   min="0"  value="10" step="0.001" required><br>
+
+    <label for="ox">alfa (oX)</label>
+    <input type="number"   id="ox"   value="0" step="0.001" required><br>
+    <label for="oy">fi (oY)</label>
+    <input type="number"   id="oy"     value="0" step="0.001" required><br>
+    <label for="oz">sigma (oZ)</label>
+    <input type="number"   id="oz"   value="3.14" step="0.001" required><br>
+
+    <input type="button" onclick="addUnit()" name="add" value="Добавить сочленение">
+</div>
+<div id="tableUnits" class="tableUnits">
+    <h5>Таблица сочленений</h5>
+    <label for="manipulatorFormul">Формула манипулятора</label>
+    <input type="text" id="manipulatorFormul" class="manipulatorFormule" width="50%"><br>
+    <input type="button" onclick="getFinalLinkOrientation()" name="add" value="Получить орентацию конечного звена">
+    <h3 id="finalLinkOrientation">Формула конечного звена </h3>
+</div>
+
+</body>
+</html>
