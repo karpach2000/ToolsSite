@@ -3,6 +3,7 @@ package com.site.demo.controllers
 import com.site.demo.constructor.Page
 import com.site.demo.constructor.bodies.counter.Counter
 import com.site.demo.constructor.bodies.mainpage.MainPage
+import com.site.demo.constructor.bodies.ws.CounterWs
 
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
@@ -41,6 +42,16 @@ class MainController {
 
         model.addAttribute("page", page)
         return "web/html/utils"
+    }
+
+    @RequestMapping("/ws")
+    @Throws(IOException::class)
+    internal fun ws(model: Model): String {
+        val counter = CounterWs()
+        val page = Page(counter)
+
+        model.addAttribute("page", page)
+        return "web/html/ws"
     }
 
     @RequestMapping("/countingManipulators")
