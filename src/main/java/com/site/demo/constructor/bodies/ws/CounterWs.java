@@ -7,6 +7,6 @@ public class CounterWs {
     public CounterWs()
     {
         counterMenu.addItem("Что это?","main");
-        counterMenu.addItem("Расчет провиса стального троса без нагрузки.","notation");
+        counterMenu.addItem("Расчет провиса стального троса без нагрузки.","ropeSlack");
     }
 }
