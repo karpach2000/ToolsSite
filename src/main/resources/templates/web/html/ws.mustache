@@ -42,24 +42,21 @@
 
 
     <label for="l">Пролет l[м]</label>
-    <input type="number"   id="l"  onchange="notation()" onkeyup="notation()" class="textboxWithLinck" min="0"  value="1000" required><br>
+    <input type="number"   id="l"  onchange="ropeSlack()" onkeyup="ropeSlack()" class="textboxWithLinck" min="0"  value="1000" required><br>
 
     <label for="h">Разность высот опор h[м] </label>
-    <input type="number"  id="h" onchange="notation()"  onkeyup="notation()" class="textboxWithLinck" min="0"    value="500" required><br>
+    <input type="number"  id="h" onchange="ropeSlack()"  onkeyup="ropeSlack()" class="textboxWithLinck" min="0"    value="500" required><br>
 
     <label for="g0">Погонный вес каната g0[кгс/м]</label>
-    <input type="number"   id="g0"  onchange="notation()" onkeyup="notation()" class="textboxWithLinck" min="0"  value="8.5" required><br>
-
-    <label for="Tcrash">Разрывное усилие Tразр [н] </label>
-    <input type="number"  id="Tcrash" onchange="notation()"  onkeyup="notation()" class="textboxWithLinck" min="0"     value="1200000" required><br>
+    <input type="number"   id="g0"  onchange="ropeSlack()" onkeyup="ropeSlack()" class="textboxWithLinck" min="0"  value="8.5" step = "0.1" required><br>
 
     <label for="Ta">Натяжение у верхней опоры Tа [н] </label>
-    <input type="number"  id="Ta" onchange="notation()"  onkeyup="notation()" class="textboxWithLinck" min="0"     value="300000" required><br>
+    <input type="number"  id="Ta" onchange="ropeSlack()"  onkeyup="ropeSlack()" class="textboxWithLinck" min="0"     value="300000" required><br>
 
 
 
-
-    <h2 id="notationResult">0</h2>
+    <h2 id="notationResult">Провис fmax [м]</h2>
+    <h2 id="notationResult">48.3</h2>
 
 
 </div>
