@@ -34,10 +34,13 @@ dependencies {
     implementation('org.springframework.boot:spring-boot-starter-mustache')
     implementation('org.springframework.boot:spring-boot-starter-web')
     implementation('org.springframework.boot:spring-boot-starter-web-services')
+    implementation('org.springframework.boot:spring-boot-starter-jpa')
+
     testImplementation('org.springframework.boot:spring-boot-starter-test')
 
     // https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc
     compile group: 'org.xerial', name: 'sqlite-jdbc', version: '3.16.1'
+
 
     // mqtt
     compile group: 'org.eclipse.paho', name: 'org.eclipse.paho.client.mqttv3', version: '1.2.0'
