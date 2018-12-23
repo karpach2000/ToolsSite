@@ -1,12 +1,25 @@
 package com.parcel.tools.mqtt
 
 import com.parcel.tools.mqtt.database.dao.BoardsDaoImpl
-import com.parcel.tools.mqtt.database.dao.DigitalInPinsDaoImpl
-import com.parcel.tools.mqtt.database.dao.DigitalOutPinsDaoImpl
+import com.parcel.tools.mqtt.database.dao.DigitalInPinsDao
+import com.parcel.tools.mqtt.database.dao.DigitalOutPinsDao
 import com.parcel.tools.mqtt.mqttsignalman.Client
 import com.parcel.tools.mqtt.mqttsignalman.NewMessageGetHandler
+import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.stereotype.Component
+import javax.annotation.PostConstruct
 
-class Mqtt{
+@Component
+class Mqtt {
+
+    @Autowired
+    private lateinit var client : Client
+
+    @Autowired
+    private lateinit var digitalOutPinsDao : DigitalOutPinsDao
+
+    @Autowired
+    private lateinit var digitalInPinsDao : DigitalInPinsDao
 
     /**
      * Класс обработки изменения знаений входов.
@@ -30,25 +43,19 @@ class Mqtt{
         }
     }
 
-
-
-
+    @PostConstruct
     fun start()
     {
-        val dopdi = DigitalOutPinsDaoImpl()
-        val dipdi = DigitalInPinsDaoImpl()
         val dopdiTopics = arrayListOf<String>()
         val dipdiTopics = arrayListOf<String>()
         var relePositionGetEvent = NewPositionGetEvent()
 
-        var client = Client.getClient()
-
-        dipdi.getAll().forEach{
+        digitalInPinsDao.getAll().forEach{
             val topic = "/"+it.board.user.login+"/"+it.board.boardRsName+"/"+"digitalIn"
             System.out.println(topic)
             client.subscribe(topic)
         }
-        dopdi.getAll().forEach{
+        digitalOutPinsDao.getAll().forEach{
             val topic = "/"+it.board.user.login+"/"+it.board.boardRsName+"/"+"digitalOut"
             System.out.println(topic)
             client.subscribe(topic)
@@ -56,10 +63,9 @@ class Mqtt{
         client.addNewMessageGetHandlers(relePositionGetEvent)
 
 
+        println("Mqtt started!");
         //client.subscribe(dopdiTopics)
         //client.subscribe(dipdiTopics)
-
-
 
     }
 }

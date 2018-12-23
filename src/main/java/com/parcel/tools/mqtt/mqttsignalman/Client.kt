@@ -1,11 +1,14 @@
 package com.parcel.tools.mqtt.mqttsignalman
 
 
-import org.eclipse.paho.client.mqttv3.*
+import org.eclipse.paho.client.mqttv3.MqttClient
+import org.eclipse.paho.client.mqttv3.MqttConnectOptions
+import org.eclipse.paho.client.mqttv3.MqttException
+import org.eclipse.paho.client.mqttv3.MqttMessage
+import org.springframework.stereotype.Component
+import java.util.*
 
-import java.util.ArrayList
-
-
+@Component
 class Client @Throws(MqttException::class)
 private constructor() {
 
