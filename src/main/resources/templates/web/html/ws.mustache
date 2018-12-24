@@ -5,9 +5,10 @@
     <link href="web/css/index.css" rel="stylesheet" tipe="text/css">
     <link href="web/css/unitsWs.css" rel="stylesheet" tipe="text/css">
     <script src="web/javascript/unitsWs.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script>
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
 </head>
-<body>
+<body onload="ropeSlack()">
 <header>
     <div class="header-panel">
 
@@ -38,7 +39,7 @@
     {{# page.pageBody}}{{descriptionText}}{{/page.pageBody}}
 </div>
 <!--Расчет провиса стального троса без нагрузки-->
-<div id="ropeSlack" class="bodyDiv" hidden>
+<div id="ropeSlack" class="bodyDiv"  hidden>
 
 
     <label for="l">Пролет l[м]</label>
@@ -55,8 +56,14 @@
 
 
 
-    <h2 id="notationResult">Провис fmax [м]</h2>
-    <h2 id="notationResult">48.3</h2>
+    <h2 for="ropeSlackMax">Провис fmax [м]</h2>
+    <h2 id="ropeSlackMax">48.3</h2>
+
+
+
+    <h2 >Графики</h2>
+    <canvas id="ropeFormGraf"   ></canvas>
+    <canvas id="slackGraf" ></canvas>
 
 
 </div>
