@@ -15,8 +15,7 @@ import static com.parcel.tools.utils.FileUtils.userHomeDir;
 
 @Configuration
 public class SpringConfig {
-	private String DB_DIR = userHomeDir() + File.separator + ".parcel";
-	private String DB_PATH = DB_DIR + File.separator+ "mqtt.db";
+	private String DB_PATH = "mqtt.db";
 	private String DB_URL = "jdbc:sqlite:"+DB_PATH;
 
 	@Bean(name = "dataSource")
@@ -51,7 +50,7 @@ public class SpringConfig {
 	}
 
 	private void createDirsForDbIfNeeded() {
-		File file = new File(DB_DIR);
+		File file = new File(DB_PATH);
 		file.mkdirs();
 	}
 }

@@ -43,7 +43,7 @@ class MainController {
         return "web/html/utils"
     }
 
-    @RequestMapping("/ws")
+    @RequestMapping("/etools")
     @Throws(IOException::class)
     internal fun ws(model: Model): String {
         val counter = CounterWs()

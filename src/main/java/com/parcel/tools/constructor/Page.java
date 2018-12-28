@@ -23,6 +23,7 @@ public class Page {
         //****Основное меню*****//
         mainMenu.addItem("Главная","/");
         mainMenu.addItem("Мелкие утилиты","/utils");
+        mainMenu.addItem("Инженерные инструменты","/etools");
         mainMenu.addItem("Расчет манипуляторов","/countingManipulators");
         //mainMenu.addItem("MQTT сервер","/mqttServer");
         //****Сайтовые рекомендации*****//

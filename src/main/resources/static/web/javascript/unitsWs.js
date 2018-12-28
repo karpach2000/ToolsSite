@@ -60,6 +60,7 @@ function ropeSlack() {
             ropeForm [x]=(h -x*tB- fArray[x]);
             xArray[x] = x
         }
+        document.getElementById("ropeSlackMax").textContent = fmaxs;
         var ropeFormGraf = new Chart(ctxRopeForm, {
             // The type of chart we want to create
             type: 'line',
@@ -78,7 +79,7 @@ function ropeSlack() {
             // Configuration options go here
             options: {}
         });
-        document.getElementById("ropeSlackMax").textContent = fmaxs;
+
         var slackGraf = new Chart(ctxSlack, {
             // The type of chart we want to create
             type: 'line',
@@ -162,7 +163,7 @@ function ropeSlackCargo() {
             data: {
                 labels: xArray,
                 datasets: [{
-                    label: "Координаты точек положения разника относительно верхней опоры [м].\n(траектория разника)",
+                    label: "Координаты точек положения груза относительно верхней опоры [м].\n(траектория разника)",
                     //backgroundColor: ,
                     borderColor: 'rgb(255, 99, 132)',
                     data: ropeForm,
