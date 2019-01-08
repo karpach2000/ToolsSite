@@ -11,8 +11,6 @@ import javax.sql.DataSource;
 import java.io.File;
 import java.util.Properties;
 
-import static com.parcel.tools.utils.FileUtils.userHomeDir;
-
 @Configuration
 public class SpringConfig {
 	private String DB_PATH = "mqtt.db";
@@ -33,7 +31,7 @@ public class SpringConfig {
 		LocalContainerEntityManagerFactoryBean em
 				= new LocalContainerEntityManagerFactoryBean();
 		em.setDataSource(getSqlDataSource());
-		em.setPackagesToScan(new String[] { "com.parcel.tools.mqtt" });
+		em.setPackagesToScan("com.parcel.tools.mqtt");
 
 		JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
 		em.setJpaVendorAdapter(vendorAdapter);
