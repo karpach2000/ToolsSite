@@ -31,7 +31,7 @@ public class SpringConfig {
 		LocalContainerEntityManagerFactoryBean em
 				= new LocalContainerEntityManagerFactoryBean();
 		em.setDataSource(getSqlDataSource());
-		em.setPackagesToScan("com.parcel.tools.mqtt");
+		em.setPackagesToScan(new String[] { "com.parcel.tools.mqtt" });
 
 		JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
 		em.setJpaVendorAdapter(vendorAdapter);

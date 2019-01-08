@@ -40,4 +40,5 @@ open class UsersDaoImpl : UsersDao()
     {
         return em.find(User::class.java, id)
     }
+
 }
