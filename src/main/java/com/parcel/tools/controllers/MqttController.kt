@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
 import org.springframework.web.bind.annotation.RequestMapping
+import org.springframework.web.bind.annotation.RequestMethod
 import kotlin.random.Random
 
 @Controller
@@ -17,11 +18,18 @@ class MqttController {
     @Autowired
     lateinit var usersDao: UsersDao;
 
-    @RequestMapping("/login")
-    public fun index(model: Model): String {
+    @RequestMapping("/login", method = [RequestMethod.GET])
+    fun login(model: Model): String {
         model.addAttribute("page", Page(MqttPage()))
-        return "web/html/mqtt/login";
+        return "web/html/mqtt/login"
     }
+
+    @RequestMapping("/control", method = [RequestMethod.GET])
+    fun control(model: Model): String {
+        model.addAttribute("page", Page(MqttPage()))
+        return "web/html/mqtt/control"
+    }
+
 
     @RequestMapping("/users")
     public fun getUsers(): User {

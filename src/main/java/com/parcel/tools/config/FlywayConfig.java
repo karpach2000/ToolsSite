@@ -24,6 +24,7 @@ public class FlywayConfig {
 		flywayConfig.sqlMigrationSeparator("__");
 		flywayConfig.table("Schema_version");
 		flywayConfig.sqlMigrationPrefix("");
+		flywayConfig.validateOnMigrate(false);
 
 		System.out.println("CREATED FLYWAY");
 		return new Flyway(flywayConfig);

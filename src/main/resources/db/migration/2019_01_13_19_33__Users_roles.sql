@@ -8,5 +8,5 @@ INSERT INTO Roles(id, role) VALUES(2, "USER");
 
 CREATE TABLE Users_roles(
 	user_id INTEGER,
-	role VARCHAR (255)
+	role_id VARCHAR (255)
 );

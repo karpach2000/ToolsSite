@@ -4,17 +4,23 @@
     <p>Для доступа к контролю плат введите ваш логин и пароль:</p>
 </div>
 <div class="form">
+    <form action="/mqtt/login" method="POST">
+        <div class="form-line">
+            <label for="login">Логин</label>
+            <input type="text" name="login">
+        </div>
 
-    <div class="form-line">
-        <label for="login">Логин</label>
-        <input type="text" name="login">
-    </div>
+        <div class="form-line">
+            <label for="password"></label>
+            <input type="password" name="password">
+        </div>
 
-    <div class="form-line">
-        <label for="password"></label>
-        <input type="password" name="password">
-    </div>
+        <div class="form-line">
+            <input type="submit" value="Войти">
+        </div>
 
+        <input type="hidden" name="_csrf" value="{{_csrf.token}}" />
+    </form>
 </div>
 
 {{>web/html/layout/footer}}

@@ -1,0 +1,11 @@
+{{>web/html/layout/header}}
+
+<p>Тут будет форма контроля MQTT</p>
+
+<form action="/mqtt/logout" method = "post">
+    <input type="submit" value="Выйти">
+
+    <input type="hidden" name="_csrf" value="{{_csrf.token}}" />
+</form>
+
+{{>web/html/layout/footer}}
