@@ -1,4 +1,4 @@
-package com.parcel.tools.constructor.bodies.counter;
+package com.parcel.tools.constructor.content.counter;
 
 import com.parcel.tools.constructor.Menu;
 

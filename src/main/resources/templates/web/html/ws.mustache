@@ -1,42 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Инженерные инструменты</title>
-    <link href="web/css/index.css" rel="stylesheet" tipe="text/css">
-    <link href="web/css/unitsWs.css" rel="stylesheet" tipe="text/css">
-    <script src="web/javascript/unitsWs.js"></script>
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script>
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
-</head>
-<body onload="run()">
-<header>
-    <div class="header-panel">
-
-    </div>
-
-
-    <div id="divMainMenu"  class="topMenu">
-        <ul id="mainMenuItems" class="topMenuUl">
-            {{#page.mainMenu.items}}<li class="topMenuLi"><a href="{{link}}" class="topMenuA">{{name}}</a></li> {{/page.mainMenu.items}}
-        </ul>
-        <br>
-    </div>
-    <div id="advertising" class="rightMenu">
-        <ul id="advertisingItems" >
-            {{# page.advertising.items}}<li><a href="{{link}}">{{name}}</a></li> {{/ page.advertising.items}}
-        </ul>
-    </div>
-</header>
+{{>web/html/layout/header}}
 
 <!--Боковое меню-->
 <div id="menuCounting" class="leftMenu">
     <ul id="menuCountingItems" >
-        {{# page.pageBody.counterMenu.items}}<li><a onclick='menuClick("{{link}}")'>{{name}}</a></li> {{/ page.pageBody.counterMenu.items}}
+        {{# page.content.counterMenu.items}}<li><a onclick='menuClick("{{link}}")'>{{name}}</a></li> {{/ page.content.counterMenu.items}}
     </ul>
 </div>
 <!--Что это?-->
 <div id="main" class="bodyDiv">
-    {{# page.pageBody}}{{descriptionText}}{{/page.pageBody}}
+    {{# page.content}}{{descriptionText}}{{/page.content}}
 </div>
 <!--Расчет провиса стального троса без нагрузки-->
 <div id="ropeSlack" class="bodyDiv"  hidden>
@@ -102,6 +74,4 @@
 
 </div>
 
-
-</body>
-</html>
+{{>web/html/layout/footer}}

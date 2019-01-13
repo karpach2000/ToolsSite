@@ -4,7 +4,7 @@ public class Page {
     public  MainMenu mainMenu=new MainMenu();
     public  Advertising advertising=new Advertising();
     public  String hay="привет";
-    public  Object pageBody;//тело страницы
+    public  Object content;//тело страницы
 
     public Page()
     {
@@ -13,7 +13,7 @@ public class Page {
     }
     public Page(Object pageBody)
     {
-        this.pageBody=pageBody;
+        this.content =pageBody;
         init();
 
     }

@@ -1,4 +1,4 @@
-package com.parcel.tools.constructor.bodies.ws;
+package com.parcel.tools.constructor.content.ws;
 
 import com.parcel.tools.constructor.Menu;
 
