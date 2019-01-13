@@ -18,7 +18,7 @@ public class SpringConfig {
 
 	@Bean(name = "dataSource")
 	public DataSource getSqlDataSource() {
-		createDirsForDbIfNeeded();
+//		createDirsForDbIfNeeded();
 
 		SQLiteDataSource src = new SQLiteDataSource();
 		src.setUrl(DB_URL);
@@ -51,4 +51,6 @@ public class SpringConfig {
 		File file = new File(DB_PATH);
 		file.mkdirs();
 	}
+
+
 }

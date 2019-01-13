@@ -6,10 +6,12 @@ import com.parcel.tools.mqtt.database.dao.DigitalOutPinsDao
 import com.parcel.tools.mqtt.mqttsignalman.Client
 import com.parcel.tools.mqtt.mqttsignalman.NewMessageGetHandler
 import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.context.annotation.DependsOn
 import org.springframework.stereotype.Component
 import javax.annotation.PostConstruct
 
 @Component
+@DependsOn("migrationManager")
 class Mqtt {
 
     @Autowired
