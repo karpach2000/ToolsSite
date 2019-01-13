@@ -1,9 +1,10 @@
 package com.parcel.tools.controllers
         //import com.github.mustachejava.DefaultMustacheFactory
 import com.parcel.tools.constructor.Page
-import com.parcel.tools.constructor.bodies.counter.Counter
-import com.parcel.tools.constructor.bodies.mainpage.MainPage
-import com.parcel.tools.constructor.bodies.ws.CounterWs
+import com.parcel.tools.constructor.content.counter.Counter
+import com.parcel.tools.constructor.content.mainpage.MainPage
+import com.parcel.tools.constructor.content.manipulators.CountingManipulators
+import com.parcel.tools.constructor.content.ws.CounterWs
 
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
@@ -56,7 +57,7 @@ class MainController {
     @RequestMapping("/countingManipulators")
     @Throws(IOException::class)
     internal fun countingManipulators(model: Model): String {
-        val page = Page()
+        val page = Page(CountingManipulators())
         model.addAttribute("page", page)
         return "web/html/countingManipulators"
     }
