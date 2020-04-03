@@ -8,31 +8,46 @@ import java.nio.file.Paths
 
 object Spy {
 
-    private val folder = "spy"
+    private val logger = org.apache.log4j.Logger.getLogger(Spy::class.java!!)
+
+    private val folder = "spy/"
     private val fileName = "locations.txt"
+
     private val locations = ArrayList<String>()
     private var currentLocation = ""
 
     private val users = ArrayList<User>()
     private var spyName = ""
 
-    private var spyIsNotSecret = false
+    var spyIsNotSecret = false
+
+    private var started = false
 
     fun startGame()
     {
-        updateLocations()
 
-        //делаем локацию
-        val locationIndex :Int = (Math.random()* (locations.size - 1)).toInt()
-        currentLocation = locations[locationIndex]
+        if (!started) {
+            started = true
+            logger.info("startGame()...")
+            updateLocations()
 
-        //выбираем шпиона
-        val spyIndex = (Math.random()* (users.size - 1)).toInt()
-        users[spyIndex].spy = true
+            //делаем локацию
+            val locationIndex: Int = (Math.random() * (locations.size - 1)).toInt()
+            currentLocation = locations[locationIndex]
+            logger.info("Location: $currentLocation")
+
+            //выбираем шпиона
+            val spyIndex = (Math.random() * (users.size - 1)).toInt()
+            users[spyIndex].spy = true
+            spyName = users[spyIndex].name
+            logger.info("Spy is: $spyName")
+            logger.info("...Game started")
+        }
     }
 
     fun getUserInformation(userName: String): UserInformation
     {
+        logger.info("getUserInformation($userName)")
         users.forEach {
             if(it.name == userName)
             {
@@ -42,27 +57,34 @@ object Spy {
         return UserInformation("User name not correct", spyIsNotSecret)
     }
 
-    fun addUser(name: String)
+    fun addUser(name: String): Boolean
     {
+        logger.info("addUser($name)...")
         if(name.length>2) {
             users.forEach {
                 if (it.name == name) {
-                    println("User exist")
-                    return
+                    logger.warn("User exist")
+                    return false
                 }
             }
             users.add(User(name))
+            logger.info("...addUser()")
+            return true
         }
-        println("To short user name.")
+        logger.warn("To short user name.")
+        return false
     }
     fun stopGame()
     {
+        logger.info("stopGame()")
         users.clear()
         spyIsNotSecret = false
+        started = false
     }
 
     fun getSpy(): String
     {
+        logger.info("getSpy():$spyName")
         spyIsNotSecret = true
         return spyName
     }
@@ -72,15 +94,18 @@ object Spy {
 
     private fun updateLocations() : Boolean
     {
+        logger.info("updateLocations()")
         try {
             val file = File(folder + fileName)
             //проверяем, что если файл не существует то создаем его
             if (file.exists())
             {
                 locations.clear()
-                val lines =file.readLines()
-                lines.forEach { if(it.length>2) {
-                    locations.add(it)} }
+                val lines =file.readText().split("\n")
+                lines.forEach {
+                    if(it.length>2) {
+                    locations.add(it)}
+                }
                 return true
             }
             else

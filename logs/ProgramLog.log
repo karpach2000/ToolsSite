@@ -1,0 +1,218 @@
+2020-04-04 00:15:13 INFO  SpyController:32 - addUser()
+2020-04-04 00:15:13 INFO  Spy:61 - addUser()...
+2020-04-04 00:15:13 WARN  Spy:73 - To short user name.
+2020-04-04 00:15:13 INFO  Spy:49 - getUserInformation()
+2020-04-04 00:17:59 INFO  SpyController:32 - addUser()
+2020-04-04 00:17:59 INFO  Spy:61 - addUser()...
+2020-04-04 00:17:59 WARN  Spy:73 - To short user name.
+2020-04-04 00:17:59 INFO  Spy:49 - getUserInformation()
+2020-04-04 00:20:06 INFO  SpyController:32 - addUser()
+2020-04-04 00:20:06 INFO  Spy:61 - addUser()...
+2020-04-04 00:20:06 WARN  Spy:73 - To short user name.
+2020-04-04 00:20:06 INFO  Spy:49 - getUserInformation()
+2020-04-04 00:21:32 INFO  SpyController:32 - addUser()
+2020-04-04 00:21:32 INFO  Spy:61 - addUser()...
+2020-04-04 00:21:32 WARN  Spy:73 - To short user name.
+2020-04-04 00:21:32 INFO  Spy:49 - getUserInformation()
+2020-04-04 00:22:33 INFO  SpyController:32 - addUser()
+2020-04-04 00:22:33 INFO  Spy:61 - addUser()...
+2020-04-04 00:22:33 WARN  Spy:73 - To short user name.
+2020-04-04 00:22:33 INFO  Spy:49 - getUserInformation()
+2020-04-04 00:22:45 INFO  SpyController:32 - addUser()
+2020-04-04 00:22:45 INFO  Spy:61 - addUser()...
+2020-04-04 00:22:45 WARN  Spy:73 - To short user name.
+2020-04-04 00:22:45 INFO  Spy:49 - getUserInformation()
+2020-04-04 00:24:51 INFO  SpyController:32 - addUser(Дмитрий)
+2020-04-04 00:24:51 INFO  Spy:61 - addUser(Дмитрий)...
+2020-04-04 00:24:51 INFO  Spy:70 - ...addUser()
+2020-04-04 00:24:51 INFO  Spy:49 - getUserInformation(Дмитрий)
+2020-04-04 00:26:10 INFO  SpyController:32 - addUser(Дмитрий)
+2020-04-04 00:26:10 INFO  Spy:61 - addUser(Дмитрий)...
+2020-04-04 00:26:10 INFO  Spy:70 - ...addUser()
+2020-04-04 00:26:10 INFO  Spy:49 - getUserInformation(Дмитрий)
+2020-04-04 00:28:25 INFO  SpyController:32 - addUser(Дмитрий)
+2020-04-04 00:28:25 INFO  Spy:61 - addUser(Дмитрий)...
+2020-04-04 00:28:25 INFO  Spy:70 - ...addUser()
+2020-04-04 00:28:32 INFO  SpyController:32 - addUser(Дмитрий)
+2020-04-04 00:28:32 INFO  Spy:61 - addUser(Дмитрий)...
+2020-04-04 00:28:32 WARN  Spy:65 - User exist
+2020-04-04 00:28:59 INFO  SpyController:32 - addUser(Ангелина)
+2020-04-04 00:28:59 INFO  Spy:61 - addUser(Ангелина)...
+2020-04-04 00:28:59 INFO  Spy:70 - ...addUser()
+2020-04-04 00:29:29 INFO  SpyController:32 - addUser(Аня)
+2020-04-04 00:29:29 INFO  Spy:61 - addUser(Аня)...
+2020-04-04 00:29:29 INFO  Spy:70 - ...addUser()
+2020-04-04 00:29:44 INFO  SpyController:45 - startGame(Дмитрий)
+2020-04-04 00:29:44 INFO  Spy:30 - startGame()...
+2020-04-04 00:36:37 INFO  SpyController:32 - addUser(Дмитрий)
+2020-04-04 00:36:37 INFO  Spy:62 - addUser(Дмитрий)...
+2020-04-04 00:36:37 INFO  Spy:71 - ...addUser()
+2020-04-04 00:36:42 INFO  SpyController:45 - startGame(Дмитрий)
+2020-04-04 00:36:42 INFO  Spy:31 - startGame()...
+2020-04-04 00:36:42 INFO  Spy:97 - updateLocations()
+2020-04-04 00:37:53 INFO  SpyController:45 - startGame(Дмитрий)
+2020-04-04 00:38:03 INFO  Spy:50 - getUserInformation(Дмитрий)
+2020-04-04 00:38:16 INFO  SpyController:32 - addUser(Дмитрий)
+2020-04-04 00:38:16 INFO  Spy:62 - addUser(Дмитрий)...
+2020-04-04 00:38:16 INFO  Spy:71 - ...addUser()
+2020-04-04 00:38:24 INFO  SpyController:45 - startGame(Дмитрий)
+2020-04-04 00:38:24 INFO  Spy:31 - startGame()...
+2020-04-04 00:38:24 INFO  Spy:97 - updateLocations()
+2020-04-04 00:38:24 INFO  Spy:37 - Location: колайдер
+2020-04-04 00:38:24 INFO  Spy:43 - Spy is: Дмитрий
+2020-04-04 00:38:24 INFO  Spy:44 - ...Game started
+2020-04-04 00:38:24 INFO  Spy:50 - getUserInformation(Дмитрий)
+2020-04-04 00:39:08 INFO  SpyController:32 - addUser(Дмитрий)
+2020-04-04 00:39:08 INFO  Spy:62 - addUser(Дмитрий)...
+2020-04-04 00:39:08 INFO  Spy:71 - ...addUser()
+2020-04-04 00:39:28 INFO  SpyController:32 - addUser(Ангелина)
+2020-04-04 00:39:28 INFO  Spy:62 - addUser(Ангелина)...
+2020-04-04 00:39:28 INFO  Spy:71 - ...addUser()
+2020-04-04 00:39:41 INFO  SpyController:32 - addUser(Аня)
+2020-04-04 00:39:41 INFO  Spy:62 - addUser(Аня)...
+2020-04-04 00:39:41 INFO  Spy:71 - ...addUser()
+2020-04-04 00:39:49 INFO  SpyController:45 - startGame(Дмитрий)
+2020-04-04 00:39:49 INFO  Spy:31 - startGame()...
+2020-04-04 00:39:49 INFO  Spy:97 - updateLocations()
+2020-04-04 00:39:49 INFO  Spy:37 - Location: колайдер
+2020-04-04 00:39:49 INFO  Spy:43 - Spy is: Дмитрий
+2020-04-04 00:39:49 INFO  Spy:44 - ...Game started
+2020-04-04 00:39:49 INFO  Spy:50 - getUserInformation(Дмитрий)
+2020-04-04 00:40:52 INFO  SpyController:45 - startGame(Ангелина)
+2020-04-04 00:40:52 INFO  Spy:50 - getUserInformation(Ангелина)
+2020-04-04 00:41:03 INFO  SpyController:45 - startGame(Аня)
+2020-04-04 00:41:03 INFO  Spy:50 - getUserInformation(Аня)
+2020-04-04 00:41:23 INFO  SpyController:64 - getSpy(Дмитрий)
+2020-04-04 00:41:23 INFO  Spy:87 - getSpy():Дмитрий
+2020-04-04 00:41:31 INFO  SpyController:45 - startGame(Дмитрий)
+2020-04-04 00:41:31 INFO  Spy:50 - getUserInformation(Дмитрий)
+2020-04-04 00:41:44 INFO  SpyController:32 - addUser(Дмитрий)
+2020-04-04 00:41:44 INFO  Spy:62 - addUser(Дмитрий)...
+2020-04-04 00:41:44 WARN  Spy:66 - User exist
+2020-04-04 00:41:51 INFO  SpyController:45 - startGame(Дмитрий)
+2020-04-04 00:41:51 INFO  Spy:50 - getUserInformation(Дмитрий)
+2020-04-04 00:41:56 INFO  SpyController:45 - startGame(Дмитрий)
+2020-04-04 00:41:56 INFO  Spy:50 - getUserInformation(Дмитрий)
+2020-04-04 00:42:01 INFO  SpyController:32 - addUser(Дмитрий)
+2020-04-04 00:42:01 INFO  Spy:62 - addUser(Дмитрий)...
+2020-04-04 00:42:01 WARN  Spy:66 - User exist
+2020-04-04 00:45:32 INFO  SpyController:32 - addUser(Дмитрий)
+2020-04-04 00:45:32 INFO  Spy:62 - addUser(Дмитрий)...
+2020-04-04 00:45:32 INFO  Spy:71 - ...addUser()
+2020-04-04 00:46:05 INFO  SpyController:32 - addUser(Ангелина)
+2020-04-04 00:46:05 INFO  Spy:62 - addUser(Ангелина)...
+2020-04-04 00:46:05 INFO  Spy:71 - ...addUser()
+2020-04-04 00:46:24 INFO  SpyController:32 - addUser(Петя)
+2020-04-04 00:46:24 INFO  Spy:62 - addUser(Петя)...
+2020-04-04 00:46:24 INFO  Spy:71 - ...addUser()
+2020-04-04 00:46:37 INFO  SpyController:45 - startGame(Ангелина)
+2020-04-04 00:46:37 INFO  Spy:31 - startGame()...
+2020-04-04 00:46:37 INFO  Spy:97 - updateLocations()
+2020-04-04 00:46:37 INFO  Spy:37 - Location: колайдер
+2020-04-04 00:46:37 INFO  Spy:43 - Spy is: Ангелина
+2020-04-04 00:46:37 INFO  Spy:44 - ...Game started
+2020-04-04 00:46:37 INFO  Spy:50 - getUserInformation(Ангелина)
+2020-04-04 00:46:53 INFO  SpyController:45 - startGame(Петя)
+2020-04-04 00:46:53 INFO  Spy:50 - getUserInformation(Петя)
+2020-04-04 00:47:00 INFO  SpyController:45 - startGame(Дмитрий)
+2020-04-04 00:47:00 INFO  Spy:50 - getUserInformation(Дмитрий)
+2020-04-04 00:47:23 INFO  SpyController:64 - getSpy(Дмитрий)
+2020-04-04 00:47:23 INFO  Spy:87 - getSpy():Ангелина
+2020-04-04 00:47:28 INFO  SpyController:64 - getSpy(Ангелина)
+2020-04-04 00:47:28 INFO  Spy:87 - getSpy():Ангелина
+2020-04-04 00:47:45 INFO  SpyController:64 - getSpy(Петя)
+2020-04-04 00:47:45 INFO  Spy:87 - getSpy():Ангелина
+2020-04-04 00:47:53 INFO  SpyController:55 - stopGame(Петя)
+2020-04-04 00:47:53 INFO  Spy:79 - stopGame()
+2020-04-04 00:48:05 INFO  SpyController:55 - stopGame(Дмитрий)
+2020-04-04 00:48:05 INFO  Spy:79 - stopGame()
+2020-04-04 00:48:10 INFO  SpyController:32 - addUser(Дмитрий)
+2020-04-04 00:48:10 INFO  Spy:62 - addUser(Дмитрий)...
+2020-04-04 00:48:10 INFO  Spy:71 - ...addUser()
+2020-04-04 00:48:14 INFO  SpyController:32 - addUser(Петя)
+2020-04-04 00:48:14 INFO  Spy:62 - addUser(Петя)...
+2020-04-04 00:48:14 INFO  Spy:71 - ...addUser()
+2020-04-04 00:48:18 INFO  SpyController:32 - addUser(Ангелина)
+2020-04-04 00:48:18 INFO  Spy:62 - addUser(Ангелина)...
+2020-04-04 00:48:18 INFO  Spy:71 - ...addUser()
+2020-04-04 00:48:26 INFO  SpyController:45 - startGame(Ангелина)
+2020-04-04 00:48:26 INFO  Spy:31 - startGame()...
+2020-04-04 00:48:26 INFO  Spy:97 - updateLocations()
+2020-04-04 00:48:26 INFO  Spy:37 - Location: пятерочка
+2020-04-04 00:48:26 INFO  Spy:43 - Spy is: Петя
+2020-04-04 00:48:26 INFO  Spy:44 - ...Game started
+2020-04-04 00:48:26 INFO  Spy:50 - getUserInformation(Ангелина)
+2020-04-04 00:48:35 INFO  SpyController:45 - startGame(Петя)
+2020-04-04 00:48:35 INFO  Spy:50 - getUserInformation(Петя)
+2020-04-04 00:48:42 INFO  SpyController:45 - startGame(Дмитрий)
+2020-04-04 00:48:42 INFO  Spy:50 - getUserInformation(Дмитрий)
+2020-04-04 00:48:47 INFO  SpyController:64 - getSpy(Дмитрий)
+2020-04-04 00:48:47 INFO  Spy:87 - getSpy():Петя
+2020-04-04 00:48:56 INFO  SpyController:64 - getSpy(Петя)
+2020-04-04 00:48:56 INFO  Spy:87 - getSpy():Петя
+2020-04-04 00:48:59 INFO  SpyController:55 - stopGame(Петя)
+2020-04-04 00:48:59 INFO  Spy:79 - stopGame()
+2020-04-04 00:59:04 INFO  SpyController:32 - addUser(Дмитрий)
+2020-04-04 00:59:04 INFO  Spy:62 - addUser(Дмитрий)...
+2020-04-04 00:59:04 INFO  Spy:71 - ...addUser()
+2020-04-04 00:59:43 INFO  SpyController:32 - addUser(Аня)
+2020-04-04 00:59:43 INFO  Spy:62 - addUser(Аня)...
+2020-04-04 00:59:43 INFO  Spy:71 - ...addUser()
+2020-04-04 01:00:07 INFO  SpyController:32 - addUser(Наташа)
+2020-04-04 01:00:07 INFO  Spy:62 - addUser(Наташа)...
+2020-04-04 01:00:07 INFO  Spy:71 - ...addUser()
+2020-04-04 01:00:12 INFO  SpyController:45 - startGame(Наташа)
+2020-04-04 01:00:12 INFO  Spy:31 - startGame()...
+2020-04-04 01:00:12 INFO  Spy:97 - updateLocations()
+2020-04-04 01:00:12 INFO  Spy:37 - Location: пятерочка
+2020-04-04 01:00:12 INFO  Spy:43 - Spy is: Дмитрий
+2020-04-04 01:00:12 INFO  Spy:44 - ...Game started
+2020-04-04 01:00:12 INFO  Spy:50 - getUserInformation(Наташа)
+2020-04-04 01:00:20 INFO  SpyController:45 - startGame(Дмитрий)
+2020-04-04 01:00:20 INFO  Spy:50 - getUserInformation(Дмитрий)
+2020-04-04 01:00:28 INFO  SpyController:45 - startGame(Аня)
+2020-04-04 01:00:28 INFO  Spy:50 - getUserInformation(Аня)
+2020-04-04 01:00:41 INFO  SpyController:64 - getSpy(Наташа)
+2020-04-04 01:00:41 INFO  Spy:87 - getSpy():Дмитрий
+2020-04-04 01:00:45 INFO  SpyController:64 - getSpy(Аня)
+2020-04-04 01:00:45 INFO  Spy:87 - getSpy():Дмитрий
+2020-04-04 01:00:47 INFO  SpyController:64 - getSpy(Дмитрий)
+2020-04-04 01:00:47 INFO  Spy:87 - getSpy():Дмитрий
+2020-04-04 01:00:49 INFO  SpyController:55 - stopGame(Дмитрий)
+2020-04-04 01:00:49 INFO  Spy:79 - stopGame()
+2020-04-04 01:00:55 INFO  SpyController:55 - stopGame(Аня)
+2020-04-04 01:00:55 INFO  Spy:79 - stopGame()
+2020-04-04 01:10:44 INFO  SpyController:32 - addUser(Дмитрий)
+2020-04-04 01:10:44 INFO  Spy:62 - addUser(Дмитрий)...
+2020-04-04 01:10:44 INFO  Spy:71 - ...addUser()
+2020-04-04 01:11:02 INFO  SpyController:32 - addUser(Дмитрий)
+2020-04-04 01:11:02 INFO  Spy:62 - addUser(Дмитрий)...
+2020-04-04 01:11:02 WARN  Spy:66 - User exist
+2020-04-04 01:11:15 INFO  SpyController:32 - addUser(Ангелина)
+2020-04-04 01:11:15 INFO  Spy:62 - addUser(Ангелина)...
+2020-04-04 01:11:15 INFO  Spy:71 - ...addUser()
+2020-04-04 01:11:57 INFO  SpyController:32 - addUser(Ира)
+2020-04-04 01:11:57 INFO  Spy:62 - addUser(Ира)...
+2020-04-04 01:11:57 INFO  Spy:71 - ...addUser()
+2020-04-04 01:11:59 INFO  SpyController:45 - startGame(Ира)
+2020-04-04 01:11:59 INFO  Spy:31 - startGame()...
+2020-04-04 01:11:59 INFO  Spy:97 - updateLocations()
+2020-04-04 01:11:59 INFO  Spy:37 - Location: пятерочка
+2020-04-04 01:11:59 INFO  Spy:43 - Spy is: Дмитрий
+2020-04-04 01:11:59 INFO  Spy:44 - ...Game started
+2020-04-04 01:11:59 INFO  Spy:50 - getUserInformation(Ира)
+2020-04-04 01:12:09 INFO  SpyController:45 - startGame(Ангелина)
+2020-04-04 01:12:09 INFO  Spy:50 - getUserInformation(Ангелина)
+2020-04-04 01:12:14 INFO  SpyController:45 - startGame(Дмитрий)
+2020-04-04 01:12:14 INFO  Spy:50 - getUserInformation(Дмитрий)
+2020-04-04 01:12:18 INFO  SpyController:72 - isSpyShowen(Ангелина)
+2020-04-04 01:12:22 INFO  SpyController:72 - isSpyShowen(Ира)
+2020-04-04 01:12:25 INFO  SpyController:64 - getSpy(Ира)
+2020-04-04 01:12:25 INFO  Spy:87 - getSpy():Дмитрий
+2020-04-04 01:12:29 INFO  SpyController:72 - isSpyShowen(Ира)
+2020-04-04 01:12:35 INFO  SpyController:55 - stopGame(Ира)
+2020-04-04 01:12:35 INFO  Spy:79 - stopGame()
+2020-04-04 01:12:40 INFO  SpyController:55 - stopGame(Ангелина)
+2020-04-04 01:12:40 INFO  Spy:79 - stopGame()
+2020-04-04 01:12:45 INFO  SpyController:55 - stopGame(Дмитрий)
+2020-04-04 01:12:45 INFO  Spy:79 - stopGame()

@@ -24,12 +24,18 @@ class UserInformation(var spyIsNotSecret: Boolean) {
     var location = ""
     get() {
         if(!spy)
-            return location
+            return field
         else
             return "ШПИОН(SPY)"
     }
 
-    @Override
+    override fun toString() =
+          "Name: $name\n"+
+           "location: $location\n"+
+           "Users in game: $usersCount\n"
+
+
+
     fun toJson() :String
     {
         var builder =  GsonBuilder()
