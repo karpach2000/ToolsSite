@@ -24,6 +24,7 @@ public class Page {
         mainMenu.addItem("Главная","/");
         mainMenu.addItem("Мелкие утилиты","/utils");
         mainMenu.addItem("Инженерные инструменты","/etools");
+        mainMenu.addItem("Шпион","/spy");
         mainMenu.addItem("Расчет манипуляторов","/countingManipulators");
         //mainMenu.addItem("MQTT сервер","/mqttServer");
         //****Сайтовые рекомендации*****//

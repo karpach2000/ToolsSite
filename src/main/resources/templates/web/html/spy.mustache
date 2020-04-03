@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Инструменты</title>
+    <link href="web/css/index.css" rel="stylesheet" tipe="text/css">
+    <link href="web/css/units.css" rel="stylesheet" tipe="text/css">
+    <script src="web/javascript/units.js"></script>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="header-panel">
+
+    </div>
+
+    <!--spy-->
+    <div id="spy" class="spy">
+
+
+        <label for="userName">Имя пользователя</label>
+        <input type="text"   id="userName"  onchange="notation()" onkeyup="notation()" class="textboxWithLinck"  required><br>
+        <input type="button" onclick="addUnit()" name="add" value="Добавить себя">
+
+
+    </div>
+
+    <div id="divMainMenu"  class="topMenu">
+        <ul id="mainMenuItems" class="topMenuUl">
+            {{#page.mainMenu.items}}<li class="topMenuLi"><a href="{{link}}" class="topMenuA">{{name}}</a></li> {{/page.mainMenu.items}}
+        </ul>
+        <br>
+    </div>
+    <div id="advertising" class="rightMenu">
+        <ul id="advertisingItems" >
+            {{# page.advertising.items}}<li><a href="{{link}}">{{name}}</a></li> {{/ page.advertising.items}}
+        </ul>
+    </div>
+</header>
+
+
+
+</body>
+</html>
