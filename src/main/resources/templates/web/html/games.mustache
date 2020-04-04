@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Игры</title>
+    <link href="web/css/index.css" rel="stylesheet" tipe="text/css">
+    <link href="web/css/games.css" rel="stylesheet" tipe="text/css">
+    <script src="web/javascript/spy.js"></script>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="header-panel">
+
+    </div>
+
+
+    <div id="divMainMenu"  class="topMenu">
+        <ul id="mainMenuItems" class="topMenuUl">
+            {{#page.mainMenu.items}}<li class="topMenuLi"><a href="{{link}}" class="topMenuA">{{name}}</a></li> {{/page.mainMenu.items}}
+        </ul>
+        <br>
+    </div>
+    <div id="advertising" class="rightMenu">
+        <ul id="advertisingItems" >
+            {{# page.advertising.items}}<li><a href="{{link}}">{{name}}</a></li> {{/ page.advertising.items}}
+        </ul>
+    </div>
+</header>
+<!--Боковое меню-->
+<div id="menuCounting" class="leftMenu">
+    <ul id="menuCountingItems" >
+        {{# page.pageBody.counterMenu.items}}<li><a onclick='menuClick("{{link}}")'>{{name}}</a></li> {{/ page.pageBody.counterMenu.items}}
+    </ul>
+</div>
+<!--SPY-->
+<div id="spy" class="bodyDiv">
+    <div id="user" class="spy">
+        <label for="userName">Имя пользователя</label>
+        <input type="text"   id="userName" size="10" class="textboxWithLinck"  required><br>
+        <label for="sessionId">ID сессии (до 6 цифр)</label>
+        <input type="number"   id="sessionId"  class="textboxWithLinck" min="0" max="999999" required><br>
+        <label for="sessionPas">Пароль сессии (до 6 цифр)</label>
+        <input type="number"   id="sessionPas" class="textboxWithLinck" min="0" max="999999" required><br>
+        <input type="button" onclick="addUser()" name="addUser" value="Добавить себя">
+    </div>
+
+    <div id="beforGame" class="beforGame" hidden>
+        <input type="button" onclick="startGame()" name="startGame" value="Начать игру">
+    </div>
+
+
+    <div id="game" class="game" hidden>
+        <textarea id="gamerInformation"  rows="17">
+        </textarea>
+        <input type="button" onclick="showSpy()" name="showSpy" value="Показать шпиона">
+        <!--input type="button" onclick="isSpyShowen()" name="isSpyShowen" value="Видел ли кто шпиона"-->
+        <input type="button" onclick="stopGame()" name="stopGame" value="Закончить игру">
+    </div>
+</div>
+
+
+
+
+</body>
+</html>

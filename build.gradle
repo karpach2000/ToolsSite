@@ -23,7 +23,7 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 group = 'ru.parcel'
-version = '0.0.2-SPY'
+version = '0.0.4-SPY'
 sourceCompatibility = 1.8
 
 repositories {

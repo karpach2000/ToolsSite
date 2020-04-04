@@ -216,3 +216,527 @@
 2020-04-04 01:12:40 INFO  Spy:79 - stopGame()
 2020-04-04 01:12:45 INFO  SpyController:55 - stopGame(Дмитрий)
 2020-04-04 01:12:45 INFO  Spy:79 - stopGame()
+2020-04-04 10:29:03 INFO  SpyController:34 - addSession(Дмитрий, 1488, 18)
+2020-04-04 10:29:03 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 10:29:03 WARN  SpyManager:96 - Removing old games.
+2020-04-04 10:29:03 INFO  SpyController:50 - addUser(Дмитрий, 1488, 18)
+2020-04-04 10:29:03 INFO  SpyManager:67 - addUser(1488, 18 Дмитрий)
+2020-04-04 10:29:03 INFO  SpySession:72 - addUser(Дмитрий)...
+2020-04-04 10:29:03 INFO  SpySession:81 - ...addUser()
+2020-04-04 10:29:26 INFO  SpyController:34 - addSession(Ангелина, 1488, 18)
+2020-04-04 10:29:26 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 10:29:26 WARN  SpyManager:33 - Session 1488 is already exists.
+2020-04-04 10:29:36 INFO  SpyController:50 - addUser(Ангелина, 1488, 18)
+2020-04-04 10:29:36 INFO  SpyManager:67 - addUser(1488, 18 Ангелина)
+2020-04-04 10:29:36 INFO  SpySession:72 - addUser(Ангелина)...
+2020-04-04 10:29:36 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:02:44 INFO  SpyController:34 - addSession(Дмитрий, 1288, 18)
+2020-04-04 11:02:45 INFO  SpyManager:25 - addSession(1288, 18)
+2020-04-04 11:02:45 WARN  SpyManager:96 - Removing old games.
+2020-04-04 11:02:46 INFO  SpyController:45 - addUser(Дмитрий, 1288, 18)
+2020-04-04 11:02:46 INFO  SpyManager:67 - addUser(1288, 18 Дмитрий)
+2020-04-04 11:02:46 INFO  SpySession:72 - addUser(Дмитрий)...
+2020-04-04 11:02:46 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:03:03 INFO  SpyController:34 - addSession(Ангелина, 1488, 18)
+2020-04-04 11:03:03 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 11:03:19 INFO  SpyController:45 - addUser(Ангелина, 1488, 18)
+2020-04-04 11:03:19 INFO  SpyManager:67 - addUser(1488, 18 Ангелина)
+2020-04-04 11:03:19 INFO  SpySession:72 - addUser(Ангелина)...
+2020-04-04 11:03:19 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:03:55 INFO  SpyController:34 - addSession(Ангелина, 1288, 18)
+2020-04-04 11:03:55 INFO  SpyManager:25 - addSession(1288, 18)
+2020-04-04 11:03:55 WARN  SpyManager:33 - Session 1288 is already exists.
+2020-04-04 11:03:55 INFO  SpyController:45 - addUser(Ангелина, 1288, 18)
+2020-04-04 11:03:55 INFO  SpyManager:67 - addUser(1288, 18 Ангелина)
+2020-04-04 11:03:55 INFO  SpySession:72 - addUser(Ангелина)...
+2020-04-04 11:03:55 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:04:15 INFO  SpyController:34 - addSession(Коля, 1288, 18)
+2020-04-04 11:04:15 INFO  SpyManager:25 - addSession(1288, 18)
+2020-04-04 11:04:15 WARN  SpyManager:33 - Session 1288 is already exists.
+2020-04-04 11:04:15 INFO  SpyController:45 - addUser(Коля, 1288, 18)
+2020-04-04 11:04:15 INFO  SpyManager:67 - addUser(1288, 18 Коля)
+2020-04-04 11:04:15 INFO  SpySession:72 - addUser(Коля)...
+2020-04-04 11:04:15 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:04:42 INFO  SpyController:34 - addSession(Анюта, 1288, 18)
+2020-04-04 11:04:42 INFO  SpyManager:25 - addSession(1288, 18)
+2020-04-04 11:04:42 WARN  SpyManager:33 - Session 1288 is already exists.
+2020-04-04 11:04:42 INFO  SpyController:45 - addUser(Анюта, 1288, 18)
+2020-04-04 11:04:42 INFO  SpyManager:67 - addUser(1288, 18 Анюта)
+2020-04-04 11:04:42 INFO  SpySession:72 - addUser(Анюта)...
+2020-04-04 11:04:42 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:05:03 INFO  SpyController:34 - addSession(Вождь, 1288, 23232)
+2020-04-04 11:05:03 INFO  SpyManager:25 - addSession(1288, 23232)
+2020-04-04 11:05:03 WARN  SpyManager:33 - Session 1288 is already exists.
+2020-04-04 11:05:03 INFO  SpyController:45 - addUser(Вождь, 1288, 23232)
+2020-04-04 11:05:03 INFO  SpyManager:67 - addUser(1288, 23232 Вождь)
+2020-04-04 11:05:41 INFO  SpyController:34 - addSession(Коля, 1488, 18)
+2020-04-04 11:05:41 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 11:05:41 WARN  SpyManager:33 - Session 1488 is already exists.
+2020-04-04 11:05:41 INFO  SpyController:45 - addUser(Коля, 1488, 18)
+2020-04-04 11:05:41 INFO  SpyManager:67 - addUser(1488, 18 Коля)
+2020-04-04 11:05:41 INFO  SpySession:72 - addUser(Коля)...
+2020-04-04 11:05:41 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:06:02 INFO  SpyController:34 - addSession(Фаер, 1488, 18)
+2020-04-04 11:06:02 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 11:06:02 WARN  SpyManager:33 - Session 1488 is already exists.
+2020-04-04 11:06:02 INFO  SpyController:45 - addUser(Фаер, 1488, 18)
+2020-04-04 11:06:02 INFO  SpyManager:67 - addUser(1488, 18 Фаер)
+2020-04-04 11:06:02 INFO  SpySession:72 - addUser(Фаер)...
+2020-04-04 11:06:02 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:06:24 INFO  SpyController:34 - addSession(Мать, 1488, 18)
+2020-04-04 11:06:24 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 11:06:24 WARN  SpyManager:33 - Session 1488 is already exists.
+2020-04-04 11:06:24 INFO  SpyController:45 - addUser(Мать, 1488, 18)
+2020-04-04 11:06:24 INFO  SpyManager:67 - addUser(1488, 18 Мать)
+2020-04-04 11:06:24 INFO  SpySession:72 - addUser(Мать)...
+2020-04-04 11:06:24 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:06:45 INFO  SpyController:34 - addSession(Булка, 1488, 18)
+2020-04-04 11:06:45 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 11:06:45 WARN  SpyManager:33 - Session 1488 is already exists.
+2020-04-04 11:06:45 INFO  SpyController:45 - addUser(Булка, 1488, 18)
+2020-04-04 11:06:45 INFO  SpyManager:67 - addUser(1488, 18 Булка)
+2020-04-04 11:06:45 INFO  SpySession:72 - addUser(Булка)...
+2020-04-04 11:06:45 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:06:50 INFO  SpyController:56 - startGame(Дмитрий, 1288, 18)
+2020-04-04 11:06:50 INFO  SpyManager:39 - startGame(1288, 18)
+2020-04-04 11:06:50 INFO  SpySession:41 - startGame()...
+2020-04-04 11:06:50 INFO  SpySession:108 - updateLocations()
+2020-04-04 11:06:50 INFO  SpySession:47 - Location: колайдер
+2020-04-04 11:06:50 INFO  SpySession:53 - Spy is: Коля
+2020-04-04 11:06:50 INFO  SpySession:54 - ...Game started
+2020-04-04 11:06:50 INFO  SpyManager:61 - getUserInformation(1288, 18 Дмитрий)
+2020-04-04 11:06:50 INFO  SpySession:60 - getUserInformation(Дмитрий)
+2020-04-04 11:07:00 INFO  SpyController:56 - startGame(Ангелина, 1288, 18)
+2020-04-04 11:07:00 INFO  SpyManager:39 - startGame(1288, 18)
+2020-04-04 11:07:00 INFO  SpyManager:61 - getUserInformation(1288, 18 Ангелина)
+2020-04-04 11:07:00 INFO  SpySession:60 - getUserInformation(Ангелина)
+2020-04-04 11:07:03 INFO  SpyController:56 - startGame(Коля, 1288, 18)
+2020-04-04 11:07:03 INFO  SpyManager:39 - startGame(1288, 18)
+2020-04-04 11:07:03 INFO  SpyManager:61 - getUserInformation(1288, 18 Коля)
+2020-04-04 11:07:03 INFO  SpySession:60 - getUserInformation(Коля)
+2020-04-04 11:07:06 INFO  SpyController:56 - startGame(Анюта, 1288, 18)
+2020-04-04 11:07:06 INFO  SpyManager:39 - startGame(1288, 18)
+2020-04-04 11:07:06 INFO  SpyManager:61 - getUserInformation(1288, 18 Анюта)
+2020-04-04 11:07:06 INFO  SpySession:60 - getUserInformation(Анюта)
+2020-04-04 11:07:17 INFO  SpyController:56 - startGame(Булка, 1488, 18)
+2020-04-04 11:07:17 INFO  SpyManager:39 - startGame(1488, 18)
+2020-04-04 11:07:17 INFO  SpySession:41 - startGame()...
+2020-04-04 11:07:17 INFO  SpySession:108 - updateLocations()
+2020-04-04 11:07:17 INFO  SpySession:47 - Location: колайдер
+2020-04-04 11:07:17 INFO  SpySession:53 - Spy is: Ангелина
+2020-04-04 11:07:17 INFO  SpySession:54 - ...Game started
+2020-04-04 11:07:17 INFO  SpyManager:61 - getUserInformation(1488, 18 Булка)
+2020-04-04 11:07:17 INFO  SpySession:60 - getUserInformation(Булка)
+2020-04-04 11:07:21 INFO  SpyController:56 - startGame(Мать, 1488, 18)
+2020-04-04 11:07:21 INFO  SpyManager:39 - startGame(1488, 18)
+2020-04-04 11:07:21 INFO  SpyManager:61 - getUserInformation(1488, 18 Мать)
+2020-04-04 11:07:21 INFO  SpySession:60 - getUserInformation(Мать)
+2020-04-04 11:07:26 INFO  SpyController:56 - startGame(Фаер, 1488, 18)
+2020-04-04 11:07:26 INFO  SpyManager:39 - startGame(1488, 18)
+2020-04-04 11:07:26 INFO  SpyManager:61 - getUserInformation(1488, 18 Фаер)
+2020-04-04 11:07:26 INFO  SpySession:60 - getUserInformation(Фаер)
+2020-04-04 11:07:29 INFO  SpyController:56 - startGame(Коля, 1488, 18)
+2020-04-04 11:07:29 INFO  SpyManager:39 - startGame(1488, 18)
+2020-04-04 11:07:29 INFO  SpyManager:61 - getUserInformation(1488, 18 Коля)
+2020-04-04 11:07:29 INFO  SpySession:60 - getUserInformation(Коля)
+2020-04-04 11:07:31 INFO  SpyController:56 - startGame(Ангелина, 1488, 18)
+2020-04-04 11:07:31 INFO  SpyManager:39 - startGame(1488, 18)
+2020-04-04 11:07:31 INFO  SpyManager:61 - getUserInformation(1488, 18 Ангелина)
+2020-04-04 11:07:31 INFO  SpySession:60 - getUserInformation(Ангелина)
+2020-04-04 11:07:45 INFO  SpyController:82 - getSpy(Ангелина, 1488, 18)
+2020-04-04 11:07:45 INFO  SpyManager:81 - getSpy(1488, 18)
+2020-04-04 11:07:45 INFO  SpySession:97 - getSpy():Ангелина
+2020-04-04 11:07:51 INFO  SpyController:82 - getSpy(Анюта, 1288, 18)
+2020-04-04 11:07:51 INFO  SpyManager:81 - getSpy(1288, 18)
+2020-04-04 11:07:51 INFO  SpySession:97 - getSpy():Коля
+2020-04-04 11:07:56 INFO  SpyController:70 - stopGame(Ангелина, 1488, 18)
+2020-04-04 11:07:56 INFO  SpyManager:73 - stopGame(1488, 18)
+2020-04-04 11:07:56 INFO  SpySession:89 - stopGame()
+2020-04-04 11:07:59 INFO  SpyController:34 - addSession(Ангелина, 1488, 18)
+2020-04-04 11:07:59 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 11:08:01 INFO  SpyController:45 - addUser(Ангелина, 1488, 18)
+2020-04-04 11:08:01 INFO  SpyManager:67 - addUser(1488, 18 Ангелина)
+2020-04-04 11:08:01 INFO  SpySession:72 - addUser(Ангелина)...
+2020-04-04 11:08:01 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:18:28 INFO  SpyController:34 - addSession(Дмитрий, 1488, 18)
+2020-04-04 11:18:28 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 11:18:28 WARN  SpyManager:96 - Removing old games.
+2020-04-04 11:18:30 INFO  SpyController:45 - addUser(Дмитрий, 1488, 18)
+2020-04-04 11:18:30 INFO  SpyManager:67 - addUser(1488, 18 Дмитрий)
+2020-04-04 11:18:30 INFO  SpySession:72 - addUser(Дмитрий)...
+2020-04-04 11:18:30 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:18:48 INFO  SpyController:34 - addSession(Ангелина, 1488, 18)
+2020-04-04 11:18:48 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 11:18:48 WARN  SpyManager:33 - Session 1488 is already exists.
+2020-04-04 11:18:48 INFO  SpyController:45 - addUser(Ангелина, 1488, 18)
+2020-04-04 11:18:48 INFO  SpyManager:67 - addUser(1488, 18 Ангелина)
+2020-04-04 11:18:48 INFO  SpySession:72 - addUser(Ангелина)...
+2020-04-04 11:18:48 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:19:08 INFO  SpyController:34 - addSession(Саша, 1488, 18)
+2020-04-04 11:19:08 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 11:19:08 WARN  SpyManager:33 - Session 1488 is already exists.
+2020-04-04 11:19:08 INFO  SpyController:45 - addUser(Саша, 1488, 18)
+2020-04-04 11:19:08 INFO  SpyManager:67 - addUser(1488, 18 Саша)
+2020-04-04 11:19:08 INFO  SpySession:72 - addUser(Саша)...
+2020-04-04 11:19:08 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:19:24 INFO  SpyController:34 - addSession(Коля, 1488, 18)
+2020-04-04 11:19:24 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 11:19:24 WARN  SpyManager:33 - Session 1488 is already exists.
+2020-04-04 11:19:25 INFO  SpyController:45 - addUser(Коля, 1488, 18)
+2020-04-04 11:19:25 INFO  SpyManager:67 - addUser(1488, 18 Коля)
+2020-04-04 11:19:25 INFO  SpySession:72 - addUser(Коля)...
+2020-04-04 11:19:25 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:19:38 INFO  SpyController:56 - startGame(Коля, 1488, 18)
+2020-04-04 11:19:38 INFO  SpyManager:39 - startGame(1488, 18)
+2020-04-04 11:19:38 INFO  SpySession:41 - startGame()...
+2020-04-04 11:19:38 INFO  SpySession:108 - updateLocations()
+2020-04-04 11:19:38 INFO  SpySession:47 - Location: пятерочка
+2020-04-04 11:19:38 INFO  SpySession:53 - Spy is: Дмитрий
+2020-04-04 11:19:38 INFO  SpySession:54 - ...Game started
+2020-04-04 11:19:38 INFO  SpyManager:61 - getUserInformation(1488, 18 Коля)
+2020-04-04 11:19:38 INFO  SpySession:60 - getUserInformation(Коля)
+2020-04-04 11:19:48 INFO  SpyController:56 - startGame(Саша, 1488, 18)
+2020-04-04 11:19:48 INFO  SpyManager:39 - startGame(1488, 18)
+2020-04-04 11:19:48 INFO  SpyManager:61 - getUserInformation(1488, 18 Саша)
+2020-04-04 11:19:48 INFO  SpySession:60 - getUserInformation(Саша)
+2020-04-04 11:19:59 INFO  SpyController:56 - startGame(Ангелина, 1488, 18)
+2020-04-04 11:19:59 INFO  SpyManager:39 - startGame(1488, 18)
+2020-04-04 11:19:59 INFO  SpyManager:61 - getUserInformation(1488, 18 Ангелина)
+2020-04-04 11:19:59 INFO  SpySession:60 - getUserInformation(Ангелина)
+2020-04-04 11:20:04 INFO  SpyController:56 - startGame(Дмитрий, 1488, 18)
+2020-04-04 11:20:04 INFO  SpyManager:39 - startGame(1488, 18)
+2020-04-04 11:20:04 INFO  SpyManager:61 - getUserInformation(1488, 18 Дмитрий)
+2020-04-04 11:20:04 INFO  SpySession:60 - getUserInformation(Дмитрий)
+2020-04-04 11:20:18 INFO  SpyController:34 - addSession(Дима, 1288, 18)
+2020-04-04 11:20:18 INFO  SpyManager:25 - addSession(1288, 18)
+2020-04-04 11:20:20 INFO  SpyController:45 - addUser(Дима, 1288, 18)
+2020-04-04 11:20:20 INFO  SpyManager:67 - addUser(1288, 18 Дима)
+2020-04-04 11:20:20 INFO  SpySession:72 - addUser(Дима)...
+2020-04-04 11:20:20 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:20:44 INFO  SpyController:34 - addSession(Вождь, 1288, 18)
+2020-04-04 11:20:44 INFO  SpyManager:25 - addSession(1288, 18)
+2020-04-04 11:20:44 WARN  SpyManager:33 - Session 1288 is already exists.
+2020-04-04 11:20:44 INFO  SpyController:45 - addUser(Вождь, 1288, 18)
+2020-04-04 11:20:44 INFO  SpyManager:67 - addUser(1288, 18 Вождь)
+2020-04-04 11:20:44 INFO  SpySession:72 - addUser(Вождь)...
+2020-04-04 11:20:44 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:21:19 INFO  SpyController:34 - addSession(Булка, 1288, 18)
+2020-04-04 11:21:19 INFO  SpyManager:25 - addSession(1288, 18)
+2020-04-04 11:21:19 WARN  SpyManager:33 - Session 1288 is already exists.
+2020-04-04 11:21:19 INFO  SpyController:45 - addUser(Булка, 1288, 18)
+2020-04-04 11:21:19 INFO  SpyManager:67 - addUser(1288, 18 Булка)
+2020-04-04 11:21:19 INFO  SpySession:72 - addUser(Булка)...
+2020-04-04 11:21:19 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:21:20 INFO  SpyController:56 - startGame(Булка, 1288, 18)
+2020-04-04 11:21:20 INFO  SpyManager:39 - startGame(1288, 18)
+2020-04-04 11:21:20 INFO  SpySession:41 - startGame()...
+2020-04-04 11:21:20 INFO  SpySession:108 - updateLocations()
+2020-04-04 11:21:20 INFO  SpySession:47 - Location: колайдер
+2020-04-04 11:21:20 INFO  SpySession:53 - Spy is: Вождь
+2020-04-04 11:21:20 INFO  SpySession:54 - ...Game started
+2020-04-04 11:21:20 INFO  SpyManager:61 - getUserInformation(1288, 18 Булка)
+2020-04-04 11:21:20 INFO  SpySession:60 - getUserInformation(Булка)
+2020-04-04 11:21:24 INFO  SpyController:56 - startGame(Вождь, 1288, 18)
+2020-04-04 11:21:24 INFO  SpyManager:39 - startGame(1288, 18)
+2020-04-04 11:21:24 INFO  SpyManager:61 - getUserInformation(1288, 18 Вождь)
+2020-04-04 11:21:24 INFO  SpySession:60 - getUserInformation(Вождь)
+2020-04-04 11:21:27 INFO  SpyController:56 - startGame(Дима, 1288, 18)
+2020-04-04 11:21:27 INFO  SpyManager:39 - startGame(1288, 18)
+2020-04-04 11:21:27 INFO  SpyManager:61 - getUserInformation(1288, 18 Дима)
+2020-04-04 11:21:27 INFO  SpySession:60 - getUserInformation(Дима)
+2020-04-04 11:25:50 INFO  SpyController:34 - addSession(Дмитрий, 1488, 18)
+2020-04-04 11:25:51 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 11:25:51 WARN  SpyManager:96 - Removing old games.
+2020-04-04 11:25:52 INFO  SpyController:45 - addUser(Дмитрий, 1488, 18)
+2020-04-04 11:25:52 INFO  SpyManager:67 - addUser(1488, 18 Дмитрий)
+2020-04-04 11:25:52 INFO  SpySession:72 - addUser(Дмитрий)...
+2020-04-04 11:25:52 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:26:05 INFO  SpyController:34 - addSession(Коля, 1488, 18)
+2020-04-04 11:26:05 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 11:26:05 WARN  SpyManager:33 - Session 1488 is already exists.
+2020-04-04 11:26:05 INFO  SpyController:45 - addUser(Коля, 1488, 18)
+2020-04-04 11:26:05 INFO  SpyManager:67 - addUser(1488, 18 Коля)
+2020-04-04 11:26:05 INFO  SpySession:72 - addUser(Коля)...
+2020-04-04 11:26:05 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:26:26 INFO  SpyController:34 - addSession(Ангелина, 1488, 18)
+2020-04-04 11:26:26 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 11:26:26 WARN  SpyManager:33 - Session 1488 is already exists.
+2020-04-04 11:26:26 INFO  SpyController:45 - addUser(Ангелина, 1488, 18)
+2020-04-04 11:26:26 INFO  SpyManager:67 - addUser(1488, 18 Ангелина)
+2020-04-04 11:26:26 INFO  SpySession:72 - addUser(Ангелина)...
+2020-04-04 11:26:26 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:26:31 INFO  SpyController:56 - startGame(Ангелина, 1488, 18)
+2020-04-04 11:26:31 INFO  SpyManager:39 - startGame(1488, 18)
+2020-04-04 11:26:31 INFO  SpySession:41 - startGame()...
+2020-04-04 11:26:31 INFO  SpySession:108 - updateLocations()
+2020-04-04 11:26:31 INFO  SpySession:47 - Location: пятерочка
+2020-04-04 11:26:31 INFO  SpySession:53 - Spy is: Коля
+2020-04-04 11:26:31 INFO  SpySession:54 - ...Game started
+2020-04-04 11:26:31 INFO  SpyManager:61 - getUserInformation(1488, 18 Ангелина)
+2020-04-04 11:26:31 INFO  SpySession:60 - getUserInformation(Ангелина)
+2020-04-04 11:26:33 INFO  SpyController:56 - startGame(Коля, 1488, 18)
+2020-04-04 11:26:33 INFO  SpyManager:39 - startGame(1488, 18)
+2020-04-04 11:26:33 INFO  SpyManager:61 - getUserInformation(1488, 18 Коля)
+2020-04-04 11:26:33 INFO  SpySession:60 - getUserInformation(Коля)
+2020-04-04 11:26:35 INFO  SpyController:56 - startGame(Дмитрий, 1488, 18)
+2020-04-04 11:26:35 INFO  SpyManager:39 - startGame(1488, 18)
+2020-04-04 11:26:35 INFO  SpyManager:61 - getUserInformation(1488, 18 Дмитрий)
+2020-04-04 11:26:35 INFO  SpySession:60 - getUserInformation(Дмитрий)
+2020-04-04 11:26:36 INFO  SpyController:93 - isSpyShowen(Дмитрий, 1488, 18)
+2020-04-04 11:26:36 INFO  SpyManager:53 - isSpyUncovered(1488, 18)
+2020-04-04 11:26:39 INFO  SpyController:82 - getSpy(Дмитрий, 1488, 18)
+2020-04-04 11:26:39 INFO  SpyManager:81 - getSpy(1488, 18)
+2020-04-04 11:26:39 INFO  SpySession:97 - getSpy():Коля
+2020-04-04 11:26:46 INFO  SpyController:93 - isSpyShowen(Коля, 1488, 18)
+2020-04-04 11:26:46 INFO  SpyManager:53 - isSpyUncovered(1488, 18)
+2020-04-04 11:26:49 INFO  SpyController:93 - isSpyShowen(Ангелина, 1488, 18)
+2020-04-04 11:26:49 INFO  SpyManager:53 - isSpyUncovered(1488, 18)
+2020-04-04 11:26:51 INFO  SpyController:82 - getSpy(Ангелина, 1488, 18)
+2020-04-04 11:26:51 INFO  SpyManager:81 - getSpy(1488, 18)
+2020-04-04 11:26:51 INFO  SpySession:97 - getSpy():Коля
+2020-04-04 11:26:54 INFO  SpyController:70 - stopGame(Ангелина, 1488, 18)
+2020-04-04 11:26:54 INFO  SpyManager:73 - stopGame(1488, 18)
+2020-04-04 11:26:54 INFO  SpySession:89 - stopGame()
+2020-04-04 11:26:58 INFO  SpyController:70 - stopGame(Коля, 1488, 18)
+2020-04-04 11:26:58 INFO  SpyManager:73 - stopGame(1488, 18)
+2020-04-04 11:27:00 INFO  SpyController:70 - stopGame(Дмитрий, 1488, 18)
+2020-04-04 11:27:00 INFO  SpyManager:73 - stopGame(1488, 18)
+2020-04-04 11:28:11 INFO  SpyController:34 - addSession(Дмитрий, 1488, 18)
+2020-04-04 11:28:11 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 11:28:13 INFO  SpyController:45 - addUser(Дмитрий, 1488, 18)
+2020-04-04 11:28:13 INFO  SpyManager:67 - addUser(1488, 18 Дмитрий)
+2020-04-04 11:28:13 INFO  SpySession:72 - addUser(Дмитрий)...
+2020-04-04 11:28:13 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:28:15 INFO  SpyController:34 - addSession(Коля, 1488, 18)
+2020-04-04 11:28:15 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 11:28:15 WARN  SpyManager:33 - Session 1488 is already exists.
+2020-04-04 11:28:15 INFO  SpyController:45 - addUser(Коля, 1488, 18)
+2020-04-04 11:28:15 INFO  SpyManager:67 - addUser(1488, 18 Коля)
+2020-04-04 11:28:15 INFO  SpySession:72 - addUser(Коля)...
+2020-04-04 11:28:15 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:28:17 INFO  SpyController:34 - addSession(Ангелина, 1488, 18)
+2020-04-04 11:28:17 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 11:28:17 WARN  SpyManager:33 - Session 1488 is already exists.
+2020-04-04 11:28:17 INFO  SpyController:45 - addUser(Ангелина, 1488, 18)
+2020-04-04 11:28:17 INFO  SpyManager:67 - addUser(1488, 18 Ангелина)
+2020-04-04 11:28:17 INFO  SpySession:72 - addUser(Ангелина)...
+2020-04-04 11:28:17 INFO  SpySession:81 - ...addUser()
+2020-04-04 11:28:18 INFO  SpyController:56 - startGame(Ангелина, 1488, 18)
+2020-04-04 11:28:18 INFO  SpyManager:39 - startGame(1488, 18)
+2020-04-04 11:28:18 INFO  SpySession:41 - startGame()...
+2020-04-04 11:28:18 INFO  SpySession:108 - updateLocations()
+2020-04-04 11:28:18 INFO  SpySession:47 - Location: колайдер
+2020-04-04 11:28:18 INFO  SpySession:53 - Spy is: Дмитрий
+2020-04-04 11:28:18 INFO  SpySession:54 - ...Game started
+2020-04-04 11:28:18 INFO  SpyManager:61 - getUserInformation(1488, 18 Ангелина)
+2020-04-04 11:28:18 INFO  SpySession:60 - getUserInformation(Ангелина)
+2020-04-04 11:28:21 INFO  SpyController:56 - startGame(Коля, 1488, 18)
+2020-04-04 11:28:21 INFO  SpyManager:39 - startGame(1488, 18)
+2020-04-04 11:28:21 INFO  SpyManager:61 - getUserInformation(1488, 18 Коля)
+2020-04-04 11:28:21 INFO  SpySession:60 - getUserInformation(Коля)
+2020-04-04 11:28:24 INFO  SpyController:56 - startGame(Дмитрий, 1488, 18)
+2020-04-04 11:28:24 INFO  SpyManager:39 - startGame(1488, 18)
+2020-04-04 11:28:24 INFO  SpyManager:61 - getUserInformation(1488, 18 Дмитрий)
+2020-04-04 11:28:24 INFO  SpySession:60 - getUserInformation(Дмитрий)
+2020-04-04 11:28:28 INFO  SpyController:93 - isSpyShowen(Ангелина, 1488, 18)
+2020-04-04 11:28:28 INFO  SpyManager:53 - isSpyUncovered(1488, 18)
+2020-04-04 11:28:30 INFO  SpyController:82 - getSpy(Ангелина, 1488, 18)
+2020-04-04 11:28:30 INFO  SpyManager:81 - getSpy(1488, 18)
+2020-04-04 11:28:30 INFO  SpySession:97 - getSpy():Дмитрий
+2020-04-04 11:28:32 INFO  SpyController:70 - stopGame(Ангелина, 1488, 18)
+2020-04-04 11:28:32 INFO  SpyManager:73 - stopGame(1488, 18)
+2020-04-04 11:28:32 INFO  SpySession:89 - stopGame()
+2020-04-04 11:28:34 INFO  SpyController:70 - stopGame(Коля, 1488, 18)
+2020-04-04 11:28:34 INFO  SpyManager:73 - stopGame(1488, 18)
+2020-04-04 11:28:37 INFO  SpyController:70 - stopGame(Дмитрий, 1488, 18)
+2020-04-04 11:28:37 INFO  SpyManager:73 - stopGame(1488, 18)
+2020-04-04 12:27:59 INFO  SpyController:34 - addSession(Дмитрий, 1488, 18)
+2020-04-04 12:27:59 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 12:27:59 WARN  SpyManager:100 - Removing old games.
+2020-04-04 12:28:00 INFO  SpyController:45 - addUser(Дмитрий, 1488, 18)
+2020-04-04 12:28:00 INFO  SpyManager:67 - addUser(1488, 18 Дмитрий)
+2020-04-04 12:28:00 INFO  SpySession:73 - addUser(Дмитрий)...
+2020-04-04 12:28:00 INFO  SpySession:82 - ...addUser()
+2020-04-04 12:28:22 INFO  SpyController:34 - addSession(Ангелина, 1488, 18)
+2020-04-04 12:28:22 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 12:28:22 WARN  SpyManager:33 - Session 1488 is already exists.
+2020-04-04 12:28:22 INFO  SpyController:45 - addUser(Ангелина, 1488, 18)
+2020-04-04 12:28:22 INFO  SpyManager:67 - addUser(1488, 18 Ангелина)
+2020-04-04 12:28:22 INFO  SpySession:73 - addUser(Ангелина)...
+2020-04-04 12:28:22 INFO  SpySession:82 - ...addUser()
+2020-04-04 12:28:39 INFO  SpyController:34 - addSession(Кирилл, 1488, 18)
+2020-04-04 12:28:39 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 12:28:39 WARN  SpyManager:33 - Session 1488 is already exists.
+2020-04-04 12:28:39 INFO  SpyController:45 - addUser(Кирилл, 1488, 18)
+2020-04-04 12:28:39 INFO  SpyManager:67 - addUser(1488, 18 Кирилл)
+2020-04-04 12:28:39 INFO  SpySession:73 - addUser(Кирилл)...
+2020-04-04 12:28:39 INFO  SpySession:82 - ...addUser()
+2020-04-04 12:28:58 INFO  SpyController:34 - addSession(Коля, 1488, 18)
+2020-04-04 12:28:58 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 12:28:58 WARN  SpyManager:33 - Session 1488 is already exists.
+2020-04-04 12:28:59 INFO  SpyController:45 - addUser(Коля, 1488, 18)
+2020-04-04 12:28:59 INFO  SpyManager:67 - addUser(1488, 18 Коля)
+2020-04-04 12:28:59 INFO  SpySession:73 - addUser(Коля)...
+2020-04-04 12:28:59 INFO  SpySession:82 - ...addUser()
+2020-04-04 12:29:00 INFO  SpyController:56 - startGame(Коля, 1488, 18)
+2020-04-04 12:29:00 INFO  SpyManager:39 - startGame(1488, 18)
+2020-04-04 12:29:00 INFO  SpySession:42 - startGame()...
+2020-04-04 12:29:00 INFO  SpySession:138 - updateLocations()
+2020-04-04 12:29:00 INFO  SpySession:48 - Location: колайдер
+2020-04-04 12:29:00 INFO  SpySession:54 - Spy is: Кирилл
+2020-04-04 12:29:00 INFO  SpySession:55 - ...Game started
+2020-04-04 12:29:00 INFO  SpyManager:61 - getUserInformation(1488, 18 Коля)
+2020-04-04 12:29:00 INFO  SpySession:61 - getUserInformation(Коля)
+2020-04-04 12:31:36 INFO  SpyController:34 - addSession(Дмитрий, , )
+2020-04-04 12:31:36 WARN  SpyManager:100 - Removing old games.
+2020-04-04 12:31:36 INFO  SpyController:45 - addUser(Дмитрий, , )
+2020-04-04 12:31:46 INFO  SpyController:34 - addSession(Дмитрий, 1488, 18)
+2020-04-04 12:31:46 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 12:31:49 INFO  SpyController:45 - addUser(Дмитрий, 1488, 18)
+2020-04-04 12:31:49 INFO  SpyManager:67 - addUser(1488, 18 Дмитрий)
+2020-04-04 12:31:49 INFO  SpySession:73 - addUser(Дмитрий)...
+2020-04-04 12:31:49 INFO  SpySession:82 - ...addUser()
+2020-04-04 12:32:01 INFO  SpyController:34 - addSession(Дмитрий, 1488, 18)
+2020-04-04 12:32:01 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 12:32:01 WARN  SpyManager:33 - Session 1488 is already exists.
+2020-04-04 12:32:01 INFO  SpyController:45 - addUser(Дмитрий, 1488, 18)
+2020-04-04 12:32:01 INFO  SpyManager:67 - addUser(1488, 18 Дмитрий)
+2020-04-04 12:32:01 INFO  SpySession:73 - addUser(Дмитрий)...
+2020-04-04 12:32:01 WARN  SpySession:77 - User exist
+2020-04-04 12:32:08 INFO  SpyController:34 - addSession(Коля, 1488, 18)
+2020-04-04 12:32:08 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 12:32:08 WARN  SpyManager:33 - Session 1488 is already exists.
+2020-04-04 12:32:08 INFO  SpyController:45 - addUser(Коля, 1488, 18)
+2020-04-04 12:32:08 INFO  SpyManager:67 - addUser(1488, 18 Коля)
+2020-04-04 12:32:08 INFO  SpySession:73 - addUser(Коля)...
+2020-04-04 12:32:08 INFO  SpySession:82 - ...addUser()
+2020-04-04 12:32:19 INFO  SpyController:34 - addSession(Кирилл, 1488, 18)
+2020-04-04 12:32:19 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 12:32:19 WARN  SpyManager:33 - Session 1488 is already exists.
+2020-04-04 12:32:19 INFO  SpyController:45 - addUser(Кирилл, 1488, 18)
+2020-04-04 12:32:19 INFO  SpyManager:67 - addUser(1488, 18 Кирилл)
+2020-04-04 12:32:19 INFO  SpySession:73 - addUser(Кирилл)...
+2020-04-04 12:32:19 INFO  SpySession:82 - ...addUser()
+2020-04-04 12:32:27 INFO  SpyController:34 - addSession(Оля, 1488, 18)
+2020-04-04 12:32:27 INFO  SpyManager:25 - addSession(1488, 18)
+2020-04-04 12:32:27 WARN  SpyManager:33 - Session 1488 is already exists.
+2020-04-04 12:32:27 INFO  SpyController:45 - addUser(Оля, 1488, 18)
+2020-04-04 12:32:27 INFO  SpyManager:67 - addUser(1488, 18 Оля)
+2020-04-04 12:32:27 INFO  SpySession:73 - addUser(Оля)...
+2020-04-04 12:32:27 INFO  SpySession:82 - ...addUser()
+2020-04-04 12:32:28 INFO  SpyController:56 - startGame(Оля, 1488, 18)
+2020-04-04 12:32:28 INFO  SpyManager:39 - startGame(1488, 18)
+2020-04-04 12:32:28 INFO  SpySession:42 - startGame()...
+2020-04-04 12:32:28 INFO  SpySession:138 - updateLocations()
+2020-04-04 12:32:28 INFO  SpySession:48 - Location: колайдер
+2020-04-04 12:32:28 INFO  SpySession:54 - Spy is: Дмитрий
+2020-04-04 12:32:28 INFO  SpySession:55 - ...Game started
+2020-04-04 12:32:28 INFO  SpyManager:61 - getUserInformation(1488, 18 Оля)
+2020-04-04 12:32:28 INFO  SpySession:61 - getUserInformation(Оля)
+2020-04-04 12:34:40 INFO  SpyController:34 - addSession(Дмитрий, 1, 1)
+2020-04-04 12:34:40 INFO  SpyManager:25 - addSession(1, 1)
+2020-04-04 12:34:40 WARN  SpyManager:100 - Removing old games.
+2020-04-04 12:34:42 INFO  SpyController:45 - addUser(Дмитрий, 1, 1)
+2020-04-04 12:34:42 INFO  SpyManager:67 - addUser(1, 1 Дмитрий)
+2020-04-04 12:34:42 INFO  SpySession:73 - addUser(Дмитрий)...
+2020-04-04 12:34:42 INFO  SpySession:82 - ...addUser()
+2020-04-04 12:34:51 INFO  SpyController:34 - addSession(Коля, 1, 1)
+2020-04-04 12:34:51 INFO  SpyManager:25 - addSession(1, 1)
+2020-04-04 12:34:51 WARN  SpyManager:33 - Session 1 is already exists.
+2020-04-04 12:34:51 INFO  SpyController:45 - addUser(Коля, 1, 1)
+2020-04-04 12:34:51 INFO  SpyManager:67 - addUser(1, 1 Коля)
+2020-04-04 12:34:51 INFO  SpySession:73 - addUser(Коля)...
+2020-04-04 12:34:51 INFO  SpySession:82 - ...addUser()
+2020-04-04 12:34:59 INFO  SpyController:34 - addSession(Оля, 1, 1)
+2020-04-04 12:34:59 INFO  SpyManager:25 - addSession(1, 1)
+2020-04-04 12:34:59 WARN  SpyManager:33 - Session 1 is already exists.
+2020-04-04 12:35:00 INFO  SpyController:45 - addUser(Оля, 1, 1)
+2020-04-04 12:35:00 INFO  SpyManager:67 - addUser(1, 1 Оля)
+2020-04-04 12:35:00 INFO  SpySession:73 - addUser(Оля)...
+2020-04-04 12:35:00 INFO  SpySession:82 - ...addUser()
+2020-04-04 12:35:09 INFO  SpyController:34 - addSession(Ангелина, 1, 1)
+2020-04-04 12:35:09 INFO  SpyManager:25 - addSession(1, 1)
+2020-04-04 12:35:09 WARN  SpyManager:33 - Session 1 is already exists.
+2020-04-04 12:35:09 INFO  SpyController:45 - addUser(Ангелина, 1, 1)
+2020-04-04 12:35:09 INFO  SpyManager:67 - addUser(1, 1 Ангелина)
+2020-04-04 12:35:09 INFO  SpySession:73 - addUser(Ангелина)...
+2020-04-04 12:35:09 INFO  SpySession:82 - ...addUser()
+2020-04-04 12:35:10 INFO  SpyController:56 - startGame(Ангелина, 1, 1)
+2020-04-04 12:35:10 INFO  SpyManager:39 - startGame(1, 1)
+2020-04-04 12:35:10 INFO  SpySession:42 - startGame()...
+2020-04-04 12:35:10 INFO  SpySession:138 - updateLocations()
+2020-04-04 12:35:10 INFO  SpySession:48 - Location: колайдер
+2020-04-04 12:35:10 INFO  SpySession:54 - Spy is: Оля
+2020-04-04 12:35:10 INFO  SpySession:55 - ...Game started
+2020-04-04 12:35:10 INFO  SpyManager:61 - getUserInformation(1, 1 Ангелина)
+2020-04-04 12:35:10 INFO  SpySession:61 - getUserInformation(Ангелина)
+2020-04-04 12:35:14 INFO  SpyController:56 - startGame(Оля, 1, 1)
+2020-04-04 12:35:14 INFO  SpyManager:39 - startGame(1, 1)
+2020-04-04 12:35:14 INFO  SpyManager:61 - getUserInformation(1, 1 Оля)
+2020-04-04 12:35:14 INFO  SpySession:61 - getUserInformation(Оля)
+2020-04-04 12:35:25 INFO  SpyController:56 - startGame(Коля, 1, 1)
+2020-04-04 12:35:25 INFO  SpyManager:39 - startGame(1, 1)
+2020-04-04 12:35:25 INFO  SpyManager:61 - getUserInformation(1, 1 Коля)
+2020-04-04 12:35:25 INFO  SpySession:61 - getUserInformation(Коля)
+2020-04-04 12:35:27 INFO  SpyController:56 - startGame(Дмитрий, 1, 1)
+2020-04-04 12:35:27 INFO  SpyManager:39 - startGame(1, 1)
+2020-04-04 12:35:27 INFO  SpyManager:61 - getUserInformation(1, 1 Дмитрий)
+2020-04-04 12:35:27 INFO  SpySession:61 - getUserInformation(Дмитрий)
+2020-04-04 12:35:30 INFO  SpyController:82 - getSpy(Дмитрий, 1, 1)
+2020-04-04 12:35:30 INFO  SpyManager:85 - getSpy(1, 1)
+2020-04-04 12:35:30 INFO  SpySession:98 - getSpy(Дмитрий):Оля
+2020-04-04 12:35:34 INFO  SpyController:82 - getSpy(Дмитрий, 1, 1)
+2020-04-04 12:35:34 INFO  SpyManager:85 - getSpy(1, 1)
+2020-04-04 12:35:34 INFO  SpySession:98 - getSpy(Дмитрий):Оля
+2020-04-04 12:35:36 INFO  SpyController:82 - getSpy(Дмитрий, 1, 1)
+2020-04-04 12:35:36 INFO  SpyManager:85 - getSpy(1, 1)
+2020-04-04 12:35:36 INFO  SpySession:98 - getSpy(Дмитрий):Оля
+2020-04-04 12:35:38 INFO  SpyController:82 - getSpy(Дмитрий, 1, 1)
+2020-04-04 12:35:38 INFO  SpyManager:85 - getSpy(1, 1)
+2020-04-04 12:35:38 INFO  SpySession:98 - getSpy(Дмитрий):Оля
+2020-04-04 12:35:41 INFO  SpyController:82 - getSpy(Коля, 1, 1)
+2020-04-04 12:35:41 INFO  SpyManager:85 - getSpy(1, 1)
+2020-04-04 12:35:41 INFO  SpySession:98 - getSpy(Коля):Оля
+2020-04-04 12:35:44 INFO  SpyController:82 - getSpy(Оля, 1, 1)
+2020-04-04 12:35:44 INFO  SpyManager:85 - getSpy(1, 1)
+2020-04-04 12:35:44 INFO  SpySession:98 - getSpy(Оля):Оля
+2020-04-04 12:35:47 INFO  SpyController:82 - getSpy(Ангелина, 1, 1)
+2020-04-04 12:35:47 INFO  SpyManager:85 - getSpy(1, 1)
+2020-04-04 12:35:47 INFO  SpySession:98 - getSpy(Ангелина):Оля
+2020-04-04 12:35:51 INFO  SpyController:82 - getSpy(Оля, 1, 1)
+2020-04-04 12:35:51 INFO  SpyManager:85 - getSpy(1, 1)
+2020-04-04 12:35:51 INFO  SpySession:98 - getSpy(Оля):Оля
+2020-04-04 12:35:53 INFO  SpyController:82 - getSpy(Коля, 1, 1)
+2020-04-04 12:35:53 INFO  SpyManager:85 - getSpy(1, 1)
+2020-04-04 12:35:53 INFO  SpySession:98 - getSpy(Коля):Оля
+2020-04-04 12:35:56 INFO  SpyController:82 - getSpy(Дмитрий, 1, 1)
+2020-04-04 12:35:56 INFO  SpyManager:85 - getSpy(1, 1)
+2020-04-04 12:35:56 INFO  SpySession:98 - getSpy(Дмитрий):Оля
+2020-04-04 12:35:58 INFO  SpyController:70 - stopGame(Дмитрий, 1, 1)
+2020-04-04 12:35:58 INFO  SpyManager:73 - stopGame(1, 1)
+2020-04-04 12:35:58 INFO  SpySession:90 - stopGame()
+2020-04-04 12:36:02 INFO  SpyController:70 - stopGame(Коля, 1, 1)
+2020-04-04 12:36:02 INFO  SpyManager:73 - stopGame(1, 1)
+2020-04-04 12:36:05 INFO  SpyController:70 - stopGame(Оля, 1, 1)
+2020-04-04 12:36:05 INFO  SpyManager:73 - stopGame(1, 1)
+2020-04-04 12:36:08 INFO  SpyController:70 - stopGame(Ангелина, 1, 1)
+2020-04-04 12:36:08 INFO  SpyManager:73 - stopGame(1, 1)
+2020-04-04 12:36:50 INFO  SpyController:34 - addSession(Ангелина, 1, 1)
+2020-04-04 12:36:50 INFO  SpyManager:25 - addSession(1, 1)
+2020-04-04 12:36:50 WARN  SpyManager:100 - Removing old games.
+2020-04-04 12:36:52 INFO  SpyController:45 - addUser(Ангелина, 1, 1)
+2020-04-04 12:36:52 INFO  SpyManager:67 - addUser(1, 1 Ангелина)
+2020-04-04 12:36:52 INFO  SpySession:73 - addUser(Ангелина)...
+2020-04-04 12:36:52 INFO  SpySession:82 - ...addUser()
+2020-04-04 12:36:53 INFO  SpyController:56 - startGame(Ангелина, 1, 1)
+2020-04-04 12:36:53 INFO  SpyManager:39 - startGame(1, 1)
+2020-04-04 12:36:53 INFO  SpySession:42 - startGame()...
+2020-04-04 12:36:53 INFO  SpySession:138 - updateLocations()
+2020-04-04 12:36:53 INFO  SpySession:48 - Location: пятерочка
+2020-04-04 12:36:53 INFO  SpySession:54 - Spy is: Ангелина
+2020-04-04 12:36:53 INFO  SpySession:55 - ...Game started
+2020-04-04 12:36:53 INFO  SpyManager:61 - getUserInformation(1, 1 Ангелина)
+2020-04-04 12:36:53 INFO  SpySession:61 - getUserInformation(Ангелина)
+2020-04-04 12:37:00 INFO  SpyController:70 - stopGame(Ангелина, 1, 1)
+2020-04-04 12:37:00 INFO  SpyManager:73 - stopGame(1, 1)
+2020-04-04 12:37:00 INFO  SpySession:90 - stopGame()

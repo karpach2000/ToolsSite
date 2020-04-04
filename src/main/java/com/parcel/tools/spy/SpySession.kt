@@ -5,10 +5,11 @@ import java.lang.Exception
 import java.nio.file.Files
 import java.nio.file.Paths
 
+class SpySessionException(message: String):Exception(message)
 
-object Spy {
+class SpySession(val sessionId: Long, val sessionPas: Long) {
 
-    private val logger = org.apache.log4j.Logger.getLogger(Spy::class.java!!)
+    private val logger = org.apache.log4j.Logger.getLogger(SpySession::class.java!!)
 
     private val folder = "spy/"
     private val fileName = "locations.txt"
@@ -20,14 +21,24 @@ object Spy {
     private var spyName = ""
 
     var spyIsNotSecret = false
+    private set
 
     private var started = false
+
+    var startTime = 0L
+    private set
+
+    init {
+        startTime = System.currentTimeMillis()
+    }
+
 
     fun startGame()
     {
 
         if (!started) {
             started = true
+            spyIsNotSecret = false
             logger.info("startGame()...")
             updateLocations()
 
@@ -51,7 +62,7 @@ object Spy {
         users.forEach {
             if(it.name == userName)
             {
-                return UserInformation(it, currentLocation, users.size, spyIsNotSecret)
+                return UserInformation(it, currentLocation, users.size, spyIsNotSecret,getAllUsers())
             }
         }
         return UserInformation("User name not correct", spyIsNotSecret)
@@ -82,16 +93,46 @@ object Spy {
         started = false
     }
 
-    fun getSpy(): String
+    fun getSpy(userName: String): String
     {
-        logger.info("getSpy():$spyName")
-        spyIsNotSecret = true
-        return spyName
+        logger.info("getSpy($userName):$spyName")
+        getUser(userName).wantSeeSpy = true
+        if(isEvrybodyWantSeaSpy()) {
+            spyIsNotSecret = true
+            return spyName
+        }
+        return "Не все пользователи хотят видеть шпиона."
+    }
+
+    fun getAllUsers():String
+    {
+        var userList =""
+        users.forEach {
+            userList = userList+ "    " +it.name + "\n"
+        }
+        return userList
+    }
+
+    private fun isEvrybodyWantSeaSpy(): Boolean
+    {
+        users.forEach {
+            if(!it.wantSeeSpy)
+                return false
+        }
+        return true
+    }
+
+    private fun getUser(name: String): User
+    {
+        users.forEach {
+            if(it.name == name)
+                return it
+        }
+        throw SpyManagerException("Can`t finde user: $name")
     }
 
 
-
-
+    @Synchronized
     private fun updateLocations() : Boolean
     {
         logger.info("updateLocations()")
