@@ -2,7 +2,9 @@ package com.parcel.tools.controllers.games
 
 import com.parcel.tools.constructor.Page
 import com.parcel.tools.constructor.games.CounterGames
-import com.parcel.tools.spy.SpyManager
+import com.parcel.tools.spy.SpySessionException
+import com.parcel.tools.spy.SpySessionManager
+import com.parcel.tools.spy.SpySessionManagerException
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
 import org.springframework.web.bind.annotation.RequestMapping
@@ -32,7 +34,7 @@ class SpyController {
                          @RequestParam("sessionId") sessionId: String = "",
                          @RequestParam("sessionPas") sessionPas: String = ""): String {
         logger.info("addSession($userName, $sessionId, $sessionPas)")
-        return SpyManager.addSession(sessionId.toLong(), sessionPas.toLong()).toString()
+        return SpySessionManager.addSession(sessionId.toLong(), sessionPas.toLong()).toString()
     }
 
     @RequestMapping("/games/spy_addUser")
@@ -43,7 +45,17 @@ class SpyController {
                          @RequestParam("sessionId") sessionId: String = "",
                          @RequestParam("sessionPas") sessionPas: String = ""): String {
         logger.info("addUser($userName, $sessionId, $sessionPas)")
-        return SpyManager.addUser(sessionId.toLong(), sessionPas.toLong(), userName).toString()
+        return try {
+            SpySessionManager.addUser(sessionId.toLong(), sessionPas.toLong(), userName).toString()
+        }
+        catch(ex: SpySessionManagerException) {
+            ex.message!!
+        }
+        catch (ex: SpySessionException){
+            logger.warn(ex.message)
+            ex.message!!
+        }
+
     }
 
     @RequestMapping("/games/spy_start_game")
@@ -54,9 +66,9 @@ class SpyController {
                            @RequestParam("sessionId") sessionId: String = "",
                            @RequestParam("sessionPas") sessionPas: String = ""): String {
         logger.info("startGame($userName, $sessionId, $sessionPas)")
-        SpyManager.startGame(sessionId.toLong(), sessionPas.toLong())
+        SpySessionManager.startGame(sessionId.toLong(), sessionPas.toLong())
         val userInformation =
-                SpyManager.getUserInformation(sessionId.toLong(), sessionPas.toLong(),userName)
+                SpySessionManager.getUserInformation(sessionId.toLong(), sessionPas.toLong(),userName)
         return userInformation.toString()
     }
 
@@ -68,7 +80,7 @@ class SpyController {
                           @RequestParam("sessionId") sessionId: String = "",
                           @RequestParam("sessionPas") sessionPas: String = ""): String {
         logger.info("stopGame($userName, $sessionId, $sessionPas)")
-        SpyManager.stopGame(sessionId.toLong(), sessionPas.toLong())
+        SpySessionManager.stopGame(sessionId.toLong(), sessionPas.toLong())
         return "true"
     }
 
@@ -80,7 +92,15 @@ class SpyController {
                         @RequestParam("sessionId") sessionId: String = "",
                         @RequestParam("sessionPas") sessionPas: String = ""): String {
         logger.info("getSpy($userName, $sessionId, $sessionPas)")
-        return SpyManager.getSpy(sessionId.toLong(), sessionPas.toLong(), userName)
+        try {
+            return SpySessionManager.getSpy(sessionId.toLong(), sessionPas.toLong(), userName)
+        }
+        catch (ex: SpySessionException)
+        {
+            logger.warn(ex.message)
+            return ex.message!!
+        }
+
     }
 
     @RequestMapping("/games/spy_is_spy_showen")
@@ -91,7 +111,7 @@ class SpyController {
                              @RequestParam("sessionId") sessionId: String = "",
                              @RequestParam("sessionPas") sessionPas: String = ""): String {
         logger.info("isSpyShowen($userName, $sessionId, $sessionPas)")
-        return SpyManager.isSpyUncovered(sessionId.toLong(), sessionPas.toLong()).toString()
+        return SpySessionManager.isSpyUncovered(sessionId.toLong(), sessionPas.toLong()).toString()
     }
 
 

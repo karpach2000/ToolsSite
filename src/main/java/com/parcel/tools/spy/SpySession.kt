@@ -21,9 +21,10 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
     private var spyName = ""
 
     var spyIsNotSecret = false
-    private set
+        private set
 
-    private var started = false
+    var started = false
+        private set
 
     var startTime = 0L
     private set
@@ -71,19 +72,26 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
     fun addUser(name: String): Boolean
     {
         logger.info("addUser($name)...")
-        if(name.length>2) {
-            users.forEach {
-                if (it.name == name) {
-                    logger.warn("User exist")
-                    return false
-                }
-            }
-            users.add(User(name))
-            logger.info("...addUser()")
-            return true
+        if(started)
+        {
+            logger.warn("Game  started.")
+            throw SpySessionException("The game is already running.")
         }
-        logger.warn("To short user name.")
-        return false
+        else if(name.length<1) {
+            logger.warn("To short user name.")
+            throw SpySessionException("To short user name.")
+        }
+
+        users.forEach {
+            if (it.name == name) {
+                 logger.warn("A user with the same name already exists.")
+                throw SpySessionException("A user with the same name already exists.")
+            }
+        }
+
+        users.add(User(name))
+        logger.info("...addUser()")
+        return true
     }
     fun stopGame()
     {
@@ -128,7 +136,7 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
             if(it.name == name)
                 return it
         }
-        throw SpyManagerException("Can`t finde user: $name")
+        throw SpySessionManagerException("Can`t finde user: $name")
     }
 
 

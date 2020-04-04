@@ -3,12 +3,37 @@ function addUser() {
     var userName = document.getElementById("userName").value
     var sessionId = document.getElementById("sessionId").value
     var sessionPas = document.getElementById("sessionPas").value
+
+    if(userName == "")
+    {
+        alert("Заполните поле \"Имя пользователя\"")
+        return
+    }
+    else if(sessionId == "")
+    {
+        alert("Заполните поле \"ID сессии\"")
+        return
+    }
+    else if(sessionPas == "")
+    {
+        alert("Заполните поле \"Пароль сессии\"")
+        return
+    }
+
     //create session
     xmlHttp.open("GET", "/games/spy_add_session?userName="+userName+"&sessionId="+sessionId+
         "&sessionPas="+sessionPas, false); // false for synchronous request
     xmlHttp.send(null);
     if(xmlHttp.responseText=="true") {
         alert("Игра создана.")
+    }
+    else if(xmlHttp.responseText=="false")
+    {
+        //alert("Ничего не делаем.")
+    }
+    else
+    {
+        xmlHttp.responseText
     }
 
 
@@ -24,7 +49,7 @@ function addUser() {
     }
     else
     {
-        alert("Введеное имя пользователя слишком короткое или пользователь с данным именем уже существует")
+        alert(xmlHttp.responseText)
     }
 }
 
@@ -35,6 +60,7 @@ function startGame() {
     var userName = document.getElementById("userName").value
     var sessionId = document.getElementById("sessionId").value
     var sessionPas = document.getElementById("sessionPas").value
+
     xmlHttp.open("GET", "/games/spy_start_game?userName="+userName+"&sessionId="+sessionId+
         "&sessionPas="+sessionPas, false); // false for synchronous request
     xmlHttp.send(null);

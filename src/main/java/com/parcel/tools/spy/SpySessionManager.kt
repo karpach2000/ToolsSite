@@ -1,12 +1,13 @@
 package com.parcel.tools.spy
 
-class SpyManagerException(message: String): Exception(message)
+class SpySessionManagerException(message: String): Exception(message)
 
-object SpyManager {
+object SpySessionManager {
 
     private val gameLifeTime = 60L*60L*1000L*2
+    private val destructorPeriod = 60L*1000L
 
-    private val logger = org.apache.log4j.Logger.getLogger(SpyManager::class.java!!)
+    private val logger = org.apache.log4j.Logger.getLogger(SpySessionManager::class.java!!)
 
     private val spySessions = ArrayList<SpySession>()
 
@@ -83,7 +84,10 @@ object SpyManager {
     fun getSpy(sessionId: Long, sessionPas: Long, userName: String): String
     {
         logger.info("getSpy($sessionId, $sessionPas)")
-        return getSession(sessionId, sessionPas).getSpy(userName)
+        if(isSessionExists(sessionId))
+            return getSession(sessionId, sessionPas).getSpy(userName)
+        else
+            throw SpySessionException("Session $sessionId does not exist. Maybe someone finished the game.")
     }
 
     private fun destructorAction()
@@ -91,7 +95,7 @@ object SpyManager {
         while (true)
         {
             removeOldGames()
-            Thread.sleep(gameLifeTime)
+            Thread.sleep(destructorPeriod)
         }
     }
 
@@ -100,7 +104,7 @@ object SpyManager {
         logger.warn("Removing old games.")
         val current = System.currentTimeMillis()
         spySessions.forEach {
-            if(current -it.startTime> this.gameLifeTime) {
+            if(current- it.startTime> this.gameLifeTime) {
                 logger.warn("Removing game: ${it.sessionId}")
                 spySessions.remove(it)
             }
@@ -117,10 +121,10 @@ object SpyManager {
                     return it
                 }
                 else
-                    throw SpyManagerException("Id or password not correct!")
+                    throw SpySessionManagerException("Id or password not correct!")
 
         }
-        throw SpyManagerException("Id not correct!")
+        throw SpySessionManagerException("Id not correct!")
     }
 
     private fun isSessionExists(sessionId: Long): Boolean
