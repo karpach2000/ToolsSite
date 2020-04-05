@@ -17,9 +17,17 @@ object SpySessionManager {
         }).start()
     }
 
+    @Synchronized
+    fun subscribeSpySessionEvent(sessionId: Long, sessionPas: Long, spyEvent: SpyEvent)
+    {
+        getSession(sessionId, sessionPas).subscribeSpyEvents(spyEvent)
+    }
 
-
-
+    fun deSubscribeSpySessionEvent(sessionId: Long, sessionPas: Long, spyEvent: SpyEvent)
+    {
+        if(isSessionExists(sessionId))
+            getSession(sessionId, sessionPas).deSubscribeSpyEvents(spyEvent)
+    }
 
     fun addSession(sessionId: Long, sessionPas: Long): Boolean
     {
@@ -79,6 +87,11 @@ object SpySessionManager {
             return true
         }
         return false
+    }
+
+    fun getUsers(sessionId: Long, sessionPas: Long):String {
+        logger.info("getUsers($sessionId, $sessionPas)")
+        return getSession(sessionId, sessionPas).getAllUsers()
     }
 
     fun getSpy(sessionId: Long, sessionPas: Long, userName: String): String

@@ -103,7 +103,7 @@ class SpyController {
 
     }
 
-    @RequestMapping("/games/spy_is_spy_showen")
+    @RequestMapping("/games/spy_is_spy_showen")///games/spy_get_users
     @ResponseBody
     @Throws(IOException::class)
     internal fun isSpyShowen(model: Model,
@@ -112,6 +112,17 @@ class SpyController {
                              @RequestParam("sessionPas") sessionPas: String = ""): String {
         logger.info("isSpyShowen($userName, $sessionId, $sessionPas)")
         return SpySessionManager.isSpyUncovered(sessionId.toLong(), sessionPas.toLong()).toString()
+    }
+
+    @RequestMapping("/games/spy_get_users")///games/spy_get_users
+    @ResponseBody
+    @Throws(IOException::class)
+    internal fun getUsers(model: Model,
+                             @RequestParam("userName") userName: String = "",
+                             @RequestParam("sessionId") sessionId: String = "",
+                             @RequestParam("sessionPas") sessionPas: String = ""): String {
+        logger.info("isSpyShowen($userName, $sessionId, $sessionPas)")
+        return SpySessionManager.getUsers(sessionId.toLong(), sessionPas.toLong())
     }
 
 

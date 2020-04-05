@@ -10,6 +10,7 @@ class SpySessionException(message: String):Exception(message)
 class SpySession(val sessionId: Long, val sessionPas: Long) {
 
     private val logger = org.apache.log4j.Logger.getLogger(SpySession::class.java!!)
+    private val spyEvents = ArrayList<SpyEvent>()
 
     private val folder = "spy/"
     private val fileName = "locations.txt"
@@ -19,6 +20,9 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
 
     private val users = ArrayList<User>()
     private var spyName = ""
+
+    var mainUserName = ""
+    private set
 
     var spyIsNotSecret = false
         private set
@@ -54,6 +58,8 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
             spyName = users[spyIndex].name
             logger.info("Spy is: $spyName")
             logger.info("...Game started")
+
+            startGameEvent()
         }
     }
 
@@ -72,26 +78,38 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
     fun addUser(name: String): Boolean
     {
         logger.info("addUser($name)...")
-        if(started)
+        val userExist = isUserExist(name)
+        if(started && !userExist)
         {
             logger.warn("Game  started.")
             throw SpySessionException("The game is already running.")
+        }
+        else if(started && userExist)
+        {
+            logger.warn("User $name already exists. Access is allowed.")
+            addUserEvent(getAllUsers())
+            return true
         }
         else if(name.length<1) {
             logger.warn("To short user name.")
             throw SpySessionException("To short user name.")
         }
-
-        users.forEach {
-            if (it.name == name) {
-                 logger.warn("A user with the same name already exists.")
-                throw SpySessionException("A user with the same name already exists.")
-            }
+        else if(!started && userExist)
+        {
+            logger.warn("A user with the same name already exists.")
+            throw SpySessionException("A user with the same name already exists.")
         }
-
-        users.add(User(name))
-        logger.info("...addUser()")
-        return true
+        else
+        {
+            if(users.size == 0)
+            {
+                mainUserName = name
+            }
+            users.add(User(name))
+            logger.info("...addUser()")
+            addUserEvent(getAllUsers())
+            return true
+        }
     }
     fun stopGame()
     {
@@ -99,17 +117,17 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
         users.clear()
         spyIsNotSecret = false
         started = false
+        stopGameEvent(spyName)
     }
 
     fun getSpy(userName: String): String
     {
         logger.info("getSpy($userName):$spyName")
-        getUser(userName).wantSeeSpy = true
-        if(isEvrybodyWantSeaSpy()) {
-            spyIsNotSecret = true
-            return spyName
-        }
-        return "Не все пользователи хотят видеть шпиона."
+        spyIsNotSecret = true
+        spyIsNotSecret
+        spyIsNotSecretEvent(spyName)
+        return spyName
+
     }
 
     fun getAllUsers():String
@@ -130,6 +148,15 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
         return true
     }
 
+    private fun isUserExist(name: String): Boolean
+    {
+        users.forEach {
+            if(it.name == name)
+                return true
+        }
+        return false
+    }
+
     private fun getUser(name: String): User
     {
         users.forEach {
@@ -140,6 +167,43 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
     }
 
 
+    /********EVENTS***********/
+    fun subscribeSpyEvents(spyEvent: SpyEvent)
+    {
+        spyEvents.add(spyEvent)
+    }
+
+    fun deSubscribeSpyEvents(spyEvent: SpyEvent)
+    {
+        spyEvents.remove(spyEvent)
+    }
+
+    private fun addUserEvent(userList: String)
+    {
+        spyEvents.forEach {
+            Thread.sleep(0)
+            it.addUserEvent(userList)
+            Thread.sleep(10)
+        }
+    }
+
+    private fun startGameEvent()
+    {
+        spyEvents.forEach { it.startGameEvent() }
+    }
+
+    private fun stopGameEvent(spyName: String)
+    {
+        spyEvents.forEach { it.stopGameEvent(spyName) }
+    }
+
+    private fun spyIsNotSecretEvent(spyName: String)
+    {
+        spyEvents.forEach { it.spyIsNotSecretEvent(spyName) }
+    }
+
+
+    /*******SETTINGS*********/
     @Synchronized
     private fun updateLocations() : Boolean
     {
