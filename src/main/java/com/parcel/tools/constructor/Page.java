@@ -25,6 +25,7 @@ public class Page {
         mainMenu.addItem("Мелкие утилиты","/utils");
         mainMenu.addItem("Инженерные инструменты","/etools");
         mainMenu.addItem("Игры","/games");
+        mainMenu.addItem("Настройка игр","/games_settings");
         mainMenu.addItem("Администрирование","/admin");
         mainMenu.addItem("Logout","/logout");
         //mainMenu.addItem("MQTT сервер","/mqttServer");

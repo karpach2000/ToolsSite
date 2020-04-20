@@ -1,15 +1,15 @@
-package com.parcel.tools.constructor.games;
+package com.parcel.tools.constructor.gamesSettings;
 
-import com.parcel.tools.constructor.bodies.ws.CounterMenuWs;
+import com.parcel.tools.constructor.games.CounterMenuGames;
 import com.parcel.tools.spy.SpySessionManager;
 
 import java.util.ArrayList;
 
-public class CounterGames {
-    public CounterMenuGames counterMenu= new CounterMenuGames();
-    public String descriptionText="Игры.";
+public class CounterGamesSettings {
+    public CounterMenuGamesSettings counterMenu= new CounterMenuGamesSettings();
+    public String descriptionText="Настройка игр.";
     public ArrayList<String> locations = new ArrayList<String>();
-    public CounterGames()
+    public CounterGamesSettings()
     {
         counterMenu.addItem("Шпион.","ropeSlack");
         try {

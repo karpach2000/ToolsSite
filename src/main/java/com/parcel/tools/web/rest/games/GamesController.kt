@@ -2,6 +2,7 @@ package com.parcel.tools.web.rest.games
 
 import com.parcel.tools.constructor.Page
 import com.parcel.tools.constructor.games.CounterGames
+import com.parcel.tools.constructor.gamesSettings.CounterGamesSettings
 import com.parcel.tools.spy.SpySessionException
 import com.parcel.tools.spy.SpySessionManager
 import com.parcel.tools.spy.SpySessionManagerException
@@ -14,17 +15,37 @@ import java.io.IOException
 import javax.servlet.http.HttpSession
 
 @Controller
-class SpyController {
+class GamesController {
 
-    private val logger = org.apache.log4j.Logger.getLogger(SpyController::class.java!!)
+    private val logger = org.apache.log4j.Logger.getLogger(GamesController::class.java!!)
 
     @RequestMapping("/games")
     @Throws(IOException::class)
-    internal fun spy(model: Model, session: HttpSession): String {
+    internal fun games(model: Model, session: HttpSession): String {
         val counter = CounterGames()
         val page = Page(counter)
         model.addAttribute("page", page)
         return "web/html/games"
+    }
+
+    @RequestMapping("/games_settings")
+    @Throws(IOException::class)
+    internal fun gamesSettings(model: Model, session: HttpSession): String {
+        val counter = CounterGamesSettings()
+        val page = Page(counter)
+        model.addAttribute("page", page)
+        return "web/html/gamesSettings"
+    }
+
+    @RequestMapping("/addLocation")
+    @Throws(IOException::class)
+    internal fun addLocation(model: Model, session: HttpSession,
+                               @RequestParam("locationName") locationName: String = ""): String {
+        SpySessionManager.addLocation(locationName)
+        val counter = CounterGamesSettings()
+        val page = Page(counter)
+        model.addAttribute("page", page)
+        return "web/html/gamesSettings"
     }
 
     @RequestMapping("/games/spy_add_session")

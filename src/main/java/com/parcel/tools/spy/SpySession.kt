@@ -208,6 +208,20 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
 
     /*******SETTINGS*********/
     @Synchronized
+    fun addLocation(location: String): Boolean
+    {
+        if(!locations.contains(location))
+        {
+            locations.add(location)
+            create(locations)
+            return true
+        }
+        else
+            return false
+    }
+
+
+    @Synchronized
     private fun updateLocations() : Boolean
     {
         logger.info("updateLocations()")
@@ -238,7 +252,7 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
         }
     }
 
-    private fun create() : Boolean
+    private fun create(locations: ArrayList<String> = arrayListOf("пятерочка", "колайдер", "яблочково")) : Boolean
     {
         try {
             val file = File(folder + fileName)
@@ -252,8 +266,9 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
             if (file.exists())
                 file.delete()
             file.createNewFile()
-
-            file.writeText("колайдер\nпятерочка\nяблочково\n")
+            var text = ""
+            locations.forEach { text = text + it + "\n" }
+            file.writeText(text)
             return true
         }
         catch (e: Exception)

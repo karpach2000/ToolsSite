@@ -34286,3 +34286,94 @@ The WebSocket session [2] has been closed and no method (apart from close()) may
 2020-04-20 17:26:05 DEBUG SpySessionManager:122 - Removing old games.
 2020-04-20 17:26:37 INFO  SpyWebSocketController:65 - Web socket connection closed.
 2020-04-20 17:26:37 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-20 20:16:25 INFO  UserManager:34 - Init UserManager (database)
+2020-04-20 20:16:25 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:16:42 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:16:42 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:17:20 INFO  UserManager:73 - addUser(user, user, USER)
+2020-04-20 20:17:20 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:17:20 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:17:47 INFO  UserManager:73 - addUser(admin, admin, ADMIN)
+2020-04-20 20:17:47 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:17:47 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:18:09 INFO  UserManager:86 - dellUser(afiskon)
+2020-04-20 20:18:22 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:18:22 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:18:51 DEBUG SpySessionManager:126 - Removing old games.
+2020-04-20 20:18:51 INFO  SpySession:227 - updateLocations()
+2020-04-20 20:18:51 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-20 20:18:51 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-20 20:18:51 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-20 20:18:52 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-20 20:18:59 INFO  SpySession:227 - updateLocations()
+2020-04-20 20:19:51 DEBUG SpySessionManager:126 - Removing old games.
+2020-04-20 20:20:51 DEBUG SpySessionManager:126 - Removing old games.
+2020-04-20 20:21:51 DEBUG SpySessionManager:126 - Removing old games.
+2020-04-20 20:22:46 INFO  UserManager:34 - Init UserManager (database)
+2020-04-20 20:22:46 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:23:10 DEBUG SpySessionManager:126 - Removing old games.
+2020-04-20 20:23:10 INFO  SpySession:227 - updateLocations()
+2020-04-20 20:23:10 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-20 20:23:10 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-20 20:23:10 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-20 20:23:11 INFO  SpySession:227 - updateLocations()
+2020-04-20 20:23:11 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-20 20:24:10 DEBUG SpySessionManager:126 - Removing old games.
+2020-04-20 20:24:23 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:24:23 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:24:28 INFO  UserManager:86 - dellUser(dfdfdf)
+2020-04-20 20:24:28 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:24:28 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:24:41 INFO  UserManager:86 - dellUser(jkjk)
+2020-04-20 20:24:41 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:24:41 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:24:56 INFO  UserManager:86 - dellUser(kola)
+2020-04-20 20:24:56 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:24:56 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:25:06 INFO  UserManager:86 - dellUser(afiskon)
+2020-04-20 20:25:10 INFO  UserManager:86 - dellUser(kola)
+2020-04-20 20:25:10 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:25:10 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:25:10 DEBUG SpySessionManager:126 - Removing old games.
+2020-04-20 20:25:52 INFO  UserManager:34 - Init UserManager (database)
+2020-04-20 20:25:53 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:26:01 DEBUG SpySessionManager:126 - Removing old games.
+2020-04-20 20:26:01 INFO  SpySession:227 - updateLocations()
+2020-04-20 20:27:01 DEBUG SpySessionManager:126 - Removing old games.
+2020-04-20 20:28:01 DEBUG SpySessionManager:126 - Removing old games.
+2020-04-20 20:29:01 DEBUG SpySessionManager:126 - Removing old games.
+2020-04-20 20:30:01 DEBUG SpySessionManager:126 - Removing old games.
+2020-04-20 20:31:01 DEBUG SpySessionManager:126 - Removing old games.
+2020-04-20 20:31:13 INFO  UserManager:34 - Init UserManager (database)
+2020-04-20 20:31:13 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:31:17 DEBUG SpySessionManager:126 - Removing old games.
+2020-04-20 20:31:17 INFO  SpySession:227 - updateLocations()
+2020-04-20 20:31:50 INFO  UserManager:34 - Init UserManager (database)
+2020-04-20 20:31:50 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:31:55 DEBUG SpySessionManager:126 - Removing old games.
+2020-04-20 20:31:55 INFO  SpySession:227 - updateLocations()
+2020-04-20 20:31:55 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-20 20:31:55 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-20 20:31:55 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-20 20:31:57 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-20 20:32:05 INFO  SpySession:227 - updateLocations()
+2020-04-20 20:32:10 INFO  SpySession:227 - updateLocations()
+2020-04-20 20:32:10 INFO  SpySession:227 - updateLocations()
+2020-04-20 20:32:43 INFO  SpySession:227 - updateLocations()
+2020-04-20 20:32:43 INFO  SpySession:227 - updateLocations()
+2020-04-20 20:32:45 INFO  SpySession:227 - updateLocations()
+2020-04-20 20:32:45 INFO  SpySession:227 - updateLocations()
+2020-04-20 20:32:55 DEBUG SpySessionManager:126 - Removing old games.
+2020-04-20 20:33:55 DEBUG SpySessionManager:126 - Removing old games.
+2020-04-20 20:34:46 INFO  UserManager:34 - Init UserManager (database)
+2020-04-20 20:34:46 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:35:02 DEBUG SpySessionManager:126 - Removing old games.
+2020-04-20 20:35:02 INFO  SpySession:227 - updateLocations()
+2020-04-20 20:35:09 INFO  SpySession:227 - updateLocations()
+2020-04-20 20:35:09 INFO  SpySession:227 - updateLocations()
+2020-04-20 20:38:05 INFO  UserManager:34 - Init UserManager (database)
+2020-04-20 20:38:05 INFO  UserManager:64 - getAllUsers()
+2020-04-20 20:38:15 DEBUG SpySessionManager:126 - Removing old games.
+2020-04-20 20:38:15 INFO  SpySession:227 - updateLocations()
+2020-04-20 20:38:23 INFO  SpySession:227 - updateLocations()
+2020-04-20 20:38:23 INFO  SpySession:227 - updateLocations()

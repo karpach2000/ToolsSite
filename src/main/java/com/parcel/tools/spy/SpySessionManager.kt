@@ -21,6 +21,10 @@ object SpySessionManager {
     {
         return SpySession(-1, -1).locations
     }
+    fun addLocation(location: String): Boolean
+    {
+        return SpySession(-1, -1).addLocation(location)
+    }
 
     @Synchronized
     fun subscribeSpySessionEvent(sessionId: Long, sessionPas: Long, spyEvent: SpyEvent)
