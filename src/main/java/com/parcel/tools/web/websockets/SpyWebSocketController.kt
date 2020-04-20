@@ -1,4 +1,4 @@
-package com.parcel.tools.websockets
+package com.parcel.tools.web.websockets
 
 import com.parcel.tools.spy.SpyEvent
 import com.parcel.tools.spy.SpySessionManager

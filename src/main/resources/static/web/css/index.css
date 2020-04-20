@@ -10,7 +10,10 @@
     float: right;
     width: 20%;
 }
-
+.logOut{
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    float: right;
+}
 .leftMenu{
     color: #747474;
     background-color: #E4E4E4;

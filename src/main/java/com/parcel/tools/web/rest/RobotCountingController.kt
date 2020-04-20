@@ -1,4 +1,4 @@
-package com.parcel.tools.controllers
+package com.parcel.tools.web.rest
 
 import com.parcel.tools.robot.Counter
 import com.parcel.tools.robot.RobotProtocol

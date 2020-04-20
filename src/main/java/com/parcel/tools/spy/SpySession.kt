@@ -4,6 +4,7 @@ import java.io.File
 import java.lang.Exception
 import java.nio.file.Files
 import java.nio.file.Paths
+import kotlin.random.Random
 
 class SpySessionException(message: String):Exception(message)
 
@@ -15,7 +16,8 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
     private val folder = "spy/"
     private val fileName = "locations.txt"
 
-    private val locations = ArrayList<String>()
+    val locations = ArrayList<String>()
+
     private var currentLocation = ""
 
     private val users = ArrayList<User>()
@@ -35,11 +37,14 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
 
     init {
         startTime = System.currentTimeMillis()
+        updateLocations()
     }
 
 
     fun startGame()
     {
+
+
 
         if (!started) {
             started = true
@@ -48,12 +53,12 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
             updateLocations()
 
             //делаем локацию
-            val locationIndex: Int = (Math.random() * (locations.size - 1)).toInt()
+            val locationIndex: Int = GlobalRandomiser.getRundom(locations.size)
             currentLocation = locations[locationIndex]
             logger.info("Location: $currentLocation")
 
             //выбираем шпиона
-            val spyIndex = (Math.random() * (users.size - 1)).toInt()
+            val spyIndex = GlobalRandomiser.getRundom(users.size)
             users[spyIndex].spy = true
             spyName = users[spyIndex].name
             logger.info("Spy is: $spyName")
@@ -181,9 +186,7 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
     private fun addUserEvent(userList: String)
     {
         spyEvents.forEach {
-            Thread.sleep(0)
             it.addUserEvent(userList)
-            Thread.sleep(10)
         }
     }
 

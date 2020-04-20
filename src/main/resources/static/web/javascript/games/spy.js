@@ -18,11 +18,11 @@ function onConnectionOpen() {
 }
 function onclose() {
     //websocketConnection.close()
-    //websocketConnection = new WebSocket(wsConnectionUri);
-    //websocketConnection.onerror = function(evt) { onConnectionError(evt) };
-    //websocketConnection.onopen = function(evt) { onConnectionOpen(evt) };
-    //websocketConnection.onmessage = function(evt) { onConnectionMessage(evt) };
-    //websocketConnection.onclose = function(evt) { onclose(evt) };
+    websocketConnection = new WebSocket(wsConnectionUri);
+    websocketConnection.onerror = function(evt) { onConnectionError(evt) };
+    websocketConnection.onopen = function(evt) { onConnectionOpen(evt) };
+    websocketConnection.onmessage = function(evt) { onConnectionMessage(evt) };
+    websocketConnection.onclose = function(evt) { onclose(evt) };
 }
 
 function onConnectionMessage(evt) {

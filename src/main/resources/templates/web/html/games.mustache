@@ -60,6 +60,25 @@
         <input type="button" onclick="showSpy()" name="showSpy" value="Показать шпиона">
         <!--input type="button" onclick="isSpyShowen()" name="isSpyShowen" value="Видел ли кто шпиона"-->
         <input type="button" onclick="stopGame()" name="stopGame" value="Закончить игру">
+
+
+        <ul id="locations" >
+            <table border="1">
+                <thead>
+                <tr>
+                    <th>Локации</th>
+                </tr>
+                </thead>
+                <tbody>
+                {{# page.pageBody.locations}}
+                    <tr   class='table-data'>
+                        <td>{{.}}</td>
+                    </tr>
+                {{/ page.pageBody.locations}}
+                </tbody>
+            </table>
+        </ul>
+
     </div>
 </div>
 

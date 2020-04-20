@@ -1,4 +1,4 @@
-package com.parcel.tools.controllers.games
+package com.parcel.tools.web.rest.games
 
 import com.parcel.tools.constructor.Page
 import com.parcel.tools.constructor.games.CounterGames
@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.ResponseBody
 import java.io.IOException
+import javax.servlet.http.HttpSession
 
 @Controller
 class SpyController {
@@ -19,7 +20,7 @@ class SpyController {
 
     @RequestMapping("/games")
     @Throws(IOException::class)
-    internal fun spy(model: Model): String {
+    internal fun spy(model: Model, session: HttpSession): String {
         val counter = CounterGames()
         val page = Page(counter)
         model.addAttribute("page", page)

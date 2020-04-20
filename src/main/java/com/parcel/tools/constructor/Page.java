@@ -25,7 +25,8 @@ public class Page {
         mainMenu.addItem("Мелкие утилиты","/utils");
         mainMenu.addItem("Инженерные инструменты","/etools");
         mainMenu.addItem("Игры","/games");
-        mainMenu.addItem("Расчет манипуляторов","/countingManipulators");
+        mainMenu.addItem("Администрирование","/admin");
+        mainMenu.addItem("Logout","/logout");
         //mainMenu.addItem("MQTT сервер","/mqttServer");
         //****Сайтовые рекомендации*****//
         advertising.addItem("Решения для автоматизации.","https://parcel-se.ru/");

@@ -17,6 +17,11 @@ object SpySessionManager {
         }).start()
     }
 
+    fun getLocationList() :ArrayList<String>
+    {
+        return SpySession(-1, -1).locations
+    }
+
     @Synchronized
     fun subscribeSpySessionEvent(sessionId: Long, sessionPas: Long, spyEvent: SpyEvent)
     {
@@ -114,11 +119,11 @@ object SpySessionManager {
 
     private fun removeOldGames()
     {
-        logger.warn("Removing old games.")
+        logger.debug("Removing old games.")
         val current = System.currentTimeMillis()
         spySessions.forEach {
             if(current- it.startTime> this.gameLifeTime) {
-                logger.warn("Removing game: ${it.sessionId}")
+                logger.debug("Removing game: ${it.sessionId}")
                 spySessions.remove(it)
             }
         }

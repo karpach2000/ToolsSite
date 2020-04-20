@@ -1,7 +1,7 @@
-package com.parcel.tools.websockets.config;
+package com.parcel.tools.web.websockets.config;
 
 
-import com.parcel.tools.websockets.SpyWebSocketController;
+import com.parcel.tools.web.websockets.SpyWebSocketController;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.socket.config.annotation.*;
 

@@ -1,6 +1,8 @@
 package com.parcel.tools.constructor.bodies.ws;
 
 public class CounterWs {
+
+
     public CounterMenuWs counterMenu= new CounterMenuWs();
     public String descriptionText="Инструменты для расчета различных инженерных систем.";
 
