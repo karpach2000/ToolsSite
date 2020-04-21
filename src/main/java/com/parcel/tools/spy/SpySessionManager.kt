@@ -25,8 +25,29 @@ object SpySessionManager {
     }
     fun addLocation(location: String, user: String): Boolean
     {
+        logger.info("addLocation($location, $user)")
+        if (location.length>20)
+        {
+            logger.warn("Can`t add location. To much simbols (${location.length}).")
+            return false
+        }
+
+        var locatinLowCase = location.toLowerCase()
+        for(c in locatinLowCase)
+        {
+            if((c in 'a'..'z') || (c in 'а'..'я') || c=='.')
+            {
+                //do nothing
+            }
+            else {
+                logger.warn("Can`t add location. Wrong simbols.")
+                return false
+            }
+        }
         return Globals.spyLocationManager.addLocation(location, user)
     }
+
+
     fun deleteLocation(location: String, user: String): Boolean
     {
         return Globals.spyLocationManager.deleteLocation(location, user)
