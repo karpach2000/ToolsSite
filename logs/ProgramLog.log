@@ -35574,3 +35574,68 @@ The WebSocket session [2] has been closed and no method (apart from close()) may
 2020-04-21 17:37:54 DEBUG SpySessionManager:153 - Removing old games.
 2020-04-21 17:38:54 DEBUG SpySessionManager:153 - Removing old games.
 2020-04-21 17:39:54 DEBUG SpySessionManager:153 - Removing old games.
+2020-04-21 17:40:54 DEBUG SpySessionManager:153 - Removing old games.
+2020-04-21 17:41:54 DEBUG SpySessionManager:153 - Removing old games.
+2020-04-21 17:42:54 DEBUG SpySessionManager:153 - Removing old games.
+2020-04-21 17:43:54 DEBUG SpySessionManager:153 - Removing old games.
+2020-04-21 17:44:49 INFO  UserManager:34 - Init UserManager (database)
+2020-04-21 17:44:49 INFO  SpyLocationManager:21 - Init UserManager (database)
+2020-04-21 17:44:49 INFO  UserManager:64 - getAllUsers()
+2020-04-21 17:44:59 INFO  SpyLocationManager:58 - getAllLocations()
+2020-04-21 17:44:59 DEBUG SpySessionManager:153 - Removing old games.
+2020-04-21 17:45:00 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-21 17:45:00 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-21 17:45:00 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-21 17:45:02 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-21 17:45:11 INFO  UserManager:64 - getAllUsers()
+2020-04-21 17:45:11 INFO  UserManager:64 - getAllUsers()
+2020-04-21 17:45:13 INFO  SpyLocationManager:58 - getAllLocations()
+2020-04-21 17:45:13 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-21 17:45:13 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-21 17:45:13 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-21 17:45:18 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-21 17:45:24 INFO  SpyLocationManager:58 - getAllLocations()
+2020-04-21 17:45:24 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-21 17:45:24 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-21 17:45:24 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-21 17:45:25 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-21 17:45:27 INFO  SpyLocationManager:58 - getAllLocations()
+2020-04-21 17:45:27 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-21 17:45:27 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-21 17:45:27 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-21 17:45:28 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-21 17:45:53 INFO  UserManager:34 - Init UserManager (database)
+2020-04-21 17:45:53 INFO  SpyLocationManager:21 - Init UserManager (database)
+2020-04-21 17:45:53 INFO  UserManager:64 - getAllUsers()
+2020-04-21 17:46:32 INFO  SpyLocationManager:58 - getAllLocations()
+2020-04-21 17:46:32 DEBUG SpySessionManager:153 - Removing old games.
+2020-04-21 17:46:54 INFO  UserManager:34 - Init UserManager (database)
+2020-04-21 17:46:54 INFO  SpyLocationManager:21 - Init UserManager (database)
+2020-04-21 17:46:54 INFO  UserManager:64 - getAllUsers()
+2020-04-21 17:47:06 INFO  SpyLocationManager:58 - getAllLocations()
+2020-04-21 17:47:06 DEBUG SpySessionManager:153 - Removing old games.
+2020-04-21 17:47:48 INFO  SpySessionManager:28 - addLocation(МГТУ им. Баумана, user)
+2020-04-21 17:47:48 WARN  SpySessionManager:43 - Can`t add location. Wrong simbols.
+2020-04-21 17:47:48 INFO  SpyLocationManager:58 - getAllLocations()
+2020-04-21 17:48:06 DEBUG SpySessionManager:153 - Removing old games.
+2020-04-21 20:36:33 INFO  UserManager:34 - Init UserManager (database)
+2020-04-21 20:36:33 INFO  SpyLocationManager:21 - Init UserManager (database)
+2020-04-21 20:36:33 INFO  UserManager:64 - getAllUsers()
+2020-04-21 20:36:56 INFO  SpyLocationManager:58 - getAllLocations()
+2020-04-21 20:36:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:37:19 INFO  SpySessionManager:30 - addLocation(http://127.0.0.1:8080/games_settings, user)
+2020-04-21 20:37:19 WARN  SpySessionManager:33 - Can`t add location. To much simbols (36).
+2020-04-21 20:37:19 INFO  SpyLocationManager:58 - getAllLocations()
+2020-04-21 20:37:28 INFO  SpySessionManager:30 - addLocation(Жопа, user)
+2020-04-21 20:37:28 INFO  SpyLocationManager:65 - addLocation(Жопа, user)
+2020-04-21 20:37:28 INFO  SpyLocationManager:58 - getAllLocations()
+2020-04-21 20:37:44 INFO  SpySessionManager:30 - addLocation(мгту - рггу, user)
+2020-04-21 20:37:44 INFO  SpyLocationManager:65 - addLocation(мгту - рггу, user)
+2020-04-21 20:37:44 INFO  SpyLocationManager:58 - getAllLocations()
+2020-04-21 20:37:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:38:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:39:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:40:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:41:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:42:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:43:56 DEBUG SpySessionManager:156 - Removing old games.

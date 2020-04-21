@@ -10,6 +10,8 @@ object SpySessionManager {
     private val gameLifeTime = 60L*60L*1000L*2
     private val destructorPeriod = 60L*1000L
 
+    private val LOCATION_SIMVOLS_COUNT = 30
+
     private val logger = org.apache.log4j.Logger.getLogger(SpySessionManager::class.java!!)
 
     private val spySessions = ArrayList<SpySession>()
@@ -26,7 +28,7 @@ object SpySessionManager {
     fun addLocation(location: String, user: String): Boolean
     {
         logger.info("addLocation($location, $user)")
-        if (location.length>20)
+        if (location.length>LOCATION_SIMVOLS_COUNT)
         {
             logger.warn("Can`t add location. To much simbols (${location.length}).")
             return false
@@ -35,7 +37,7 @@ object SpySessionManager {
         var locatinLowCase = location.toLowerCase()
         for(c in locatinLowCase)
         {
-            if((c in 'a'..'z') || (c in 'а'..'я') || c=='.')
+            if((c in 'a'..'z') || (c in 'а'..'я') || c=='.' || c==' ' || c=='-')
             {
                 //do nothing
             }
@@ -50,6 +52,7 @@ object SpySessionManager {
 
     fun deleteLocation(location: String, user: String): Boolean
     {
+        logger.info("deleteLocation($location, $user)")
         return Globals.spyLocationManager.deleteLocation(location, user)
     }
 

@@ -34,9 +34,10 @@
 <!--SPY-->
 <div id="spy" class="bodyDiv">
     <div id="user" class="spy">
+        <h2>{{page.pageBody.errorMessage}}</h2>
         <form method="GET" action="/addLocation">
             <label for="locationName">Название локации</label>
-            <input type="text"  name = "locationName"  id="locationName" size="30" onkeyup="this.value = this.value.replace(/[^A-Za-zА-Яа-яЁё0-9]/,'');"
+            <input type="text"  name = "locationName"  id="locationName" size="30" onkeyup="this.value = this.value.replace(/[^A-Za-zА-Яа-яЁё0-9 .-]/,'');"
                    class="textboxWithLinck"  required><br>
             <input type="submit" name="button" value="Add">
             <input type="submit" name="button" value="Delete">

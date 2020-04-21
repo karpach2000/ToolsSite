@@ -10,6 +10,7 @@ import java.util.List;
 public class CounterGamesSettings {
     public CounterMenuGamesSettings counterMenu= new CounterMenuGamesSettings();
     public String descriptionText="Настройка игр.";
+    public String errorMessage ="";
     public List<SpyLocation> locations = new ArrayList<SpyLocation>();
     public CounterGamesSettings()
     {

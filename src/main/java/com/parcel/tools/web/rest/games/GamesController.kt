@@ -51,15 +51,18 @@ class GamesController {
                 .authentication
                 .principal as User
         val name: String = user.getUsername()
+        var result = false
         if(button =="Add") {
 
-            SpySessionManager.addLocation(locationName, name)
+            result = SpySessionManager.addLocation(locationName, name)
         }
         else if(button == "Delete")
         {
-            SpySessionManager.deleteLocation(locationName, name)
+            result = SpySessionManager.deleteLocation(locationName, name)
         }
         val counter = CounterGamesSettings()
+        if(!result)
+            counter.errorMessage = "Ошибка добавления/удаления локации";
         val page = Page(counter)
         model.addAttribute("page", page)
         return "web/html/gamesSettings"
