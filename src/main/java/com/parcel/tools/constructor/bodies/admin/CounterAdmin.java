@@ -15,8 +15,9 @@ public class CounterAdmin {
     public List<Users> users = new ArrayList<Users>();
     public CounterAdmin()
     {
-        counterMenu.addItem("Показать пользователей", "userTabel");
-        counterMenu.addItem("Добавить или удалить пользователей", "createUser");
+        counterMenu.addItem("Список пользователей", "userList");
+        counterMenu.addItem("Добавить пользователя", "createUser");
+        counterMenu.addItem("Удалить пользователя", "deleteUser");
         getUsers();
     }
 

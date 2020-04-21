@@ -34,7 +34,7 @@
 </div>
 
     <div id="createUser" class="createUser" class="bodyDiv" hidden>
-        <form method="GET" action="/addUser">
+        <form method="GET" class="bodyDiv" action="/addUser">
             <label for="login">Имя пользователя</label>
             <input type="text"   id="login" size="10" name = "login" onkeyup="this.value = this.value.replace(/[^A-Za-zА-Яа-яЁё0-9]/,'');"
                    class="login"  required><br>
@@ -53,15 +53,15 @@
 
 
 
-    <div id="userTabel" class="bodyDiv">
-        <div id = "deleteUser">
-            <form method="GET" action="/deleteUser">
+    <div id="deleteUser" class="bodyDiv" hidden>
+            <form method="GET" action="/deleteUser" class="bodyDiv">
                 <label for="login">Имя пользователя</label>
                 <input type="text"  name = "login"  id="name" size="10" onkeyup="this.value = this.value.replace(/[^A-Za-zА-Яа-яЁё0-9]/,'');" required>
                 <input type="submit" name="deleteUser" value="Удалить пользователя">
             </form>
-        </div>
-        <ul id="menuCountingItems" >
+    </div>
+    <div id="userList" class="bodyDiv">
+        <ul id="menuCountingItems" class="bodyDiv">
             <table border="1">
                 <thead>
                 <tr>
@@ -82,7 +82,8 @@
                 </tbody>
             </table>
         </ul>
-    </div>
+    <div/>
+
 </div>
 
 

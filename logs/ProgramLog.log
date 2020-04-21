@@ -35639,3 +35639,576 @@ The WebSocket session [2] has been closed and no method (apart from close()) may
 2020-04-21 20:41:56 DEBUG SpySessionManager:156 - Removing old games.
 2020-04-21 20:42:56 DEBUG SpySessionManager:156 - Removing old games.
 2020-04-21 20:43:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:44:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:45:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:46:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:47:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:48:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:49:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:50:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:51:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:52:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:53:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:54:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:55:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:56:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:57:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:58:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 20:59:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:00:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:01:56 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:02:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:03:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:04:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:05:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:06:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:07:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:08:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:09:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:10:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:11:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:12:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:13:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:14:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:15:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:16:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:17:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:18:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:19:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:20:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:21:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:22:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:23:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:24:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:25:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:26:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:27:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:28:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:29:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:30:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:31:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:32:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:33:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:34:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:35:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:36:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:37:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:38:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:39:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:40:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:41:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:42:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:43:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:44:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:45:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:46:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:47:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:48:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:49:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:50:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:51:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:52:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:53:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:54:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:55:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:56:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:57:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:58:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 21:59:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 22:00:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 22:01:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 22:02:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 22:03:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 22:04:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 22:05:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 22:06:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 22:07:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 22:08:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 22:09:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 22:10:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 22:11:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 22:12:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 22:13:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 22:14:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 22:15:57 DEBUG SpySessionManager:156 - Removing old games.
+2020-04-21 22:17:07 INFO  UserManager:34 - Init UserManager (database)
+2020-04-21 22:17:07 INFO  SpyLocationManager:21 - Init UserManager (database)
+2020-04-21 22:17:07 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:17:23 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:17:23 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:17:23 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-21 22:17:23 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-21 22:17:23 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-21 22:17:25 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-21 22:17:51 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:17:58 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:17:58 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:18:17 INFO  UserManager:79 - addUser(kola, kola, USER)
+2020-04-21 22:18:17 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:18:17 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:18:23 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:19:22 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:19:23 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:19:31 INFO  SpySessionManager:55 - deleteLocation(Жопа, karpach2000)
+2020-04-21 22:19:31 INFO  UserManager:105 - getUserRoles(karpach2000)
+2020-04-21 22:19:31 INFO  SpyLocationManager:79 - deleteLocation(Жопа, karpach2000)
+2020-04-21 22:19:31 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:19:52 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:19:58 INFO  SpySessionManager:30 - addLocation(Жопа, kola)
+2020-04-21 22:19:58 INFO  SpyLocationManager:72 - addLocation(Жопа, kola)
+2020-04-21 22:19:58 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:20:09 INFO  SpySessionManager:55 - deleteLocation(Самолет, kola)
+2020-04-21 22:20:09 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-21 22:20:09 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-21 22:20:09 INFO  SpyLocationManager:52 - getAllLocationsAsString()
+2020-04-21 22:20:23 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:21:20 INFO  UserManager:34 - Init UserManager (database)
+2020-04-21 22:21:20 INFO  SpyLocationManager:21 - Init UserManager (database)
+2020-04-21 22:21:20 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:21:35 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:21:35 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:21:43 INFO  SpySessionManager:55 - deleteLocation(Самолет, kola)
+2020-04-21 22:21:43 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-21 22:21:43 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-21 22:21:43 INFO  SpyLocationManager:52 - getAllLocationsAsString()
+2020-04-21 22:21:43 WARN  SpySessionManager:64 - Delete location error! User has no ruuls.
+2020-04-21 22:21:43 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:22:01 INFO  SpySessionManager:55 - deleteLocation(Жопа, kola)
+2020-04-21 22:22:01 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-21 22:22:01 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-21 22:22:01 INFO  SpyLocationManager:52 - getAllLocationsAsString()
+2020-04-21 22:22:01 INFO  SpyLocationManager:79 - deleteLocation(Жопа, kola)
+2020-04-21 22:22:01 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:22:35 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:23:35 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:24:35 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:25:35 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:26:35 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:27:35 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:28:35 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:29:11 INFO  UserManager:34 - Init UserManager (database)
+2020-04-21 22:29:11 INFO  SpyLocationManager:21 - Init UserManager (database)
+2020-04-21 22:29:11 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:37:53 INFO  UserManager:34 - Init UserManager (database)
+2020-04-21 22:37:53 INFO  SpyLocationManager:21 - Init UserManager (database)
+2020-04-21 22:37:53 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:38:09 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:38:09 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:42:54 INFO  UserManager:34 - Init UserManager (database)
+2020-04-21 22:42:54 INFO  SpyLocationManager:21 - Init UserManager (database)
+2020-04-21 22:42:55 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:43:25 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:43:25 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:43:50 INFO  UserManager:34 - Init UserManager (database)
+2020-04-21 22:43:50 INFO  SpyLocationManager:21 - Init UserManager (database)
+2020-04-21 22:43:50 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:44:08 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:44:08 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:44:28 INFO  UserManager:92 - dellUser(di.romanov)
+2020-04-21 22:44:28 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:44:28 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:44:37 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:44:37 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:44:57 INFO  SpySessionManager:30 - addLocation(Самолет, karpach2000)
+2020-04-21 22:44:57 INFO  SpyLocationManager:72 - addLocation(Самолет, karpach2000)
+2020-04-21 22:45:37 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:45:53 INFO  UserManager:34 - Init UserManager (database)
+2020-04-21 22:45:53 INFO  SpyLocationManager:21 - Init UserManager (database)
+2020-04-21 22:45:53 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:46:16 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:46:16 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:46:25 INFO  SpySessionManager:55 - deleteLocation(Самолет, karpach2000)
+2020-04-21 22:46:25 INFO  UserManager:105 - getUserRoles(karpach2000)
+2020-04-21 22:46:25 INFO  SpyLocationManager:79 - deleteLocation(Самолет, karpach2000)
+2020-04-21 22:46:25 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:46:32 INFO  SpySessionManager:30 - addLocation(Самолет, karpach2000)
+2020-04-21 22:46:32 INFO  SpyLocationManager:72 - addLocation(Самолет, karpach2000)
+2020-04-21 22:46:32 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:46:41 INFO  SpySessionManager:30 - addLocation(Самолет, karpach2000)
+2020-04-21 22:46:41 INFO  SpyLocationManager:72 - addLocation(Самолет, karpach2000)
+2020-04-21 22:46:41 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:46:47 INFO  SpySessionManager:30 - addLocation(Самолет, karpach2000)
+2020-04-21 22:46:47 INFO  SpyLocationManager:72 - addLocation(Самолет, karpach2000)
+2020-04-21 22:46:47 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:47:18 INFO  UserManager:34 - Init UserManager (database)
+2020-04-21 22:47:18 INFO  SpyLocationManager:21 - Init UserManager (database)
+2020-04-21 22:47:18 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:47:32 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:47:32 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:47:42 INFO  SpySessionManager:30 - addLocation(Самолет, karpach2000)
+2020-04-21 22:47:42 INFO  SpyLocationManager:72 - addLocation(Самолет, karpach2000)
+2020-04-21 22:47:42 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:47:52 INFO  SpySessionManager:30 - addLocation(самолет, karpach2000)
+2020-04-21 22:47:52 INFO  SpyLocationManager:72 - addLocation(самолет, karpach2000)
+2020-04-21 22:47:52 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:47:56 INFO  SpySessionManager:55 - deleteLocation(ававава, karpach2000)
+2020-04-21 22:47:56 INFO  UserManager:105 - getUserRoles(karpach2000)
+2020-04-21 22:47:56 INFO  SpyLocationManager:79 - deleteLocation(ававава, karpach2000)
+2020-04-21 22:47:56 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:48:00 INFO  SpySessionManager:55 - deleteLocation(апапапапапап, karpach2000)
+2020-04-21 22:48:00 INFO  UserManager:105 - getUserRoles(karpach2000)
+2020-04-21 22:48:00 INFO  SpyLocationManager:79 - deleteLocation(апапапапапап, karpach2000)
+2020-04-21 22:48:00 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:48:14 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:48:23 INFO  SpySessionManager:55 - deleteLocation(Самолет, user)
+2020-04-21 22:48:23 INFO  UserManager:105 - getUserRoles(user)
+2020-04-21 22:48:23 INFO  UserManager:105 - getUserRoles(user)
+2020-04-21 22:48:23 INFO  SpyLocationManager:52 - getAllLocationsAsString()
+2020-04-21 22:48:23 WARN  SpySessionManager:64 - Delete location error! User has no ruuls.
+2020-04-21 22:48:23 INFO  SpyLocationManager:65 - getAllLocations()
+2020-04-21 22:48:32 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:48:34 INFO  SpySessionManager:55 - deleteLocation(пивзавод, user)
+2020-04-21 22:48:34 INFO  UserManager:105 - getUserRoles(user)
+2020-04-21 22:48:34 INFO  UserManager:105 - getUserRoles(user)
+2020-04-21 22:48:34 INFO  SpyLocationManager:52 - getAllLocationsAsString()
+2020-04-21 22:49:32 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:50:32 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:51:32 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:52:32 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:53:32 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:54:32 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:55:32 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:56:32 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:57:32 DEBUG SpySessionManager:165 - Removing old games.
+2020-04-21 22:58:08 INFO  UserManager:34 - Init UserManager (database)
+2020-04-21 22:58:08 INFO  SpyLocationManager:24 - Init UserManager (database)
+2020-04-21 22:58:08 INFO  UserManager:70 - getAllUsers()
+2020-04-21 22:58:34 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 22:58:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-21 22:58:39 INFO  SpySessionManager:57 - deleteLocation(fdfdfdf, user)
+2020-04-21 22:58:39 INFO  UserManager:105 - getUserRoles(user)
+2020-04-21 22:58:39 INFO  UserManager:105 - getUserRoles(user)
+2020-04-21 22:58:39 INFO  SpyLocationManager:55 - getLocationsUser(fdfdfdf)
+2020-04-21 22:58:39 WARN  SpySessionManager:72 - Can't finde location 'fdfdfdf'
+2020-04-21 22:58:39 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 22:58:55 INFO  SpySessionManager:57 - deleteLocation(пивзавод, user)
+2020-04-21 22:58:55 INFO  UserManager:105 - getUserRoles(user)
+2020-04-21 22:58:55 INFO  UserManager:105 - getUserRoles(user)
+2020-04-21 22:58:55 INFO  SpyLocationManager:55 - getLocationsUser(пивзавод)
+2020-04-21 22:58:55 WARN  SpySessionManager:72 - Can't finde location 'пивзавод'
+2020-04-21 22:58:55 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 22:59:08 INFO  SpySessionManager:57 - deleteLocation(пивзавод, user)
+2020-04-21 22:59:08 INFO  UserManager:105 - getUserRoles(user)
+2020-04-21 22:59:08 INFO  UserManager:105 - getUserRoles(user)
+2020-04-21 22:59:08 INFO  SpyLocationManager:55 - getLocationsUser(пивзавод)
+2020-04-21 22:59:08 WARN  SpySessionManager:72 - Can't finde location 'пивзавод'
+2020-04-21 22:59:08 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 22:59:14 INFO  SpySessionManager:32 - addLocation(фывап, user)
+2020-04-21 22:59:14 INFO  SpyLocationManager:79 - addLocation(фывап, user)
+2020-04-21 22:59:14 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 22:59:26 INFO  SpySessionManager:57 - deleteLocation(фывап, user)
+2020-04-21 22:59:26 INFO  UserManager:105 - getUserRoles(user)
+2020-04-21 22:59:26 INFO  UserManager:105 - getUserRoles(user)
+2020-04-21 22:59:26 INFO  SpyLocationManager:55 - getLocationsUser(фывап)
+2020-04-21 22:59:26 INFO  SpyLocationManager:86 - deleteLocation(фывап, user)
+2020-04-21 22:59:26 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 22:59:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-21 22:59:37 INFO  SpySessionManager:57 - deleteLocation(Вертолет, user)
+2020-04-21 22:59:37 INFO  UserManager:105 - getUserRoles(user)
+2020-04-21 22:59:37 INFO  UserManager:105 - getUserRoles(user)
+2020-04-21 22:59:37 INFO  SpyLocationManager:55 - getLocationsUser(Вертолет)
+2020-04-21 22:59:37 WARN  SpySessionManager:67 - Delete location error! User has no ruuls.
+2020-04-21 22:59:37 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 22:59:42 INFO  SpySessionManager:32 - addLocation(Вертолет, user)
+2020-04-21 22:59:42 INFO  SpyLocationManager:79 - addLocation(Вертолет, user)
+2020-04-21 22:59:42 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 22:59:58 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 23:00:13 INFO  SpySessionManager:32 - addLocation(Жигули, karpach2000)
+2020-04-21 23:00:13 INFO  SpyLocationManager:79 - addLocation(Жигули, karpach2000)
+2020-04-21 23:00:13 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 23:00:28 INFO  SpySessionManager:57 - deleteLocation(пивзовод, karpach2000)
+2020-04-21 23:00:28 INFO  UserManager:105 - getUserRoles(karpach2000)
+2020-04-21 23:00:28 INFO  SpyLocationManager:86 - deleteLocation(пивзовод, karpach2000)
+2020-04-21 23:00:28 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 23:00:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-21 23:01:07 INFO  SpySessionManager:32 - addLocation(SELECT * FROM users;, karpach2000)
+2020-04-21 23:01:07 WARN  SpySessionManager:47 - Can`t add location. Wrong simbols.
+2020-04-21 23:01:07 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 23:01:24 INFO  SpySessionManager:32 - addLocation(SELECT login FROM users, karpach2000)
+2020-04-21 23:01:24 INFO  SpyLocationManager:79 - addLocation(SELECT login FROM users, karpach2000)
+2020-04-21 23:01:24 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 23:01:32 INFO  SpySessionManager:57 - deleteLocation(SELECT login FROM users, karpach2000)
+2020-04-21 23:01:32 INFO  UserManager:105 - getUserRoles(karpach2000)
+2020-04-21 23:01:32 INFO  SpyLocationManager:86 - deleteLocation(SELECT login FROM users, karpach2000)
+2020-04-21 23:01:32 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 23:01:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-21 23:01:36 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 23:01:36 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-21 23:01:36 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-21 23:01:36 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-21 23:01:45 INFO  GamesController:78 - addSession(Въезд, 1, 1)
+2020-04-21 23:01:45 INFO  SpySessionManager:92 - addSession(1, 1)
+2020-04-21 23:01:45 INFO  SpySession:216 - updateLocations()
+2020-04-21 23:01:45 INFO  SpyLocationManager:66 - getAllLocationsAsString()
+2020-04-21 23:01:53 INFO  GamesController:78 - addSession(Въезд, 1, 1)
+2020-04-21 23:01:53 INFO  SpySessionManager:92 - addSession(1, 1)
+2020-04-21 23:01:53 INFO  SpySession:216 - updateLocations()
+2020-04-21 23:01:53 INFO  SpyLocationManager:66 - getAllLocationsAsString()
+2020-04-21 23:01:56 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 23:01:56 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-21 23:01:56 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-21 23:01:56 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-21 23:01:56 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-21 23:02:04 INFO  GamesController:78 - addSession(Выезд, 12, 12)
+2020-04-21 23:02:04 INFO  SpySessionManager:92 - addSession(12, 12)
+2020-04-21 23:02:04 INFO  SpySession:216 - updateLocations()
+2020-04-21 23:02:04 INFO  SpyLocationManager:66 - getAllLocationsAsString()
+2020-04-21 23:02:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-21 23:03:34 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-21 23:03:42 INFO  UserManager:34 - Init UserManager (database)
+2020-04-21 23:03:42 INFO  SpyLocationManager:24 - Init UserManager (database)
+2020-04-21 23:03:42 INFO  UserManager:70 - getAllUsers()
+2020-04-21 23:03:55 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-21 23:03:55 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-21 23:03:55 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-21 23:03:58 INFO  GamesController:78 - addSession(Выезд, 12, 12)
+2020-04-21 23:03:58 INFO  SpySessionManager:92 - addSession(12, 12)
+2020-04-21 23:03:58 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-21 23:03:58 INFO  SpySession:216 - updateLocations()
+2020-04-21 23:03:58 INFO  SpyLocationManager:66 - getAllLocationsAsString()
+2020-04-21 23:03:58 INFO  SpyWebSocketController:77 - RX :init_12 12 Выезд 
+2020-04-21 23:03:58 INFO  SpyWebSocketController:85 - Web socket connection subscribe. id: 12, pas: 12 name: Выезд
+2020-04-21 23:03:58 INFO  GamesController:89 - addUser(Выезд, 12, 12)
+2020-04-21 23:03:58 INFO  SpySessionManager:134 - addUser(12, 12 Выезд)
+2020-04-21 23:03:58 INFO  SpySession:86 - addUser(Выезд)...
+2020-04-21 23:03:58 INFO  SpySession:115 - ...addUser()
+2020-04-21 23:03:58 INFO  SpyWebSocketController:51 - TX (Выезд):addUserEvent_    Выезд
+
+2020-04-21 23:03:58 INFO  GamesController:166 - isSpyShowen(Выезд, 12, 12)
+2020-04-21 23:03:58 INFO  SpySessionManager:151 - getUsers(12, 12)
+2020-04-21 23:03:58 INFO  SpyWebSocketController:77 - RX :ok_Выезд 
+2020-04-21 23:04:04 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 23:04:04 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-21 23:04:04 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-21 23:04:04 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-21 23:04:14 INFO  GamesController:78 - addSession(Выезд, 256, 256)
+2020-04-21 23:04:14 INFO  SpySessionManager:92 - addSession(256, 256)
+2020-04-21 23:04:14 INFO  SpySession:216 - updateLocations()
+2020-04-21 23:04:14 INFO  SpyLocationManager:66 - getAllLocationsAsString()
+2020-04-21 23:04:14 INFO  SpyWebSocketController:77 - RX :init_256 256 Выезд 
+2020-04-21 23:04:14 INFO  SpyWebSocketController:85 - Web socket connection subscribe. id: 256, pas: 256 name: Выезд
+2020-04-21 23:04:14 INFO  GamesController:89 - addUser(Выезд, 256, 256)
+2020-04-21 23:04:14 INFO  SpySessionManager:134 - addUser(256, 256 Выезд)
+2020-04-21 23:04:14 INFO  SpySession:86 - addUser(Выезд)...
+2020-04-21 23:04:14 INFO  SpySession:115 - ...addUser()
+2020-04-21 23:04:14 INFO  SpyWebSocketController:51 - TX (Выезд):addUserEvent_    Выезд
+
+2020-04-21 23:04:14 INFO  GamesController:166 - isSpyShowen(Выезд, 256, 256)
+2020-04-21 23:04:14 INFO  SpySessionManager:151 - getUsers(256, 256)
+2020-04-21 23:04:14 INFO  SpyWebSocketController:77 - RX :ok_Выезд 
+2020-04-21 23:04:17 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-21 23:04:25 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 23:04:25 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-21 23:04:25 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-21 23:04:25 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-21 23:04:38 INFO  GamesController:78 - addSession(Эксперементальнаяплата, 256, 256)
+2020-04-21 23:04:38 INFO  SpySessionManager:92 - addSession(256, 256)
+2020-04-21 23:04:38 WARN  SpySessionManager:100 - Session 256 is already exists.
+2020-04-21 23:04:38 INFO  SpyWebSocketController:77 - RX :init_256 256 Эксперементальнаяплата 
+2020-04-21 23:04:38 INFO  SpyWebSocketController:85 - Web socket connection subscribe. id: 256, pas: 256 name: Эксперементальнаяплата
+2020-04-21 23:04:38 INFO  GamesController:89 - addUser(Эксперементальнаяплата, 256, 256)
+2020-04-21 23:04:38 INFO  SpySessionManager:134 - addUser(256, 256 Эксперементальнаяплата)
+2020-04-21 23:04:38 INFO  SpySession:86 - addUser(Эксперементальнаяплата)...
+2020-04-21 23:04:38 INFO  SpySession:115 - ...addUser()
+2020-04-21 23:04:38 INFO  SpyWebSocketController:51 - TX (Выезд):addUserEvent_    Выезд
+    Эксперементальнаяплата
+
+2020-04-21 23:04:38 INFO  SpyWebSocketController:51 - TX (Эксперементальнаяплата):addUserEvent_    Выезд
+    Эксперементальнаяплата
+
+2020-04-21 23:04:38 INFO  SpyWebSocketController:77 - RX :ok_Выезд 
+2020-04-21 23:04:38 INFO  GamesController:166 - isSpyShowen(Эксперементальнаяплата, 256, 256)
+2020-04-21 23:04:38 INFO  SpySessionManager:151 - getUsers(256, 256)
+2020-04-21 23:04:38 INFO  SpyWebSocketController:77 - RX :ok_Эксперементальнаяплата 
+2020-04-21 23:04:41 INFO  GamesController:110 - startGame(Эксперементальнаяплата, 256, 256)
+2020-04-21 23:04:41 INFO  SpySessionManager:106 - startGame(256, 256)
+2020-04-21 23:04:41 INFO  SpySession:53 - startGame()...
+2020-04-21 23:04:41 INFO  SpySession:216 - updateLocations()
+2020-04-21 23:04:41 INFO  SpyLocationManager:66 - getAllLocationsAsString()
+2020-04-21 23:04:41 INFO  SpySession:59 - Location: мгту - рггу
+2020-04-21 23:04:41 INFO  SpySession:65 - Spy is: Выезд
+2020-04-21 23:04:41 INFO  SpySession:66 - ...Game started
+2020-04-21 23:04:41 INFO  SpyWebSocketController:51 - TX (Выезд):startGameEvent
+2020-04-21 23:04:41 INFO  SpyWebSocketController:51 - TX (Эксперементальнаяплата):startGameEvent
+2020-04-21 23:04:41 INFO  SpySessionManager:128 - getUserInformation(256, 256 Эксперементальнаяплата)
+2020-04-21 23:04:41 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-21 23:04:41 INFO  SpySession:74 - getUserInformation(Эксперементальнаяплата)
+2020-04-21 23:04:41 INFO  GamesController:110 - startGame(Выезд, 256, 256)
+2020-04-21 23:04:41 INFO  SpySessionManager:106 - startGame(256, 256)
+2020-04-21 23:04:41 INFO  SpySessionManager:128 - getUserInformation(256, 256 Выезд)
+2020-04-21 23:04:41 INFO  SpySession:74 - getUserInformation(Выезд)
+2020-04-21 23:04:41 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-21 23:04:41 INFO  GamesController:110 - startGame(Эксперементальнаяплата, 256, 256)
+2020-04-21 23:04:41 INFO  SpySessionManager:106 - startGame(256, 256)
+2020-04-21 23:04:41 INFO  SpySessionManager:128 - getUserInformation(256, 256 Эксперементальнаяплата)
+2020-04-21 23:04:41 INFO  SpySession:74 - getUserInformation(Эксперементальнаяплата)
+2020-04-21 23:04:49 INFO  GamesController:136 - getSpy(Выезд, 256, 256)
+2020-04-21 23:04:49 INFO  SpySessionManager:157 - getSpy(256, 256)
+2020-04-21 23:04:49 INFO  SpySession:131 - getSpy(Выезд):Выезд
+2020-04-21 23:04:49 INFO  SpyWebSocketController:51 - TX (Выезд):spyIsNotSecretEvent_Выезд
+2020-04-21 23:04:49 INFO  SpyWebSocketController:51 - TX (Эксперементальнаяплата):spyIsNotSecretEvent_Выезд
+2020-04-21 23:04:49 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-21 23:04:49 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-21 23:04:56 INFO  GamesController:124 - stopGame(Эксперементальнаяплата, 256, 256)
+2020-04-21 23:04:56 INFO  SpySessionManager:140 - stopGame(256, 256)
+2020-04-21 23:04:56 INFO  SpySession:122 - stopGame()
+2020-04-21 23:04:56 INFO  SpyWebSocketController:51 - TX (Выезд):stopGameEvent_Выезд
+2020-04-21 23:04:56 INFO  SpyWebSocketController:51 - TX (Эксперементальнаяплата):stopGameEvent_Выезд
+2020-04-21 23:04:56 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-21 23:04:56 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-21 23:04:58 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-21 23:05:02 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-21 23:05:10 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 23:05:26 INFO  SpySessionManager:32 - addLocation(Водокачка, kola)
+2020-04-21 23:05:26 INFO  SpyLocationManager:79 - addLocation(Водокачка, kola)
+2020-04-21 23:05:26 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 23:05:31 INFO  SpySessionManager:32 - addLocation(Вертолет, kola)
+2020-04-21 23:05:31 INFO  SpyLocationManager:79 - addLocation(Вертолет, kola)
+2020-04-21 23:05:31 INFO  SpyLocationManager:72 - getAllLocations()
+2020-04-21 23:05:44 INFO  SpySessionManager:57 - deleteLocation(Вертолет, kola)
+2020-04-21 23:05:44 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-21 23:05:44 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-21 23:05:44 INFO  SpyLocationManager:55 - getLocationsUser(Вертолет)
+2020-04-21 23:05:58 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-21 23:06:58 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-21 23:07:04 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-21 23:07:11 INFO  UserManager:34 - Init UserManager (database)
+2020-04-21 23:07:11 INFO  SpyLocationManager:24 - Init UserManager (database)
+2020-04-21 23:07:11 INFO  UserManager:70 - getAllUsers()
+2020-04-21 23:07:14 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-21 23:07:14 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-21 23:07:14 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-21 23:07:21 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-21 23:07:23 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-21 23:07:23 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-21 23:07:23 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-21 23:07:23 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-21 23:07:23 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-21 23:07:35 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-21 23:07:35 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-21 23:07:35 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-21 23:07:35 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-21 23:07:43 INFO  GamesController:78 - addSession(Петя, 256, 256)
+2020-04-21 23:07:43 INFO  SpySessionManager:92 - addSession(256, 256)
+2020-04-21 23:07:43 INFO  SpySession:216 - updateLocations()
+2020-04-21 23:07:43 INFO  SpyLocationManager:61 - getAllLocationsAsString()
+2020-04-21 23:07:43 INFO  SpyWebSocketController:77 - RX :init_256 256 Петя 
+2020-04-21 23:07:43 INFO  SpyWebSocketController:85 - Web socket connection subscribe. id: 256, pas: 256 name: Петя
+2020-04-21 23:07:43 INFO  GamesController:89 - addUser(Петя, 256, 256)
+2020-04-21 23:07:43 INFO  SpySessionManager:134 - addUser(256, 256 Петя)
+2020-04-21 23:07:43 INFO  SpySession:86 - addUser(Петя)...
+2020-04-21 23:07:43 INFO  SpySession:115 - ...addUser()
+2020-04-21 23:07:43 INFO  SpyWebSocketController:51 - TX (Петя):addUserEvent_    Петя
+
+2020-04-21 23:07:43 INFO  GamesController:166 - isSpyShowen(Петя, 256, 256)
+2020-04-21 23:07:43 INFO  SpySessionManager:151 - getUsers(256, 256)
+2020-04-21 23:07:43 INFO  SpyWebSocketController:77 - RX :ok_Петя 
+2020-04-21 23:07:46 INFO  GamesController:78 - addSession(Вася, 256, 256)
+2020-04-21 23:07:46 INFO  SpySessionManager:92 - addSession(256, 256)
+2020-04-21 23:07:46 WARN  SpySessionManager:100 - Session 256 is already exists.
+2020-04-21 23:07:46 INFO  SpyWebSocketController:77 - RX :init_256 256 Вася 
+2020-04-21 23:07:46 INFO  SpyWebSocketController:85 - Web socket connection subscribe. id: 256, pas: 256 name: Вася
+2020-04-21 23:07:46 INFO  GamesController:89 - addUser(Вася, 256, 256)
+2020-04-21 23:07:46 INFO  SpySessionManager:134 - addUser(256, 256 Вася)
+2020-04-21 23:07:46 INFO  SpySession:86 - addUser(Вася)...
+2020-04-21 23:07:46 INFO  SpySession:115 - ...addUser()
+2020-04-21 23:07:46 INFO  SpyWebSocketController:51 - TX (Петя):addUserEvent_    Петя
+    Вася
+
+2020-04-21 23:07:46 INFO  SpyWebSocketController:51 - TX (Вася):addUserEvent_    Петя
+    Вася
+
+2020-04-21 23:07:46 INFO  SpyWebSocketController:77 - RX :ok_Петя 
+2020-04-21 23:07:46 INFO  GamesController:166 - isSpyShowen(Вася, 256, 256)
+2020-04-21 23:07:46 INFO  SpySessionManager:151 - getUsers(256, 256)
+2020-04-21 23:07:46 INFO  SpyWebSocketController:77 - RX :ok_Вася 
+2020-04-21 23:07:48 INFO  GamesController:110 - startGame(Вася, 256, 256)
+2020-04-21 23:07:48 INFO  SpySessionManager:106 - startGame(256, 256)
+2020-04-21 23:07:48 INFO  SpySession:53 - startGame()...
+2020-04-21 23:07:48 INFO  SpySession:216 - updateLocations()
+2020-04-21 23:07:48 INFO  SpyLocationManager:61 - getAllLocationsAsString()
+2020-04-21 23:07:48 INFO  SpySession:59 - Location: десяточка
+2020-04-21 23:07:48 INFO  SpySession:65 - Spy is: Петя
+2020-04-21 23:07:48 INFO  SpySession:66 - ...Game started
+2020-04-21 23:07:48 INFO  SpyWebSocketController:51 - TX (Петя):startGameEvent
+2020-04-21 23:07:48 INFO  SpyWebSocketController:51 - TX (Вася):startGameEvent
+2020-04-21 23:07:48 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-21 23:07:48 INFO  SpySessionManager:128 - getUserInformation(256, 256 Вася)
+2020-04-21 23:07:48 INFO  SpySession:74 - getUserInformation(Вася)
+2020-04-21 23:07:48 INFO  GamesController:110 - startGame(Петя, 256, 256)
+2020-04-21 23:07:48 INFO  SpySessionManager:106 - startGame(256, 256)
+2020-04-21 23:07:48 INFO  SpySessionManager:128 - getUserInformation(256, 256 Петя)
+2020-04-21 23:07:48 INFO  SpySession:74 - getUserInformation(Петя)
+2020-04-21 23:07:48 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-21 23:07:48 INFO  GamesController:110 - startGame(Вася, 256, 256)
+2020-04-21 23:07:48 INFO  SpySessionManager:106 - startGame(256, 256)
+2020-04-21 23:07:48 INFO  SpySessionManager:128 - getUserInformation(256, 256 Вася)
+2020-04-21 23:07:48 INFO  SpySession:74 - getUserInformation(Вася)
+2020-04-21 23:07:53 INFO  GamesController:136 - getSpy(Вася, 256, 256)
+2020-04-21 23:07:53 INFO  SpySessionManager:157 - getSpy(256, 256)
+2020-04-21 23:07:53 INFO  SpySession:131 - getSpy(Вася):Петя
+2020-04-21 23:07:53 INFO  SpyWebSocketController:51 - TX (Петя):spyIsNotSecretEvent_Петя
+2020-04-21 23:07:53 INFO  SpyWebSocketController:51 - TX (Вася):spyIsNotSecretEvent_Петя
+2020-04-21 23:07:53 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-21 23:07:53 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-21 23:07:56 INFO  GamesController:124 - stopGame(Вася, 256, 256)
+2020-04-21 23:07:56 INFO  SpySessionManager:140 - stopGame(256, 256)
+2020-04-21 23:07:56 INFO  SpySession:122 - stopGame()
+2020-04-21 23:07:56 INFO  SpyWebSocketController:51 - TX (Петя):stopGameEvent_Петя
+2020-04-21 23:07:56 INFO  SpyWebSocketController:51 - TX (Вася):stopGameEvent_Петя
+2020-04-21 23:07:56 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-21 23:07:56 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-21 23:08:07 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-21 23:08:21 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-21 23:08:23 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-21 23:08:32 INFO  SpySessionManager:57 - deleteLocation(Вертолет, kola)
+2020-04-21 23:08:32 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-21 23:08:32 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-21 23:08:32 INFO  SpyLocationManager:50 - getLocationsUser(Вертолет)
+2020-04-21 23:08:32 WARN  SpySessionManager:67 - Delete location error! User has no ruuls.
+2020-04-21 23:08:32 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-21 23:08:36 INFO  SpySessionManager:32 - addLocation(Вертолет, kola)
+2020-04-21 23:08:36 INFO  SpyLocationManager:74 - addLocation(Вертолет, kola)
+2020-04-21 23:08:36 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-21 23:08:48 INFO  SpySessionManager:32 - addLocation(коллайдер, kola)
+2020-04-21 23:08:48 INFO  SpyLocationManager:74 - addLocation(коллайдер, kola)
+2020-04-21 23:08:48 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-21 23:08:51 INFO  SpySessionManager:57 - deleteLocation(Коллайдер, kola)
+2020-04-21 23:08:51 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-21 23:08:51 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-21 23:08:51 INFO  SpyLocationManager:50 - getLocationsUser(Коллайдер)
+2020-04-21 23:08:51 WARN  SpySessionManager:67 - Delete location error! User has no ruuls.
+2020-04-21 23:08:51 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-21 23:08:56 INFO  SpySessionManager:32 - addLocation(asdf, kola)
+2020-04-21 23:08:56 INFO  SpyLocationManager:74 - addLocation(asdf, kola)
+2020-04-21 23:08:56 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-21 23:09:01 INFO  SpySessionManager:57 - deleteLocation(asdf, kola)
+2020-04-21 23:09:01 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-21 23:09:01 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-21 23:09:01 INFO  SpyLocationManager:50 - getLocationsUser(asdf)
+2020-04-21 23:09:01 INFO  SpyLocationManager:81 - deleteLocation(asdf, kola)
+2020-04-21 23:09:01 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-21 23:09:05 INFO  SpySessionManager:57 - deleteLocation(asdf, kola)
+2020-04-21 23:09:05 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-21 23:09:05 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-21 23:09:05 INFO  SpyLocationManager:50 - getLocationsUser(asdf)
+2020-04-21 23:09:05 WARN  SpySessionManager:72 - Can't finde location 'asdf'
+2020-04-21 23:09:05 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-21 23:09:23 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-21 23:09:24 INFO  UserManager:70 - getAllUsers()
+2020-04-21 23:09:24 INFO  UserManager:70 - getAllUsers()
+2020-04-21 23:10:23 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-21 23:11:01 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-21 23:11:19 INFO  SpySessionManager:32 - addLocation(Водокачка, karpach2000)
+2020-04-21 23:11:19 INFO  SpyLocationManager:74 - addLocation(Водокачка, karpach2000)
+2020-04-21 23:11:19 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-21 23:11:23 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-21 23:11:29 INFO  SpySessionManager:57 - deleteLocation(Водокачка, karpach2000)
+2020-04-21 23:11:29 INFO  UserManager:105 - getUserRoles(karpach2000)
+2020-04-21 23:11:29 INFO  SpyLocationManager:81 - deleteLocation(Водокачка, karpach2000)
+2020-04-21 23:11:29 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-21 23:11:34 INFO  SpySessionManager:57 - deleteLocation(Водокачка, karpach2000)
+2020-04-21 23:11:34 INFO  UserManager:105 - getUserRoles(karpach2000)
+2020-04-21 23:11:34 INFO  SpyLocationManager:81 - deleteLocation(Водокачка, karpach2000)
+2020-04-21 23:11:34 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-21 23:11:42 INFO  SpyWebSocketController:65 - Web socket connection closed.

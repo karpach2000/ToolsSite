@@ -58,6 +58,12 @@ open class UserManager {
             return rs.getString("add_user")
         }
     }
+    internal inner class GetUserRoles : RowMapper<String> {
+        @Throws(SQLException::class)
+        override fun mapRow(rs: ResultSet, rowNum: Int): String {
+            return rs.getString("user_role")
+        }
+    }
 
     fun getAllUsers(): List<Users>
     {
@@ -92,6 +98,15 @@ open class UserManager {
             logger.warn("Data base ansered: $dbAns")
             throw UserManagerException(dbAns)
         }
+    }
+
+    fun getUserRoles(login: String) :ArrayList<String>
+    {
+        logger.info("getUserRoles($login)")
+        val dbAns = jdbcTemplate!!.query("SELECT * FROM get_user_and_role('$login')",
+                GetUserRoles()) as ArrayList<String>
+        return dbAns
+
     }
 
 }

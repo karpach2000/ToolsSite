@@ -1,4 +1,4 @@
-var currentMenuCountingItem="userTabel";
+var currentMenuCountingItem="createUser";
 function menuClick(id) {
     showMenuContent(id);
 }

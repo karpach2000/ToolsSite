@@ -5,8 +5,11 @@ import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.jdbc.core.JdbcTemplate
 import org.springframework.jdbc.core.RowMapper
 import org.springframework.stereotype.Component
+import java.lang.Exception
 import java.sql.ResultSet
 import java.sql.SQLException
+
+class SpyLocationManagerException(message: String):Exception(message)
 
 @Component
 open class SpyLocationManager {
@@ -32,26 +35,32 @@ open class SpyLocationManager {
             return spyLocation
         }
     }
-    internal inner class GetLocationAsStringRowMapper : RowMapper<String> {
-        @Throws(SQLException::class)
-        override fun mapRow(rs: ResultSet, rowNum: Int): String {
-            return rs.getString("location")
-        }
-    }
+
     internal inner class StringRowMapper : RowMapper<String> {
         @Throws(SQLException::class)
         override fun mapRow(rs: ResultSet, rowNum: Int): String {
-            val spyLocation = SpyLocation()
+            val ans = rs.getString(1)
             //user.id = rs.getInt("id")
-            return "OK"
+            return ans
         }
+    }
+
+    fun getLocationsUser(location: String): String
+    {
+        logger.info("getLocationsUser($location)")
+         val ans = jdbcTemplate!!.query("SELECT * FROM get_spy_location_login('$location')",
+                 StringRowMapper())
+         if(ans.size>0)
+             return ans[0]
+         else
+             throw SpyLocationManagerException("Can't finde location '$location'")
     }
 
     fun getAllLocationsAsString(): List<String>
     {
         logger.info("getAllLocationsAsString()")
         return jdbcTemplate!!.query("SELECT location FROM get_spy_locations_and_login()",
-                GetLocationAsStringRowMapper())
+                StringRowMapper())
     }
     fun getAllLocations(): List<SpyLocation>
     {
@@ -63,16 +72,16 @@ open class SpyLocationManager {
     fun addLocation(location: String, userLogin: String):Boolean
     {
         logger.info("addLocation($location, $userLogin)")
-        jdbcTemplate!!.query("SELECT * FROM add_spy_location('$location', '$userLogin')",
+        val ans =jdbcTemplate!!.query("SELECT * FROM add_spy_location('$location', '$userLogin')",
                 StringRowMapper())
-        return true
+        return ans[0] == "OK"
     }
     fun deleteLocation(location: String, login: String):Boolean
     {
         logger.info("deleteLocation($location, $login)")
-        jdbcTemplate!!.query("SELECT * FROM delete_spy_location('$location', '$login')",
-                StringRowMapper())
-        return true
+        val ans =jdbcTemplate!!.query("SELECT * FROM delete_spy_location('$location', '$login')",
+                StringRowMapper())[0]
+        return ans == "OK"
     }
 
 }

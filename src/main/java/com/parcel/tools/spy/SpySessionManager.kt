@@ -2,6 +2,8 @@ package com.parcel.tools.spy
 
 import com.parcel.tools.Globals
 import com.parcel.tools.spy.database.SpyLocation
+import com.parcel.tools.spy.database.SpyLocationManager
+import com.parcel.tools.spy.database.SpyLocationManagerException
 
 class SpySessionManagerException(message: String): Exception(message)
 
@@ -50,10 +52,27 @@ object SpySessionManager {
     }
 
 
-    fun deleteLocation(location: String, user: String): Boolean
+    fun deleteLocation(location: String, login: String): Boolean
     {
-        logger.info("deleteLocation($location, $user)")
-        return Globals.spyLocationManager.deleteLocation(location, user)
+        logger.info("deleteLocation($location, $login)")
+        try {
+            if(Globals.userManager.getUserRoles(login).contains("ADMIN")) {
+                return Globals.spyLocationManager.deleteLocation(location, login)
+            }
+            else if(Globals.userManager.getUserRoles(login).contains("USER")) {
+                val locationUser = Globals.spyLocationManager.getLocationsUser(location)
+                if(locationUser==login)
+                    return Globals.spyLocationManager.deleteLocation(location, login)
+            }
+            logger.warn("Delete location error! User has no ruuls.")
+            return false
+        }
+        catch (ex: SpyLocationManagerException)
+        {
+            logger.warn(ex.message)
+            return false
+        }
+
     }
 
     @Synchronized

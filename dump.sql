@@ -47,6 +47,7 @@ DROP FUNCTION public.get_users_whith_roles();
 DROP FUNCTION public.get_users_whith_role(_role character varying);
 DROP FUNCTION public.get_user_and_role(_login character varying);
 DROP FUNCTION public.get_spy_locations_and_login();
+DROP FUNCTION public.get_spy_location_login(_location text);
 DROP FUNCTION public.delete_user(_login text);
 DROP FUNCTION public.delete_spy_location(_location text, login text);
 DROP FUNCTION public.add_user(_login text, _password text, _role text);
@@ -199,6 +200,29 @@ $$;
 
 
 ALTER FUNCTION public.delete_user(_login text) OWNER TO karpach2000;
+
+--
+-- Name: get_spy_location_login(text); Type: FUNCTION; Schema: public; Owner: karpach2000
+--
+
+CREATE FUNCTION public.get_spy_location_login(_location text) RETURNS TABLE(login character varying)
+    LANGUAGE plpgsql
+    AS $$
+DECLARE
+BEGIN
+    FOR login IN
+        SELECT users.login FROM users
+               JOIN spy_locations ON users.id = spy_locations.users_id
+               WHERE _location = spy_locations.location
+        LOOP
+            RETURN NEXT;
+        END LOOP;
+    RETURN;
+END
+$$;
+
+
+ALTER FUNCTION public.get_spy_location_login(_location text) OWNER TO karpach2000;
 
 --
 -- Name: get_spy_locations_and_login(); Type: FUNCTION; Schema: public; Owner: karpach2000
@@ -563,12 +587,12 @@ COPY public.roles (id, user_role, description) FROM stdin;
 --
 
 COPY public.roles_to_users (id, users_id, roles_id) FROM stdin;
-2	3	1
 6	2	1
 7	2	2
 8	1	2
 13	14	1
 14	15	2
+15	16	1
 \.
 
 
@@ -578,10 +602,11 @@ COPY public.roles_to_users (id, users_id, roles_id) FROM stdin;
 
 COPY public.spy_locations (id, location, users_id) FROM stdin;
 2	десяточка	2
-3	пивзовод	14
 6	Коллайдер	14
 8	Вертолет	2
-9	Самолет	14
+11	мгту - рггу	14
+13	Самолет	2
+15	Жигули	2
 \.
 
 
@@ -592,10 +617,10 @@ COPY public.spy_locations (id, location, users_id) FROM stdin;
 COPY public.users (id, login, password, active) FROM stdin;
 1	afiskon	123456	t
 2	karpach2000	256	t
-3	di.romanov	Profit18	t
 7	Petr	1234	t
 14	user	user	t
 15	admin	admin	t
+16	kola	kola	t
 \.
 
 
@@ -624,14 +649,14 @@ SELECT pg_catalog.setval('public.roles_id_seq', 2, true);
 -- Name: roles_to_users_id_seq; Type: SEQUENCE SET; Schema: public; Owner: karpach2000
 --
 
-SELECT pg_catalog.setval('public.roles_to_users_id_seq', 14, true);
+SELECT pg_catalog.setval('public.roles_to_users_id_seq', 15, true);
 
 
 --
 -- Name: spy_locations_id_seq; Type: SEQUENCE SET; Schema: public; Owner: karpach2000
 --
 
-SELECT pg_catalog.setval('public.spy_locations_id_seq', 9, true);
+SELECT pg_catalog.setval('public.spy_locations_id_seq', 18, true);
 
 
 --
@@ -645,7 +670,7 @@ SELECT pg_catalog.setval('public.user_ids', 1, true);
 -- Name: users_id_seq; Type: SEQUENCE SET; Schema: public; Owner: karpach2000
 --
 
-SELECT pg_catalog.setval('public.users_id_seq', 15, true);
+SELECT pg_catalog.setval('public.users_id_seq', 16, true);
 
 
 --
