@@ -38,7 +38,8 @@
             <label for="locationName">Название локации</label>
             <input type="text"  name = "locationName"  id="locationName" size="30" onkeyup="this.value = this.value.replace(/[^A-Za-zА-Яа-яЁё0-9]/,'');"
                    class="textboxWithLinck"  required><br>
-            <input type="submit" name="addLocation" value="Добавить локацию">
+            <input type="submit" name="button" value="Add">
+            <input type="submit" name="button" value="Delete">
         </form>
     </div>
 
@@ -50,13 +51,15 @@
             <table border="1">
                 <thead>
                 <tr>
-                    <th>Локации</th>
+                    <th>Локация</th>
+                    <th>Создатель</th>
                 </tr>
                 </thead>
                 <tbody>
                 {{# page.pageBody.locations}}
                     <tr   class='table-data'>
-                        <td>{{.}}</td>
+                        <td>{{locationName}}</td>
+                        <td>{{authorLogin}}</td>
                     </tr>
                 {{/ page.pageBody.locations}}
                 </tbody>

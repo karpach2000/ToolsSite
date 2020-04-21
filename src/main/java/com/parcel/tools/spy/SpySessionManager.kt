@@ -1,5 +1,8 @@
 package com.parcel.tools.spy
 
+import com.parcel.tools.Globals
+import com.parcel.tools.spy.database.SpyLocation
+
 class SpySessionManagerException(message: String): Exception(message)
 
 object SpySessionManager {
@@ -17,13 +20,16 @@ object SpySessionManager {
         }).start()
     }
 
-    fun getLocationList() :ArrayList<String>
-    {
-        return SpySession(-1, -1).locations
+    fun getLocationList() :List<SpyLocation> {
+        return Globals.spyLocationManager.getAllLocations()
     }
-    fun addLocation(location: String): Boolean
+    fun addLocation(location: String, user: String): Boolean
     {
-        return SpySession(-1, -1).addLocation(location)
+        return Globals.spyLocationManager.addLocation(location, user)
+    }
+    fun deleteLocation(location: String, user: String): Boolean
+    {
+        return Globals.spyLocationManager.deleteLocation(location, user)
     }
 
     @Synchronized

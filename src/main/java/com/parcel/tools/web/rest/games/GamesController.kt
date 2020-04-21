@@ -6,6 +6,9 @@ import com.parcel.tools.constructor.gamesSettings.CounterGamesSettings
 import com.parcel.tools.spy.SpySessionException
 import com.parcel.tools.spy.SpySessionManager
 import com.parcel.tools.spy.SpySessionManagerException
+import org.springframework.boot.autoconfigure.security.SecurityProperties
+import org.springframework.security.core.context.SecurityContextHolder
+import org.springframework.security.core.userdetails.User
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
 import org.springframework.web.bind.annotation.RequestMapping
@@ -13,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.ResponseBody
 import java.io.IOException
 import javax.servlet.http.HttpSession
+
 
 @Controller
 class GamesController {
@@ -40,8 +44,21 @@ class GamesController {
     @RequestMapping("/addLocation")
     @Throws(IOException::class)
     internal fun addLocation(model: Model, session: HttpSession,
-                               @RequestParam("locationName") locationName: String = ""): String {
-        SpySessionManager.addLocation(locationName)
+                               @RequestParam("locationName") locationName: String = "",
+                               @RequestParam("button") button: String = ""): String {
+        val user: User = SecurityContextHolder
+                .getContext()
+                .authentication
+                .principal as User
+        val name: String = user.getUsername()
+        if(button =="Add") {
+
+            SpySessionManager.addLocation(locationName, name)
+        }
+        else if(button == "Delete")
+        {
+            SpySessionManager.deleteLocation(locationName, name)
+        }
         val counter = CounterGamesSettings()
         val page = Page(counter)
         model.addAttribute("page", page)

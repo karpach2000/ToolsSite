@@ -1,5 +1,6 @@
 package com.parcel.tools.spy
 
+import com.parcel.tools.Globals
 import java.io.File
 import java.lang.Exception
 import java.nio.file.Files
@@ -207,75 +208,16 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
 
 
     /*******SETTINGS*********/
-    @Synchronized
-    fun addLocation(location: String): Boolean
-    {
-        if(!locations.contains(location))
-        {
-            locations.add(location)
-            create(locations)
-            return true
-        }
-        else
-            return false
-    }
 
 
     @Synchronized
     private fun updateLocations() : Boolean
     {
         logger.info("updateLocations()")
-        try {
-            val file = File(folder + fileName)
-            //проверяем, что если файл не существует то создаем его
-            if (file.exists())
-            {
-                locations.clear()
-                val lines =file.readText().split("\n")
-                lines.forEach {
-                    if(it.length>2) {
-                    locations.add(it)}
-                }
-                return true
-            }
-            else
-            {
-                println("File not found")
-                create()
-                return false
-            }
-        }
-        catch (e: Exception)
-        {
-            e.printStackTrace()
-            return false
-        }
+        locations.clear()
+        Globals.spyLocationManager.getAllLocationsAsString().forEach { locations.add(it) }
+        return true
     }
 
-    private fun create(locations: ArrayList<String> = arrayListOf("пятерочка", "колайдер", "яблочково")) : Boolean
-    {
-        try {
-            val file = File(folder + fileName)
-            val path = Paths.get(folder)
-            //проверяем наличие каталога, если катлона нет, создаем его
-            if (!Files.exists(path)) {
-                Files.createDirectories(path)
-            }
-
-            //проверяем, что если файл не существует то создаем его
-            if (file.exists())
-                file.delete()
-            file.createNewFile()
-            var text = ""
-            locations.forEach { text = text + it + "\n" }
-            file.writeText(text)
-            return true
-        }
-        catch (e: Exception)
-        {
-            e.printStackTrace()
-            return false
-        }
-    }
 
 }

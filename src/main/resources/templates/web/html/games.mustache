@@ -66,13 +66,15 @@
             <table border="1">
                 <thead>
                 <tr>
-                    <th>Локации</th>
+                    <th>Локация</th>
+                    <th>Создатель</th>
                 </tr>
                 </thead>
                 <tbody>
                 {{# page.pageBody.locations}}
                     <tr   class='table-data'>
-                        <td>{{.}}</td>
+                        <td>{{locationName}}</td>
+                        <td>{{authorLogin}}</td>
                     </tr>
                 {{/ page.pageBody.locations}}
                 </tbody>
