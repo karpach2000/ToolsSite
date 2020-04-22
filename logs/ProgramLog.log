@@ -36212,3 +36212,1157 @@ The WebSocket session [2] has been closed and no method (apart from close()) may
 2020-04-21 23:11:34 INFO  SpyLocationManager:81 - deleteLocation(Водокачка, karpach2000)
 2020-04-21 23:11:34 INFO  SpyLocationManager:67 - getAllLocations()
 2020-04-21 23:11:42 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-22 00:12:57 INFO  UserManager:34 - Init UserManager (database)
+2020-04-22 00:12:57 INFO  SpyLocationManager:24 - Init UserManager (database)
+2020-04-22 00:12:57 INFO  UserManager:70 - getAllUsers()
+2020-04-22 00:13:01 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-22 00:13:01 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-22 00:13:01 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-22 00:13:05 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 00:13:05 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:14:05 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:14:15 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-22 00:14:21 INFO  UserManager:34 - Init UserManager (database)
+2020-04-22 00:14:21 INFO  SpyLocationManager:24 - Init UserManager (database)
+2020-04-22 00:14:21 INFO  UserManager:70 - getAllUsers()
+2020-04-22 00:14:24 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-22 00:14:24 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-22 00:14:24 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-22 00:14:27 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 00:14:27 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:15:05 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-22 00:15:22 INFO  UserManager:34 - Init UserManager (database)
+2020-04-22 00:15:22 INFO  SpyLocationManager:24 - Init UserManager (database)
+2020-04-22 00:15:22 INFO  UserManager:70 - getAllUsers()
+2020-04-22 00:15:24 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-22 00:15:24 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-22 00:15:24 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-22 00:15:34 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 00:15:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:16:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:17:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:18:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:19:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:20:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:21:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:22:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:23:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:24:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:25:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:26:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:27:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:28:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:29:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:30:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:31:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:32:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:33:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:34:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:35:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:36:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:37:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:38:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:39:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:40:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:41:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:42:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:43:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:44:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:45:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:46:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:47:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:48:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:49:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:50:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:51:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:52:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:53:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:54:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:55:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:56:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:57:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:58:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 00:59:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:00:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:01:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:02:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:03:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:04:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:05:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:06:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:07:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:08:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:09:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:10:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:11:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:12:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:13:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:14:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:15:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:16:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:17:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:18:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:19:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:20:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:21:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:22:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:23:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:24:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:25:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:26:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:27:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:28:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:29:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:30:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:31:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:32:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:33:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:34:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:35:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:36:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:37:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:38:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:39:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:40:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:41:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:42:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:43:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:44:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:45:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:46:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:47:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:48:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:49:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:50:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:51:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:52:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:53:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:54:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:55:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:56:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:57:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:58:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 01:59:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:00:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:01:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:02:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:03:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:04:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:05:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:06:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:07:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:08:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:09:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:10:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:11:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:12:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:13:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:14:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:15:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:16:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:17:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:18:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:19:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:20:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:21:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:22:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:23:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:24:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:25:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:26:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:27:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:28:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:29:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:30:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:31:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:32:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:33:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:34:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:35:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:36:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:37:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:38:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:39:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:40:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:41:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:42:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:43:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:44:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:45:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:46:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:47:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:48:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:49:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:50:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:51:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:52:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:53:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:54:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:55:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:56:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:57:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:58:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 02:59:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:00:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:01:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:02:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:03:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:04:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:05:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:06:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:07:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:08:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:09:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:10:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:11:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:12:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:13:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:14:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:15:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:16:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:17:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:18:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:19:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:20:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:21:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:22:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:23:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:24:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:25:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:26:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:27:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:28:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:29:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:30:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:31:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:32:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:33:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:34:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:35:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:36:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:37:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:38:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:39:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:40:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:41:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:42:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:43:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:44:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:45:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:46:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:47:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:48:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:49:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:50:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:51:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:52:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:53:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:54:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:55:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:56:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:57:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:58:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 03:59:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:00:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:01:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:02:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:03:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:04:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:05:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:06:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:07:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:08:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:09:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:10:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:11:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:12:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:13:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:14:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:15:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:16:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:17:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:18:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:19:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:20:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:21:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:22:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:23:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:24:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:25:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:26:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:27:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:28:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:29:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:30:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:31:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:32:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:33:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:34:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:35:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:36:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:37:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:38:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:39:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:40:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:41:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:42:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:43:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:44:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:45:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:46:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:47:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:48:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:49:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:50:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:51:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:52:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:53:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:54:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:55:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:56:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:57:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:58:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 04:59:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:00:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:01:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:02:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:03:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:04:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:05:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:06:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:07:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:08:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:09:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:10:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:11:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:12:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:13:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:14:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:15:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:16:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:17:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:18:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:19:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:20:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:21:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:22:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:23:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:24:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:25:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:26:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:27:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:28:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:29:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:30:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:31:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:32:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:33:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:34:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:35:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:36:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:37:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:38:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:39:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:40:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:41:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:42:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:43:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:44:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:45:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:46:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:47:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:48:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:49:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:50:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:51:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:52:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:53:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:54:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:55:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:56:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:57:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:58:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 05:59:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:00:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:01:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:02:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:03:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:04:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:05:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:06:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:07:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:08:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:09:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:10:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:11:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:12:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:13:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:14:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:15:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:16:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:17:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:18:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:19:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:20:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:21:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:22:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:23:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:24:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:25:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:26:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:27:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:28:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:29:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:30:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:31:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:32:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:33:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:34:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:35:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:36:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:37:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:38:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:39:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:40:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:41:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:42:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:43:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:44:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:45:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:46:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:47:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:48:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:49:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:50:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:51:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:52:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:53:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:54:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:55:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:56:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:57:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:58:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 06:59:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:00:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:01:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:02:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:03:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:04:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:05:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:06:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:07:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:08:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:09:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:10:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:11:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:12:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:13:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:14:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:15:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:16:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:17:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:18:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:19:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:20:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:21:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:22:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:23:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:24:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:25:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:26:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:27:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:28:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:29:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:30:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:31:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:32:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:33:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:34:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:35:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:36:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:37:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:38:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:39:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:40:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:41:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:42:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:43:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:44:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:45:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:46:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:47:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:48:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:49:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:50:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:51:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:52:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:53:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:54:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:55:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:56:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:57:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:58:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 07:59:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:00:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:01:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:02:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:03:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:04:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:05:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:06:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:07:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:08:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:09:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:10:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:11:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:12:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:13:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:14:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:15:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:16:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:17:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:18:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:19:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:20:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:21:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:22:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:23:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:24:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:25:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:26:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:27:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:28:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:29:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:30:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:31:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:32:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:33:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:34:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:35:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:36:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:37:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:38:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:39:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:40:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:41:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:42:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:43:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:44:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:45:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:46:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:47:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:48:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:49:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:50:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:51:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:52:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:53:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:54:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:55:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:56:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:57:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:58:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 08:59:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:00:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:01:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:02:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:03:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:04:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:05:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:06:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:07:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:08:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:09:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:10:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:11:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:12:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:13:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:14:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:15:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:16:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:17:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:18:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:19:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:20:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:21:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:22:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:23:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:24:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:25:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:26:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:27:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:28:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:29:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:30:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:31:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:32:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:33:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:34:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:35:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:36:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:37:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:38:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:39:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:40:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:41:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:42:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:43:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:44:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:45:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:46:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:47:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:48:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:49:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:50:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:51:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:52:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:53:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:54:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:55:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:56:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:57:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:58:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 09:59:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:00:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:01:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:02:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:03:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:04:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:05:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:06:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:07:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:08:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:09:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:10:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:11:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:12:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:13:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:14:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:15:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:16:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:17:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:18:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:19:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:20:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:21:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:22:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:23:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:24:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:25:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:26:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:27:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:28:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:29:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:30:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:31:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:32:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:33:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:34:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:35:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:36:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:37:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:38:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:39:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:40:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:41:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:42:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:43:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:44:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:45:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:46:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:47:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:48:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:49:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:50:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:51:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:52:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:53:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:54:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:55:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:56:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:57:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:58:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 10:59:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:00:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:01:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:02:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:03:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:04:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:05:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:06:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:07:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:08:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:09:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:10:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:11:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:12:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:13:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:14:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:15:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:16:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:17:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:18:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:19:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:20:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:21:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:22:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:23:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:24:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:25:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:26:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:27:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:28:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:29:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:30:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:31:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:32:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:33:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:34:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:35:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:36:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:37:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:38:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:39:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:40:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:41:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:42:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:43:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:44:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:45:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:46:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:47:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:48:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:49:34 DEBUG SpySessionManager:175 - Removing old games.
+2020-04-22 11:49:58 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-22 17:44:02 INFO  UserManager:34 - Init UserManager (database)
+2020-04-22 17:44:02 INFO  SpyLocationManager:24 - Init UserManager (database)
+2020-04-22 17:44:03 INFO  UserManager:70 - getAllUsers()
+2020-04-22 17:52:19 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 17:52:19 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-22 17:52:19 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-22 17:52:19 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-22 17:52:50 INFO  GamesController:77 - addSession(kola, 256, 256)
+2020-04-22 17:52:50 INFO  SpySessionManager:195 - addSession(256, 256)
+2020-04-22 17:52:50 INFO  SpySession:203 - updateLocations()
+2020-04-22 17:52:50 INFO  SpyLocationManager:61 - getAllLocationsAsString()
+2020-04-22 17:52:50 INFO  SpyWebSocketController:77 - RX :init_256 256 kola 
+2020-04-22 17:52:50 INFO  SpyWebSocketController:85 - Web socket connection subscribe. id: 256, pas: 256 name: kola
+2020-04-22 17:52:50 INFO  GamesController:88 - addUser(kola, 256, 256)
+2020-04-22 17:52:50 INFO  SpySessionManager:145 - addUser(256, 256 kola)
+2020-04-22 17:52:50 INFO  SpySession:91 - addUser(kola)...
+2020-04-22 17:52:50 INFO  SpySession:116 - ...addUser()
+2020-04-22 17:52:50 INFO  SpyWebSocketController:51 - TX (kola):addUserEvent_    kola
+
+2020-04-22 17:52:50 INFO  GamesController:166 - getUsers(kola, 256, 256)
+2020-04-22 17:52:50 INFO  SpySessionManager:158 - getUsers(256, 256)
+2020-04-22 17:52:50 INFO  SpyWebSocketController:77 - RX :ok_kola 
+2020-04-22 17:52:53 INFO  GamesController:177 - countUsers(kola, 256, 256)
+2020-04-22 17:52:53 INFO  SpySessionManager:151 - usersInGameCount(256, 256)
+2020-04-22 17:53:06 INFO  GamesController:177 - countUsers(kola, 256, 256)
+2020-04-22 17:53:06 INFO  SpySessionManager:151 - usersInGameCount(256, 256)
+2020-04-22 17:53:15 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 17:53:15 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-22 17:53:15 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-22 17:53:15 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-22 17:53:31 INFO  GamesController:77 - addSession(Вася, 256, 256)
+2020-04-22 17:53:31 INFO  SpySessionManager:195 - addSession(256, 256)
+2020-04-22 17:53:31 WARN  SpySessionManager:203 - Session 256 is already exists.
+2020-04-22 17:53:31 INFO  SpyWebSocketController:77 - RX :init_256 256 Вася 
+2020-04-22 17:53:31 INFO  SpyWebSocketController:85 - Web socket connection subscribe. id: 256, pas: 256 name: Вася
+2020-04-22 17:53:31 INFO  GamesController:88 - addUser(Вася, 256, 256)
+2020-04-22 17:53:31 INFO  SpySessionManager:145 - addUser(256, 256 Вася)
+2020-04-22 17:53:31 INFO  SpySession:91 - addUser(Вася)...
+2020-04-22 17:53:31 INFO  SpySession:116 - ...addUser()
+2020-04-22 17:53:31 INFO  SpyWebSocketController:51 - TX (kola):addUserEvent_    kola
+    Вася
+
+2020-04-22 17:53:31 INFO  SpyWebSocketController:51 - TX (Вася):addUserEvent_    kola
+    Вася
+
+2020-04-22 17:53:31 INFO  SpyWebSocketController:77 - RX :ok_kola 
+2020-04-22 17:53:31 INFO  GamesController:166 - getUsers(Вася, 256, 256)
+2020-04-22 17:53:31 INFO  SpySessionManager:158 - getUsers(256, 256)
+2020-04-22 17:53:31 INFO  SpyWebSocketController:77 - RX :ok_Вася 
+2020-04-22 17:53:33 INFO  GamesController:177 - countUsers(Вася, 256, 256)
+2020-04-22 17:53:33 INFO  SpySessionManager:151 - usersInGameCount(256, 256)
+2020-04-22 17:54:22 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 17:54:22 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-22 17:54:22 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-22 17:54:22 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-22 17:54:33 INFO  GamesController:77 - addSession(маша, 256, 256)
+2020-04-22 17:54:33 INFO  SpySessionManager:195 - addSession(256, 256)
+2020-04-22 17:54:33 WARN  SpySessionManager:203 - Session 256 is already exists.
+2020-04-22 17:54:33 INFO  SpyWebSocketController:77 - RX :init_256 256 маша 
+2020-04-22 17:54:33 INFO  SpyWebSocketController:85 - Web socket connection subscribe. id: 256, pas: 256 name: маша
+2020-04-22 17:54:33 INFO  GamesController:88 - addUser(маша, 256, 256)
+2020-04-22 17:54:33 INFO  SpySessionManager:145 - addUser(256, 256 маша)
+2020-04-22 17:54:33 INFO  SpySession:91 - addUser(маша)...
+2020-04-22 17:54:33 INFO  SpySession:116 - ...addUser()
+2020-04-22 17:54:33 INFO  SpyWebSocketController:51 - TX (kola):addUserEvent_    kola
+    Вася
+    маша
+
+2020-04-22 17:54:33 INFO  SpyWebSocketController:51 - TX (Вася):addUserEvent_    kola
+    Вася
+    маша
+
+2020-04-22 17:54:33 INFO  SpyWebSocketController:77 - RX :ok_kola 
+2020-04-22 17:54:33 INFO  SpyWebSocketController:51 - TX (маша):addUserEvent_    kola
+    Вася
+    маша
+
+2020-04-22 17:54:33 INFO  SpyWebSocketController:77 - RX :ok_Вася 
+2020-04-22 17:54:33 INFO  GamesController:166 - getUsers(маша, 256, 256)
+2020-04-22 17:54:33 INFO  SpySessionManager:158 - getUsers(256, 256)
+2020-04-22 17:54:33 INFO  SpyWebSocketController:77 - RX :ok_маша 
+2020-04-22 17:54:35 INFO  GamesController:177 - countUsers(маша, 256, 256)
+2020-04-22 17:54:35 INFO  SpySessionManager:151 - usersInGameCount(256, 256)
+2020-04-22 17:54:35 INFO  GamesController:109 - startGame(маша, 256, 256)
+2020-04-22 17:54:35 INFO  SpySessionManager:112 - startGame(256, 256)
+2020-04-22 17:54:35 INFO  SpySession:45 - startGame()...
+2020-04-22 17:54:35 INFO  SpySession:203 - updateLocations()
+2020-04-22 17:54:35 INFO  SpyLocationManager:61 - getAllLocationsAsString()
+2020-04-22 17:54:35 INFO  SpySession:51 - Location: десяточка
+2020-04-22 17:54:35 INFO  SpySession:57 - Spy is: Вася
+2020-04-22 17:54:35 INFO  SpySession:58 - ...Game started
+2020-04-22 17:54:35 INFO  SpyWebSocketController:51 - TX (kola):startGameEvent
+2020-04-22 17:54:35 INFO  SpyWebSocketController:51 - TX (Вася):startGameEvent
+2020-04-22 17:54:35 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 17:54:35 INFO  SpyWebSocketController:51 - TX (маша):startGameEvent
+2020-04-22 17:54:35 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 17:54:35 INFO  SpySessionManager:139 - getUserInformation(256, 256 маша)
+2020-04-22 17:54:35 INFO  SpySession:79 - getUserInformation(маша)
+2020-04-22 17:54:35 INFO  GamesController:177 - countUsers(Вася, 256, 256)
+2020-04-22 17:54:35 INFO  GamesController:177 - countUsers(kola, 256, 256)
+2020-04-22 17:54:35 INFO  SpySessionManager:151 - usersInGameCount(256, 256)
+2020-04-22 17:54:35 INFO  SpySessionManager:151 - usersInGameCount(256, 256)
+2020-04-22 17:54:35 INFO  GamesController:109 - startGame(Вася, 256, 256)
+2020-04-22 17:54:35 INFO  SpySessionManager:112 - startGame(256, 256)
+2020-04-22 17:54:35 INFO  GamesController:109 - startGame(kola, 256, 256)
+2020-04-22 17:54:35 INFO  SpySessionManager:139 - getUserInformation(256, 256 Вася)
+2020-04-22 17:54:35 INFO  SpySessionManager:112 - startGame(256, 256)
+2020-04-22 17:54:35 INFO  SpySession:79 - getUserInformation(Вася)
+2020-04-22 17:54:35 INFO  SpySessionManager:139 - getUserInformation(256, 256 kola)
+2020-04-22 17:54:35 INFO  SpySession:79 - getUserInformation(kola)
+2020-04-22 17:54:35 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 17:54:35 INFO  GamesController:177 - countUsers(маша, 256, 256)
+2020-04-22 17:54:35 INFO  SpySessionManager:151 - usersInGameCount(256, 256)
+2020-04-22 17:54:35 INFO  GamesController:109 - startGame(маша, 256, 256)
+2020-04-22 17:54:35 INFO  SpySessionManager:112 - startGame(256, 256)
+2020-04-22 17:54:35 INFO  SpySessionManager:139 - getUserInformation(256, 256 маша)
+2020-04-22 17:54:35 INFO  SpySession:79 - getUserInformation(маша)
+2020-04-22 17:55:26 INFO  GamesController:135 - getSpy(Вася, 256, 256)
+2020-04-22 17:55:26 INFO  SpySessionManager:164 - getSpy(256, 256)
+2020-04-22 17:55:26 INFO  SpySession:125 - getSpy(Вася):Вася
+2020-04-22 17:55:26 INFO  SpyWebSocketController:51 - TX (kola):spyIsNotSecretEvent_Вася
+2020-04-22 17:55:26 INFO  SpyWebSocketController:51 - TX (Вася):spyIsNotSecretEvent_Вася
+2020-04-22 17:55:26 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 17:55:26 INFO  SpyWebSocketController:51 - TX (маша):spyIsNotSecretEvent_Вася
+2020-04-22 17:55:26 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 17:55:26 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 17:55:33 INFO  GamesController:135 - getSpy(маша, 256, 256)
+2020-04-22 17:55:33 INFO  SpySessionManager:164 - getSpy(256, 256)
+2020-04-22 17:55:33 INFO  SpySession:125 - getSpy(маша):Вася
+2020-04-22 17:55:33 INFO  SpyWebSocketController:51 - TX (kola):spyIsNotSecretEvent_Вася
+2020-04-22 17:55:33 INFO  SpyWebSocketController:51 - TX (Вася):spyIsNotSecretEvent_Вася
+2020-04-22 17:55:33 INFO  SpyWebSocketController:51 - TX (маша):spyIsNotSecretEvent_Вася
+2020-04-22 17:55:33 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 17:55:33 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 17:55:33 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 17:55:39 INFO  GamesController:135 - getSpy(kola, 256, 256)
+2020-04-22 17:55:39 INFO  SpySessionManager:164 - getSpy(256, 256)
+2020-04-22 17:55:39 INFO  SpySession:125 - getSpy(kola):Вася
+2020-04-22 17:55:39 INFO  SpyWebSocketController:51 - TX (kola):spyIsNotSecretEvent_Вася
+2020-04-22 17:55:39 INFO  SpyWebSocketController:51 - TX (Вася):spyIsNotSecretEvent_Вася
+2020-04-22 17:55:39 INFO  SpyWebSocketController:51 - TX (маша):spyIsNotSecretEvent_Вася
+2020-04-22 17:55:39 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 17:55:39 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 17:55:39 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 17:55:47 INFO  GamesController:123 - stopGame(kola, 256, 256)
+2020-04-22 17:55:47 INFO  SpySessionManager:126 - stopGame(256, 256)
+2020-04-22 17:55:47 INFO  SpySession:66 - stopGame()
+2020-04-22 17:55:47 INFO  SpyWebSocketController:51 - TX (kola):stopGameEvent_Вася
+2020-04-22 17:55:47 INFO  SpyWebSocketController:51 - TX (Вася):stopGameEvent_Вася
+2020-04-22 17:55:47 INFO  SpyWebSocketController:51 - TX (маша):stopGameEvent_Вася
+2020-04-22 17:55:47 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 17:55:47 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 17:55:47 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 17:56:35 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-22 17:56:43 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 17:56:51 INFO  SpySessionManager:44 - addLocation(Самолет, kola)
+2020-04-22 17:56:51 INFO  SpyLocationManager:74 - addLocation(Самолет, kola)
+2020-04-22 17:56:51 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 17:56:58 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 17:57:12 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-22 17:57:12 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-22 18:01:03 INFO  UserManager:34 - Init UserManager (database)
+2020-04-22 18:01:03 INFO  SpyLocationManager:24 - Init UserManager (database)
+2020-04-22 18:01:03 INFO  UserManager:70 - getAllUsers()
+2020-04-22 18:01:05 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-22 18:01:05 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-22 18:01:05 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-22 18:01:07 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-22 18:01:07 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-22 18:01:07 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-22 18:01:30 INFO  GamesController:77 - addSession(Вася, 256, 256)
+2020-04-22 18:01:30 INFO  SpySessionManager:195 - addSession(256, 256)
+2020-04-22 18:01:30 INFO  SpySession:203 - updateLocations()
+2020-04-22 18:01:30 INFO  SpyLocationManager:61 - getAllLocationsAsString()
+2020-04-22 18:01:30 INFO  SpyWebSocketController:77 - RX :init_256 256 Вася 
+2020-04-22 18:01:30 INFO  SpyWebSocketController:85 - Web socket connection subscribe. id: 256, pas: 256 name: Вася
+2020-04-22 18:01:30 INFO  GamesController:88 - addUser(Вася, 256, 256)
+2020-04-22 18:01:30 INFO  SpySessionManager:145 - addUser(256, 256 Вася)
+2020-04-22 18:01:30 INFO  SpySession:91 - addUser(Вася)...
+2020-04-22 18:01:30 INFO  SpySession:116 - ...addUser()
+2020-04-22 18:01:30 INFO  SpyWebSocketController:51 - TX (Вася):addUserEvent_    Вася
+
+2020-04-22 18:01:30 INFO  GamesController:166 - getUsers(Вася, 256, 256)
+2020-04-22 18:01:30 INFO  SpySessionManager:158 - getUsers(256, 256)
+2020-04-22 18:01:30 INFO  SpyWebSocketController:77 - RX :ok_Вася 
+2020-04-22 18:01:33 INFO  GamesController:77 - addSession(kola, 256, 256)
+2020-04-22 18:01:33 INFO  SpySessionManager:195 - addSession(256, 256)
+2020-04-22 18:01:33 WARN  SpySessionManager:203 - Session 256 is already exists.
+2020-04-22 18:01:33 INFO  SpyWebSocketController:77 - RX :init_256 256 kola 
+2020-04-22 18:01:33 INFO  SpyWebSocketController:85 - Web socket connection subscribe. id: 256, pas: 256 name: kola
+2020-04-22 18:01:33 INFO  GamesController:88 - addUser(kola, 256, 256)
+2020-04-22 18:01:33 INFO  SpySessionManager:145 - addUser(256, 256 kola)
+2020-04-22 18:01:33 INFO  SpySession:91 - addUser(kola)...
+2020-04-22 18:01:33 INFO  SpySession:116 - ...addUser()
+2020-04-22 18:01:33 INFO  SpyWebSocketController:51 - TX (Вася):addUserEvent_    Вася
+    kola
+
+2020-04-22 18:01:33 INFO  SpyWebSocketController:51 - TX (kola):addUserEvent_    Вася
+    kola
+
+2020-04-22 18:01:33 INFO  SpyWebSocketController:77 - RX :ok_Вася 
+2020-04-22 18:01:33 INFO  GamesController:166 - getUsers(kola, 256, 256)
+2020-04-22 18:01:33 INFO  SpySessionManager:158 - getUsers(256, 256)
+2020-04-22 18:01:33 INFO  SpyWebSocketController:77 - RX :ok_kola 
+2020-04-22 18:01:37 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:01:37 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-22 18:01:37 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-22 18:01:37 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-22 18:01:40 INFO  GamesController:177 - countUsers(Вася, 256, 256)
+2020-04-22 18:01:40 INFO  SpySessionManager:151 - usersInGameCount(256, 256)
+2020-04-22 18:01:51 INFO  GamesController:77 - addSession(karpach2000, 256, 256)
+2020-04-22 18:01:51 INFO  SpySessionManager:195 - addSession(256, 256)
+2020-04-22 18:01:51 WARN  SpySessionManager:203 - Session 256 is already exists.
+2020-04-22 18:01:51 INFO  SpyWebSocketController:77 - RX :init_256 256 karpach2000 
+2020-04-22 18:01:51 INFO  SpyWebSocketController:85 - Web socket connection subscribe. id: 256, pas: 256 name: karpach2000
+2020-04-22 18:01:51 INFO  GamesController:88 - addUser(karpach2000, 256, 256)
+2020-04-22 18:01:51 INFO  SpySessionManager:145 - addUser(256, 256 karpach2000)
+2020-04-22 18:01:51 INFO  SpySession:91 - addUser(karpach2000)...
+2020-04-22 18:01:51 INFO  SpySession:116 - ...addUser()
+2020-04-22 18:01:51 INFO  SpyWebSocketController:51 - TX (Вася):addUserEvent_    Вася
+    kola
+    karpach2000
+
+2020-04-22 18:01:51 INFO  SpyWebSocketController:51 - TX (kola):addUserEvent_    Вася
+    kola
+    karpach2000
+
+2020-04-22 18:01:51 INFO  SpyWebSocketController:51 - TX (karpach2000):addUserEvent_    Вася
+    kola
+    karpach2000
+
+2020-04-22 18:01:51 INFO  SpyWebSocketController:77 - RX :ok_Вася 
+2020-04-22 18:01:51 INFO  SpyWebSocketController:77 - RX :ok_kola 
+2020-04-22 18:01:51 INFO  GamesController:166 - getUsers(karpach2000, 256, 256)
+2020-04-22 18:01:51 INFO  SpySessionManager:158 - getUsers(256, 256)
+2020-04-22 18:01:51 INFO  SpyWebSocketController:77 - RX :ok_karpach2000 
+2020-04-22 18:02:02 INFO  GamesController:177 - countUsers(karpach2000, 256, 256)
+2020-04-22 18:02:02 INFO  SpySessionManager:151 - usersInGameCount(256, 256)
+2020-04-22 18:02:02 INFO  GamesController:109 - startGame(karpach2000, 256, 256)
+2020-04-22 18:02:02 INFO  SpySessionManager:112 - startGame(256, 256)
+2020-04-22 18:02:02 INFO  SpySession:45 - startGame()...
+2020-04-22 18:02:02 INFO  SpySession:203 - updateLocations()
+2020-04-22 18:02:02 INFO  SpyLocationManager:61 - getAllLocationsAsString()
+2020-04-22 18:02:02 INFO  SpySession:51 - Location: Вертолет
+2020-04-22 18:02:02 INFO  SpySession:57 - Spy is: kola
+2020-04-22 18:02:02 INFO  SpySession:58 - ...Game started
+2020-04-22 18:02:02 INFO  SpyWebSocketController:51 - TX (Вася):startGameEvent
+2020-04-22 18:02:02 INFO  SpyWebSocketController:51 - TX (kola):startGameEvent
+2020-04-22 18:02:02 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 18:02:02 INFO  SpyWebSocketController:51 - TX (karpach2000):startGameEvent
+2020-04-22 18:02:02 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 18:02:02 INFO  SpySessionManager:139 - getUserInformation(256, 256 karpach2000)
+2020-04-22 18:02:02 INFO  SpySession:79 - getUserInformation(karpach2000)
+2020-04-22 18:02:02 INFO  GamesController:177 - countUsers(Вася, 256, 256)
+2020-04-22 18:02:02 INFO  SpySessionManager:151 - usersInGameCount(256, 256)
+2020-04-22 18:02:02 INFO  GamesController:177 - countUsers(kola, 256, 256)
+2020-04-22 18:02:02 INFO  SpySessionManager:151 - usersInGameCount(256, 256)
+2020-04-22 18:02:02 INFO  GamesController:109 - startGame(Вася, 256, 256)
+2020-04-22 18:02:02 INFO  SpySessionManager:112 - startGame(256, 256)
+2020-04-22 18:02:02 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 18:02:02 INFO  GamesController:109 - startGame(kola, 256, 256)
+2020-04-22 18:02:02 INFO  SpySessionManager:112 - startGame(256, 256)
+2020-04-22 18:02:02 INFO  SpySessionManager:139 - getUserInformation(256, 256 kola)
+2020-04-22 18:02:02 INFO  SpySessionManager:139 - getUserInformation(256, 256 Вася)
+2020-04-22 18:02:02 INFO  SpySession:79 - getUserInformation(Вася)
+2020-04-22 18:02:02 INFO  GamesController:177 - countUsers(karpach2000, 256, 256)
+2020-04-22 18:02:02 INFO  SpySession:79 - getUserInformation(kola)
+2020-04-22 18:02:02 INFO  SpySessionManager:151 - usersInGameCount(256, 256)
+2020-04-22 18:02:02 INFO  GamesController:109 - startGame(karpach2000, 256, 256)
+2020-04-22 18:02:02 INFO  SpySessionManager:112 - startGame(256, 256)
+2020-04-22 18:02:02 INFO  SpySessionManager:139 - getUserInformation(256, 256 karpach2000)
+2020-04-22 18:02:02 INFO  SpySession:79 - getUserInformation(karpach2000)
+2020-04-22 18:02:09 INFO  GamesController:123 - stopGame(kola, 256, 256)
+2020-04-22 18:02:09 INFO  SpySessionManager:126 - stopGame(256, 256)
+2020-04-22 18:02:09 INFO  SpySession:66 - stopGame()
+2020-04-22 18:02:09 INFO  SpyWebSocketController:51 - TX (Вася):stopGameEvent_kola
+2020-04-22 18:02:09 INFO  SpyWebSocketController:51 - TX (kola):stopGameEvent_kola
+2020-04-22 18:02:09 INFO  SpyWebSocketController:51 - TX (karpach2000):stopGameEvent_kola
+2020-04-22 18:02:09 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 18:02:09 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 18:02:09 INFO  SpyWebSocketController:77 - RX :ok 
+2020-04-22 18:02:19 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-22 18:02:38 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:02:48 INFO  SpySessionManager:44 - addLocation(десяточка, kola)
+2020-04-22 18:02:48 INFO  SpyLocationManager:74 - addLocation(десяточка, kola)
+2020-04-22 18:02:48 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:02:57 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:03:01 INFO  SpySessionManager:44 - addLocation(десяточка1, kola)
+2020-04-22 18:03:01 WARN  SpySessionManager:59 - Can`t add location. Wrong simbols.
+2020-04-22 18:03:01 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:03:06 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:03:09 INFO  SpySessionManager:44 - addLocation(десяточка1, kola)
+2020-04-22 18:03:09 WARN  SpySessionManager:59 - Can`t add location. Wrong simbols.
+2020-04-22 18:03:09 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:03:13 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:04:03 INFO  SpySessionManager:44 - addLocation(десяточка1, kola)
+2020-04-22 18:04:03 WARN  SpySessionManager:59 - Can`t add location. Wrong simbols.
+2020-04-22 18:04:03 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:05:54 INFO  SpySessionManager:44 - addLocation(хзб, kola)
+2020-04-22 18:05:54 INFO  SpyLocationManager:74 - addLocation(хзб, kola)
+2020-04-22 18:05:54 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:08:13 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-22 18:08:13 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-22 18:08:21 INFO  UserManager:34 - Init UserManager (database)
+2020-04-22 18:08:21 INFO  SpyLocationManager:24 - Init UserManager (database)
+2020-04-22 18:08:21 INFO  UserManager:70 - getAllUsers()
+2020-04-22 18:08:58 INFO  UserManager:34 - Init UserManager (database)
+2020-04-22 18:08:58 INFO  SpyLocationManager:24 - Init UserManager (database)
+2020-04-22 18:08:58 INFO  UserManager:70 - getAllUsers()
+2020-04-22 18:09:02 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:09:02 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-22 18:09:02 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-22 18:09:02 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-22 18:09:04 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-22 18:09:08 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:09:20 INFO  SpySessionManager:44 - addLocation(жопад, kola)
+2020-04-22 18:09:20 INFO  SpyLocationManager:74 - addLocation(жопад, kola)
+2020-04-22 18:09:20 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:10:24 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:10:28 INFO  SpySessionManager:44 - addLocation(жопад, kola)
+2020-04-22 18:10:28 INFO  SpyLocationManager:74 - addLocation(жопад, kola)
+2020-04-22 18:10:28 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:10:36 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:10:37 INFO  SpySessionManager:44 - addLocation(жопад, kola)
+2020-04-22 18:10:37 INFO  SpyLocationManager:74 - addLocation(жопад, kola)
+2020-04-22 18:10:37 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:10:41 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:13:16 INFO  UserManager:34 - Init UserManager (database)
+2020-04-22 18:13:16 INFO  SpyLocationManager:24 - Init UserManager (database)
+2020-04-22 18:13:16 INFO  UserManager:70 - getAllUsers()
+2020-04-22 18:13:33 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:13:33 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-22 18:13:33 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-22 18:13:33 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-22 18:13:34 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-22 18:13:38 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:13:43 INFO  SpySessionManager:44 - addLocation(жопа, kola)
+2020-04-22 18:13:43 INFO  SpyLocationManager:74 - addLocation(жопа, kola)
+2020-04-22 18:13:43 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:13:43 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:13:49 INFO  SpySessionManager:71 - deleteLocation(жопа, kola)
+2020-04-22 18:13:49 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-22 18:13:49 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-22 18:13:49 INFO  SpyLocationManager:50 - getLocationsUser(жопа)
+2020-04-22 18:13:49 INFO  SpyLocationManager:81 - deleteLocation(жопа, kola)
+2020-04-22 18:13:49 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:13:49 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:13:56 INFO  SpySessionManager:44 - addLocation(Вертолет, kola)
+2020-04-22 18:13:56 INFO  SpyLocationManager:74 - addLocation(Вертолет, kola)
+2020-04-22 18:13:56 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:13:56 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:20:14 INFO  UserManager:34 - Init UserManager (database)
+2020-04-22 18:20:14 INFO  SpyLocationManager:24 - Init UserManager (database)
+2020-04-22 18:20:14 INFO  UserManager:70 - getAllUsers()
+2020-04-22 18:20:48 INFO  UserManager:34 - Init UserManager (database)
+2020-04-22 18:20:48 INFO  SpyLocationManager:24 - Init UserManager (database)
+2020-04-22 18:20:48 INFO  UserManager:70 - getAllUsers()
+2020-04-22 18:21:03 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:21:03 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-22 18:21:03 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-22 18:21:03 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-22 18:21:10 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-22 18:21:13 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:21:23 INFO  SpySessionManager:71 - deleteLocation(хзб, kola)
+2020-04-22 18:21:23 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-22 18:21:23 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-22 18:21:23 INFO  SpyLocationManager:50 - getLocationsUser(хзб)
+2020-04-22 18:21:23 INFO  SpyLocationManager:81 - deleteLocation(хзб, kola)
+2020-04-22 18:21:23 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:23:01 INFO  UserManager:34 - Init UserManager (database)
+2020-04-22 18:23:01 INFO  SpyLocationManager:24 - Init UserManager (database)
+2020-04-22 18:23:01 INFO  UserManager:70 - getAllUsers()
+2020-04-22 18:23:12 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:23:21 INFO  SpySessionManager:44 - addLocation(МГУ им. Ломоносова, kola)
+2020-04-22 18:23:21 INFO  SpyLocationManager:74 - addLocation(МГУ им. Ломоносова, kola)
+2020-04-22 18:23:21 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:24:32 INFO  UserManager:34 - Init UserManager (database)
+2020-04-22 18:24:32 INFO  SpyLocationManager:24 - Init UserManager (database)
+2020-04-22 18:24:32 INFO  UserManager:70 - getAllUsers()
+2020-04-22 18:24:52 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:24:58 INFO  SpySessionManager:44 - addLocation(жопа, kola)
+2020-04-22 18:24:58 INFO  SpyLocationManager:74 - addLocation(жопа, kola)
+2020-04-22 18:24:58 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:27:09 INFO  UserManager:34 - Init UserManager (database)
+2020-04-22 18:27:09 INFO  SpyLocationManager:24 - Init UserManager (database)
+2020-04-22 18:27:09 INFO  UserManager:70 - getAllUsers()
+2020-04-22 18:27:19 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:27:20 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-22 18:27:20 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-22 18:27:20 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-22 18:27:21 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-22 18:27:24 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:27:27 INFO  SpySessionManager:44 - addLocation(жопа, kola)
+2020-04-22 18:27:27 INFO  SpyLocationManager:74 - addLocation(жопа, kola)
+2020-04-22 18:27:27 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:27:33 INFO  SpySessionManager:71 - deleteLocation(жопа, kola)
+2020-04-22 18:27:33 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-22 18:27:33 INFO  UserManager:105 - getUserRoles(kola)
+2020-04-22 18:27:33 INFO  SpyLocationManager:50 - getLocationsUser(жопа)
+2020-04-22 18:27:33 INFO  SpyLocationManager:81 - deleteLocation(жопа, kola)
+2020-04-22 18:27:33 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:27:37 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:27:37 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-22 18:27:37 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-22 18:27:37 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-22 18:27:42 INFO  GamesController:78 - addSession(па, 33, 33)
+2020-04-22 18:27:42 INFO  SpySessionManager:195 - addSession(33, 33)
+2020-04-22 18:27:42 INFO  SpySession:203 - updateLocations()
+2020-04-22 18:27:42 INFO  SpyLocationManager:61 - getAllLocationsAsString()
+2020-04-22 18:27:42 INFO  SpyWebSocketController:77 - RX :init_33 33 па 
+2020-04-22 18:27:42 INFO  SpyWebSocketController:85 - Web socket connection subscribe. id: 33, pas: 33 name: па
+2020-04-22 18:27:42 INFO  GamesController:89 - addUser(па, 33, 33)
+2020-04-22 18:27:42 INFO  SpySessionManager:145 - addUser(33, 33 па)
+2020-04-22 18:27:42 INFO  SpySession:91 - addUser(па)...
+2020-04-22 18:27:42 INFO  SpySession:116 - ...addUser()
+2020-04-22 18:27:42 INFO  SpyWebSocketController:51 - TX (па):addUserEvent_    па
+
+2020-04-22 18:27:42 INFO  GamesController:167 - getUsers(па, 33, 33)
+2020-04-22 18:27:42 INFO  SpySessionManager:158 - getUsers(33, 33)
+2020-04-22 18:27:42 INFO  SpyWebSocketController:77 - RX :ok_па 
+2020-04-22 18:27:44 INFO  GamesController:178 - countUsers(па, 33, 33)
+2020-04-22 18:27:44 INFO  SpySessionManager:151 - usersInGameCount(33, 33)
+2020-04-22 18:27:47 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-22 18:27:52 INFO  SpyLocationManager:67 - getAllLocations()
+2020-04-22 18:27:52 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-22 18:27:52 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-22 18:27:52 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-22 18:27:53 INFO  SpyWebSocketController:65 - Web socket connection closed.
+2020-04-22 18:27:53 INFO  SpyWebSocketController:70 - Web socket connected
+2020-04-22 18:27:53 INFO  SpyWebSocketController:77 - RX :ping 
+2020-04-22 18:27:53 INFO  SpyWebSocketController:90 - TX:pong
+2020-04-22 18:27:53 INFO  SpyWebSocketController:65 - Web socket connection closed.

@@ -147,6 +147,14 @@ function startGame() {
     var userName = document.getElementById("userName").value
     var sessionId = document.getElementById("sessionId").value
     var sessionPas = document.getElementById("sessionPas").value
+    xmlHttp.open("GET", "/games/spy_count_users?userName="+userName+"&sessionId="+sessionId+
+        "&sessionPas="+sessionPas, false); // false for synchronous request
+    xmlHttp.send(null);
+    if(xmlHttp.responseText<3)
+    {
+        alert("Минимальное количество игроков 3!")
+        return
+    }
 
     xmlHttp.open("GET", "/games/spy_start_game?userName="+userName+"&sessionId="+sessionId+
         "&sessionPas="+sessionPas, false); // false for synchronous request

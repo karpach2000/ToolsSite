@@ -2,10 +2,13 @@ package com.parcel.tools.spy
 
 import com.google.gson.GsonBuilder
 
-class UserInformation(var spyIsNotSecret: Boolean) {
+/**
+ * Информация отображаемая каждому игроку.
+ */
+class UserInformation() {
 
-    constructor(user: User, location:String, usersCount: Int, spyIsNotSecret: Boolean, allUsers: String)
-            :this(spyIsNotSecret)
+    constructor(user: User, location:String, usersCount: Int, allUsers: String)
+            :this()
     {
         name=user.name
         spy = user.spy
@@ -15,16 +18,40 @@ class UserInformation(var spyIsNotSecret: Boolean) {
 
 
     }
-    constructor(error:String, spyIsNotSecret: Boolean)
-            :this(spyIsNotSecret)
+    constructor(error:String)
+            :this()
     {
         this.error = error
     }
+
+    /**
+     * Списо игроков.
+     */
     var allUsers = ""
+
+    /**
+     * Количество игроков
+     */
     var usersCount = 0;
+
+    /**
+     * Имя текущего игрока
+     */
     var name = ""
+
+    /**
+     * Является ли данный пользователь шпионом
+     */
     var spy = false
+
+    /**
+     * Сообщение об ошибке
+     */
     var error = ""
+
+    /**
+     * Локация либо сообщение о том -чт пользователь шпион
+     */
     var location = ""
     get() {
         if(!spy)

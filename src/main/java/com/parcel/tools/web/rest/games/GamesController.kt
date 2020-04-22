@@ -6,7 +6,6 @@ import com.parcel.tools.constructor.gamesSettings.CounterGamesSettings
 import com.parcel.tools.spy.SpySessionException
 import com.parcel.tools.spy.SpySessionManager
 import com.parcel.tools.spy.SpySessionManagerException
-import org.springframework.boot.autoconfigure.security.SecurityProperties
 import org.springframework.security.core.context.SecurityContextHolder
 import org.springframework.security.core.userdetails.User
 import org.springframework.stereotype.Controller
@@ -41,7 +40,7 @@ class GamesController {
         return "web/html/gamesSettings"
     }
 
-    @RequestMapping("/addLocation")
+    @RequestMapping("/games_settings_spy_addLocation")
     @Throws(IOException::class)
     internal fun addLocation(model: Model, session: HttpSession,
                                @RequestParam("locationName") locationName: String = "",
@@ -61,8 +60,9 @@ class GamesController {
             result = SpySessionManager.deleteLocation(locationName, name)
         }
         val counter = CounterGamesSettings()
-        if(!result)
+        if(!result) {
             counter.errorMessage = "Ошибка добавления/удаления локации";
+        }
         val page = Page(counter)
         model.addAttribute("page", page)
         return "web/html/gamesSettings"
@@ -145,6 +145,7 @@ class GamesController {
 
     }
 
+    /*
     @RequestMapping("/games/spy_is_spy_showen")///games/spy_get_users
     @ResponseBody
     @Throws(IOException::class)
@@ -155,7 +156,7 @@ class GamesController {
         logger.info("isSpyShowen($userName, $sessionId, $sessionPas)")
         return SpySessionManager.isSpyUncovered(sessionId.toLong(), sessionPas.toLong()).toString()
     }
-
+    */
     @RequestMapping("/games/spy_get_users")///games/spy_get_users
     @ResponseBody
     @Throws(IOException::class)
@@ -163,8 +164,19 @@ class GamesController {
                              @RequestParam("userName") userName: String = "",
                              @RequestParam("sessionId") sessionId: String = "",
                              @RequestParam("sessionPas") sessionPas: String = ""): String {
-        logger.info("isSpyShowen($userName, $sessionId, $sessionPas)")
+        logger.info("getUsers($userName, $sessionId, $sessionPas)")
         return SpySessionManager.getUsers(sessionId.toLong(), sessionPas.toLong())
+    }
+
+    @RequestMapping("/games/spy_count_users")///games/spy_get_users
+    @ResponseBody
+    @Throws(IOException::class)
+    internal fun countUsers(model: Model,
+                          @RequestParam("userName") userName: String = "",
+                          @RequestParam("sessionId") sessionId: String = "",
+                          @RequestParam("sessionPas") sessionPas: String = ""): String {
+        logger.info("countUsers($userName, $sessionId, $sessionPas)")
+        return SpySessionManager.countUsersInGame(sessionId.toLong(), sessionPas.toLong()).toString()
     }
 
 

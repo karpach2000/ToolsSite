@@ -7,6 +7,9 @@ import com.parcel.tools.spy.database.SpyLocationManagerException
 
 class SpySessionManagerException(message: String): Exception(message)
 
+/**
+ * Управляет сессиями инры в шпиона
+ */
 object SpySessionManager {
 
     private val gameLifeTime = 60L*60L*1000L*2
@@ -24,9 +27,18 @@ object SpySessionManager {
         }).start()
     }
 
+    /*******ЛОКАЦИИ*********/
+
+    /**
+     * Возвращает списо к локаций.
+     */
     fun getLocationList() :List<SpyLocation> {
         return Globals.spyLocationManager.getAllLocations()
     }
+
+    /**
+     * Добавить локацию
+     */
     fun addLocation(location: String, user: String): Boolean
     {
         logger.info("addLocation($location, $user)")
@@ -51,7 +63,9 @@ object SpySessionManager {
         return Globals.spyLocationManager.addLocation(location, user)
     }
 
-
+    /**
+     * Удалить локацию.
+     */
     fun deleteLocation(location: String, login: String): Boolean
     {
         logger.info("deleteLocation($location, $login)")
@@ -75,6 +89,8 @@ object SpySessionManager {
 
     }
 
+    /**********СОБЫТИЯ************/
+
     @Synchronized
     fun subscribeSpySessionEvent(sessionId: Long, sessionPas: Long, spyEvent: SpyEvent)
     {
@@ -85,6 +101,93 @@ object SpySessionManager {
     {
         if(isSessionExists(sessionId))
             getSession(sessionId, sessionPas).deSubscribeSpyEvents(spyEvent)
+    }
+
+
+    /*******ИГРА******/
+
+    //start stop game
+
+    fun startGame(sessionId: Long, sessionPas: Long): Boolean {
+        logger.info("startGame($sessionId, $sessionPas)")
+        if(isSessionExists(sessionId)) {
+            getSession(sessionId, sessionPas).startGame()
+            return true
+        }
+        else
+        {
+            logger.warn("Game $sessionId not exists.")
+            return false
+        }
+    }
+
+    fun stopGame(sessionId: Long, sessionPas: Long):Boolean
+    {
+        logger.info("stopGame($sessionId, $sessionPas)")
+        if (isSessionExists(sessionId)) {
+            val session = getSession(sessionId, sessionPas)
+            session.stopGame()
+            spySessions.remove(session)
+            return true
+        }
+        return false
+    }
+
+    //user
+    fun getUserInformation(sessionId: Long, sessionPas: Long, userName: String): UserInformation
+    {
+        logger.info("getUserInformation($sessionId, $sessionPas $userName)")
+        return getSession(sessionId, sessionPas).getUserInformation(userName)
+    }
+
+    fun addUser(sessionId: Long, sessionPas: Long, userName: String):Boolean
+    {
+        logger.info("addUser($sessionId, $sessionPas $userName)")
+        return getSession(sessionId, sessionPas).addUser(userName)
+    }
+
+    fun countUsersInGame(sessionId: Long, sessionPas: Long):Int
+    {
+        logger.info("usersInGameCount($sessionId, $sessionPas)")
+        return getSession(sessionId, sessionPas).usersInGameCount()
+    }
+
+
+
+    fun getUsers(sessionId: Long, sessionPas: Long):String {
+        logger.info("getUsers($sessionId, $sessionPas)")
+        return getSession(sessionId, sessionPas).getAllUsers()
+    }
+
+    fun getSpy(sessionId: Long, sessionPas: Long, userName: String): String
+    {
+        logger.info("getSpy($sessionId, $sessionPas)")
+        if(isSessionExists(sessionId))
+            return getSession(sessionId, sessionPas).getSpy(userName)
+        else
+            throw SpySessionException("Session $sessionId does not exist. Maybe someone finished the game.")
+    }
+
+
+
+
+
+
+    /*********УПРАВЛЕНИЕ СЕССИЯМИ**********/
+
+    private fun getSession(sessionId: Long, sessionPas: Long):SpySession
+    {
+        spySessions.forEach {
+            if(it.sessionId == sessionId)
+                if(it.sessionPas == sessionPas)
+                {
+                    return it
+                }
+                else
+                    throw SpySessionManagerException("Id or password not correct!")
+
+        }
+        throw SpySessionManagerException("Id not correct!")
     }
 
     fun addSession(sessionId: Long, sessionPas: Long): Boolean
@@ -102,63 +205,14 @@ object SpySessionManager {
         }
     }
 
-    fun startGame(sessionId: Long, sessionPas: Long): Boolean {
-        logger.info("startGame($sessionId, $sessionPas)")
-        if(isSessionExists(sessionId)) {
-            getSession(sessionId, sessionPas).startGame()
-            return true
-        }
-        else
-        {
-            logger.warn("Game $sessionId not exists.")
-            return false
-        }
-    }
 
-    fun isSpyUncovered(sessionId: Long, sessionPas: Long) : Boolean
+    private fun isSessionExists(sessionId: Long): Boolean
     {
-        logger.info("isSpyUncovered($sessionId, $sessionPas)")
-        return getSession(sessionId, sessionPas).spyIsNotSecret
-
-    }
-
-
-    fun getUserInformation(sessionId: Long, sessionPas: Long, userName: String): UserInformation
-    {
-        logger.info("getUserInformation($sessionId, $sessionPas $userName)")
-        return getSession(sessionId, sessionPas).getUserInformation(userName)
-    }
-
-    fun addUser(sessionId: Long, sessionPas: Long, userName: String):Boolean
-    {
-        logger.info("addUser($sessionId, $sessionPas $userName)")
-        return getSession(sessionId, sessionPas).addUser(userName)
-    }
-
-    fun stopGame(sessionId: Long, sessionPas: Long):Boolean
-    {
-        logger.info("stopGame($sessionId, $sessionPas)")
-        if (isSessionExists(sessionId)) {
-            val session = getSession(sessionId, sessionPas)
-            session.stopGame()
-            spySessions.remove(session)
-            return true
+        spySessions.forEach {
+            if(it.sessionId == sessionId)
+                return true
         }
         return false
-    }
-
-    fun getUsers(sessionId: Long, sessionPas: Long):String {
-        logger.info("getUsers($sessionId, $sessionPas)")
-        return getSession(sessionId, sessionPas).getAllUsers()
-    }
-
-    fun getSpy(sessionId: Long, sessionPas: Long, userName: String): String
-    {
-        logger.info("getSpy($sessionId, $sessionPas)")
-        if(isSessionExists(sessionId))
-            return getSession(sessionId, sessionPas).getSpy(userName)
-        else
-            throw SpySessionException("Session $sessionId does not exist. Maybe someone finished the game.")
     }
 
     private fun destructorAction()
@@ -180,31 +234,6 @@ object SpySessionManager {
                 spySessions.remove(it)
             }
         }
-    }
-
-
-    private fun getSession(sessionId: Long, sessionPas: Long):SpySession
-    {
-        spySessions.forEach {
-            if(it.sessionId == sessionId)
-                if(it.sessionPas == sessionPas)
-                {
-                    return it
-                }
-                else
-                    throw SpySessionManagerException("Id or password not correct!")
-
-        }
-        throw SpySessionManagerException("Id not correct!")
-    }
-
-    private fun isSessionExists(sessionId: Long): Boolean
-    {
-        spySessions.forEach {
-            if(it.sessionId == sessionId)
-                return true
-        }
-        return false
     }
 
 }

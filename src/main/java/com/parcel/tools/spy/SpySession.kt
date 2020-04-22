@@ -5,7 +5,7 @@ import java.io.File
 import java.lang.Exception
 import java.nio.file.Files
 import java.nio.file.Paths
-import kotlin.random.Random
+
 
 class SpySessionException(message: String):Exception(message)
 
@@ -14,21 +14,14 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
     private val logger = org.apache.log4j.Logger.getLogger(SpySession::class.java!!)
     private val spyEvents = ArrayList<SpyEvent>()
 
-    private val folder = "spy/"
-    private val fileName = "locations.txt"
 
-    val locations = ArrayList<String>()
+    private val locations = ArrayList<String>()
 
     private var currentLocation = ""
 
     private val users = ArrayList<User>()
     private var spyName = ""
 
-    var mainUserName = ""
-    private set
-
-    var spyIsNotSecret = false
-        private set
 
     var started = false
         private set
@@ -42,14 +35,13 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
     }
 
 
+    // start stop game
+
+
     fun startGame()
     {
-
-
-
         if (!started) {
             started = true
-            spyIsNotSecret = false
             logger.info("startGame()...")
             updateLocations()
 
@@ -69,16 +61,29 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
         }
     }
 
+    fun stopGame()
+    {
+        logger.info("stopGame()")
+        users.clear()
+        started = false
+        stopGameEvent(spyName)
+    }
+
+    //users
+
+    /**
+     * Получить информацию отображаемую пользователю во время игры.
+     */
     fun getUserInformation(userName: String): UserInformation
     {
         logger.info("getUserInformation($userName)")
         users.forEach {
             if(it.name == userName)
             {
-                return UserInformation(it, currentLocation, users.size, spyIsNotSecret,getAllUsers())
+                return UserInformation(it, currentLocation, users.size, getAllUsers())
             }
         }
-        return UserInformation("User name not correct", spyIsNotSecret)
+        return UserInformation("User name not correct")
     }
 
     fun addUser(name: String): Boolean
@@ -107,30 +112,17 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
         }
         else
         {
-            if(users.size == 0)
-            {
-                mainUserName = name
-            }
             users.add(User(name))
             logger.info("...addUser()")
             addUserEvent(getAllUsers())
             return true
         }
     }
-    fun stopGame()
-    {
-        logger.info("stopGame()")
-        users.clear()
-        spyIsNotSecret = false
-        started = false
-        stopGameEvent(spyName)
-    }
+
 
     fun getSpy(userName: String): String
     {
         logger.info("getSpy($userName):$spyName")
-        spyIsNotSecret = true
-        spyIsNotSecret
         spyIsNotSecretEvent(spyName)
         return spyName
 
@@ -145,14 +137,6 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
         return userList
     }
 
-    private fun isEvrybodyWantSeaSpy(): Boolean
-    {
-        users.forEach {
-            if(!it.wantSeeSpy)
-                return false
-        }
-        return true
-    }
 
     private fun isUserExist(name: String): Boolean
     {
@@ -171,6 +155,9 @@ class SpySession(val sessionId: Long, val sessionPas: Long) {
         }
         throw SpySessionManagerException("Can`t finde user: $name")
     }
+
+    fun usersInGameCount() =
+            users.count()
 
 
     /********EVENTS***********/
